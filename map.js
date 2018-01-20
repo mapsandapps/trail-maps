@@ -103,10 +103,17 @@ function addGMapsLinkToPoint(marker) {
 }
 
 function processPoint(feature) {
-  var marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates)).addTo(map);
-
-
   const symbol = feature.properties['marker-symbol'];
+
+  var marker;
+  if (markerList[symbol] && markerList[symbol].marker) {
+    marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates), {
+      icon: markerList[symbol].marker
+    });
+  } else {
+    marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates));
+  }
+  marker.addTo(map);
   if (symbol === 'attraction') {
     // TODO: display photo
   } else if (markerList[symbol] && markerList[symbol].linkOut) {

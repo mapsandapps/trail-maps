@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#55d391",
+        "stroke": "#03763A",
         "stroke-width": 6,
         "stroke-opacity": 1,
         "name": "Marsh Trail",
@@ -178,7 +178,7 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#55d391",
+        "stroke": "#03763A",
         "stroke-width": 6,
         "stroke-opacity": 1
       },
@@ -199,7 +199,7 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#55d391",
+        "stroke": "#03763A",
         "stroke-width": 6,
         "stroke-opacity": 1
       },
@@ -220,7 +220,7 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#55d391",
+        "stroke": "#03763A",
         "stroke-width": 6,
         "stroke-opacity": 1,
         "name": "Lake Trail",
