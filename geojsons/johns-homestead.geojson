@@ -498,6 +498,38 @@
           33.83171421480127
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#005391",
+        "marker-size": "medium",
+        "marker-symbol": "restaurant",
+        "name": "Waffle House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2493224143982,
+          33.82856369717469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#005391",
+        "marker-size": "medium",
+        "marker-symbol": "fuel",
+        "name": "Gas station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.25070643424988,
+          33.82777047925071
+        ]
+      }
     }
   ]
 }

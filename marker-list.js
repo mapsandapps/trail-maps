@@ -23,5 +23,15 @@ var markerList = {
     name: 'Bus',
     maki: 'bus',
     linkOut: true
+  },
+  fuel: {
+    name: 'Gas Station',
+    maki: 'fuel',
+    linkOut: true
+  },
+  restaurant: {
+    name: 'Food',
+    maki: 'restaurant',
+    linkOut: true
   }
 };
