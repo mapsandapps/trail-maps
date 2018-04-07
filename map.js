@@ -32,7 +32,7 @@ function mapPark(parkID) {
   map = L.map('map', {
     center: [33.7530, -84.3984],
     zoom: 11,
-    dragging: true // FIXME: not sure what should be happening with 'tap' or 'dragging'
+    dragging: !L.Browser.mobile
   }).locate({
     watch: true,
     setView: false
