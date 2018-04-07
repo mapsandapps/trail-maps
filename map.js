@@ -17,7 +17,7 @@ function listParks() {
 }
 
 var map;
-function mapPark() {
+function mapPark(parkID) {
   const mapSettings = {
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
@@ -49,7 +49,7 @@ function mapPark() {
 
   // streets.addTo(map);
 
-  fetch('./geojsons/johns-homestead.geojson')
+  fetch(`./geojsons/${parkID}.geojson`)
     .then(resp => resp.json())
     .then(response => {
       processGeojson(response);
@@ -83,9 +83,10 @@ function processLineString(feature) {
   })
   .addTo(map);
 
-  var popupText = feature.properties.name;
+  var popupText = feature.properties.name; // TODO: add .surface, etc.
   if (popupText && feature.properties.miles) popupText += ', ';
-  if (feature.properties.miles) popupText += feature.properties.miles + ' miles';
+  if (feature.properties.miles) popupText += feature.properties.miles;
+  if (feature.properties.miles) popupText += feature.properties.miles === 1 ? ' mile' : ' miles';
 
   if (popupText) line.bindTooltip(popupText).openTooltip();
 }
@@ -99,7 +100,27 @@ function reverseCoordinateArray(coordinates) {
 }
 
 function addGMapsLinkToPoint(marker) {
-  marker.bindPopup(`<a href="https://www.google.com/maps/place/${ marker.getLatLng().lat },${ marker.getLatLng().lng }" target="_blank">Directions to point</a>`);
+  // TODO: only add these if the properties['navigate-to'] is true (true is a string, for now)
+  // TODO: should these be geo: links?
+  return `<a href="https://www.google.com/maps/place/${ marker.getLatLng().lat },${ marker.getLatLng().lng }" target="_blank">Directions to point</a>`;
+}
+
+function createPopup(feature, marker) {
+  const symbol = feature.properties['marker-symbol'];
+
+  let popupContent = markerList[symbol].name + '<br>';
+
+  if (symbol === 'attraction') {
+    // TODO: display photo
+  } else if (markerList[symbol] && markerList[symbol].linkOut) {
+    if (feature.properties.name) {
+      popupContent += `${feature.properties.name}<br>`;
+    }
+    popupContent += addGMapsLinkToPoint(marker);
+  } else {
+    // TODO: possibly display a popup if the marker isn't a photo or navigable point
+  }
+  marker.bindPopup(popupContent);
 }
 
 function processPoint(feature) {
@@ -114,13 +135,7 @@ function processPoint(feature) {
     marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates));
   }
   marker.addTo(map);
-  if (symbol === 'attraction') {
-    // TODO: display photo
-  } else if (markerList[symbol] && markerList[symbol].linkOut) {
-    addGMapsLinkToPoint(marker);
-  } else {
-    // TODO: possibly display a popup if the marker isn't a photo or navigable point
-  }
+  createPopup(feature, marker);
 }
 
 function processGeojson(file) {
@@ -140,9 +155,8 @@ window.onload = () => {
   var parkID = getUrlVars()["park"];
 
   if (parkID) {
-    mapPark();
+    mapPark(parkID);
   } else {
     listParks();
   }
-
 }

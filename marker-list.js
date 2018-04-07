@@ -53,12 +53,28 @@ var markerList = {
     linkOut: false
   },
   bus: {
-    name: 'Bus',
+    name: 'Bus Stop',
     maki: 'bus',
     linkOut: true,
     marker: L.icon({
       iconUrl: 'markers/bus.png',
       iconRetinaUrl: 'markers/bus-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46],
+      shadowUrl: 'markers/shadow.png',
+      shadowRetinaUrl: 'markers/shadow-retina.png',
+      shadowSize: [30, 13],
+      shadowAnchor: [15, 41]
+    })
+  },
+  rail: {
+    name: 'Rail Station',
+    maki: 'rail',
+    linkOut: true,
+    marker: L.icon({
+      iconUrl: 'markers/rail.png',
+      iconRetinaUrl: 'markers/rail-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
       popupAnchor: [0, -46],
