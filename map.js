@@ -47,12 +47,12 @@ function mapPark(parkID) {
     "Outdoors": outdoors
   }).addTo(map);
 
-  map.addControl(new L.Control.Fullscreen({
-    title: {
-        'false': 'View Fullscreen',
-        'true': 'Exit Fullscreen'
-    }
-  }));
+  // map.addControl(new L.Control.Fullscreen({ // FIXME: doesn't seem to work in iframe
+  //   title: {
+  //       'false': 'View Fullscreen',
+  //       'true': 'Exit Fullscreen'
+  //   }
+  // }));
 
   fetch(`./geojsons/${parkID}.geojson`)
     .then(resp => resp.json())
