@@ -47,7 +47,12 @@ function mapPark(parkID) {
     "Outdoors": outdoors
   }).addTo(map);
 
-  // streets.addTo(map);
+  map.addControl(new L.Control.Fullscreen({
+    title: {
+        'false': 'View Fullscreen',
+        'true': 'Exit Fullscreen'
+    }
+  }));
 
   fetch(`./geojsons/${parkID}.geojson`)
     .then(resp => resp.json())
@@ -138,12 +143,27 @@ function processPoint(feature) {
   createPopup(feature, marker);
 }
 
+function processPolygon(feature) {
+  var polygon = L.geoJSON(feature, {
+    fillColor: feature.properties.fill,
+    fillOpacity: feature.properties['fill-opacity'],
+    color: feature.properties.stroke,
+    weight: feature.properties['stroke-width'],
+    opacity: feature.properties['stroke-opacity']
+  })
+  .addTo(map);
+
+  if (feature.properties.name) polygon.bindTooltip(feature.properties.name);
+}
+
 function processGeojson(file) {
   file.features.forEach(feature => {
     if (feature.geometry.type === 'LineString') {
       processLineString(feature);
     } else if (feature.geometry.type === 'Point') {
       processPoint(feature);
+    } else if (feature.geometry.type === 'Polygon') {
+      processPolygon(feature);
     }
   });
 

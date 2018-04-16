@@ -10,5 +10,11 @@ var list = [
     id: 'proctor-creek-greenway',
     latitude: 33.77200621120143,
     longitude: -84.42974120378494
+  },
+  {
+    name: 'Southside Park',
+    id: 'southside-park',
+    latitude: 33.66298966887982,
+    longitude: -84.37036246061325
   }
 ];
