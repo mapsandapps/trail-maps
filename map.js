@@ -114,13 +114,13 @@ function createPopup(feature, marker) {
   const symbol = feature.properties['marker-symbol'];
 
   let popupContent = markerList[symbol].name + '<br>';
+  if (feature.properties.name) {
+    popupContent += `${feature.properties.name}<br>`;
+  }
 
   if (symbol === 'attraction') {
     // TODO: display photo
   } else if (markerList[symbol] && markerList[symbol].linkOut) {
-    if (feature.properties.name) {
-      popupContent += `${feature.properties.name}<br>`;
-    }
     popupContent += addGMapsLinkToPoint(marker);
   } else {
     // TODO: possibly display a popup if the marker isn't a photo or navigable point

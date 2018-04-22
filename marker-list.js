@@ -131,5 +131,53 @@ var markerList = {
       shadowSize: [30, 13],
       shadowAnchor: [15, 41]
     })
+  },
+  bicycle: {
+    name: 'Bike Parking',
+    maki: 'bicycle',
+    linkOut: true,
+    marker: L.icon({
+      iconUrl: 'markers/bike-parking.png',
+      iconRetinaUrl: 'markers/bike-parking-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46],
+      shadowUrl: 'markers/shadow.png',
+      shadowRetinaUrl: 'markers/shadow-retina.png',
+      shadowSize: [30, 13],
+      shadowAnchor: [15, 41]
+    })
+  },
+  roadblock: {
+    name: 'Gate',
+    maki: 'roadblock',
+    linkOut: true,
+    marker: L.icon({
+      iconUrl: 'markers/gate.png',
+      iconRetinaUrl: 'markers/gate-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46],
+      shadowUrl: 'markers/shadow.png',
+      shadowRetinaUrl: 'markers/shadow-retina.png',
+      shadowSize: [30, 13],
+      shadowAnchor: [15, 41]
+    })
+  },
+  toilets: {
+    name: 'Restroom',
+    maki: 'toilets',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/restroom.png',
+      iconRetinaUrl: 'markers/restroom-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46],
+      shadowUrl: 'markers/shadow.png',
+      shadowRetinaUrl: 'markers/shadow-retina.png',
+      shadowSize: [30, 13],
+      shadowAnchor: [15, 41]
+    })
   }
 };
