@@ -88,10 +88,10 @@ function processLineString(feature) {
   })
   .addTo(map);
 
-  var popupText = feature.properties.name; // TODO: add .surface, etc.
+  var popupText = feature.properties.name ? feature.properties.name : ''; // TODO: add .surface, etc.
   if (popupText && feature.properties.miles) popupText += ', ';
-  if (feature.properties.miles) popupText += feature.properties.miles;
-  if (feature.properties.miles) popupText += feature.properties.miles === 1 ? ' mile' : ' miles';
+  if (feature.properties.miles) popupText += feature.properties.miles.toString();
+  if (feature.properties.miles) popupText += feature.properties.miles == 1 ? ' mile' : ' miles';
 
   if (popupText) line.bindTooltip(popupText).openTooltip();
 }

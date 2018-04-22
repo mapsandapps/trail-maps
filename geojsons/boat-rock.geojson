@@ -71,7 +71,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.03
       },
       "geometry": {
         "type": "LineString",
@@ -100,7 +101,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.02
       },
       "geometry": {
         "type": "LineString",
@@ -144,7 +146,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.07
       },
       "geometry": {
         "type": "LineString",
@@ -177,7 +180,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.06
       },
       "geometry": {
         "type": "LineString",
@@ -202,7 +206,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.08
       },
       "geometry": {
         "type": "LineString",
@@ -239,7 +244,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.03
       },
       "geometry": {
         "type": "LineString",
@@ -264,7 +270,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.18
       },
       "geometry": {
         "type": "LineString",
@@ -321,7 +328,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.11
       },
       "geometry": {
         "type": "LineString",
@@ -358,7 +366,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.05
       },
       "geometry": {
         "type": "LineString",
@@ -387,7 +396,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.09
       },
       "geometry": {
         "type": "LineString",
@@ -424,7 +434,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.06
       },
       "geometry": {
         "type": "LineString",
@@ -453,7 +464,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.13
       },
       "geometry": {
         "type": "LineString",
@@ -506,7 +518,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": "0.10"
       },
       "geometry": {
         "type": "LineString",
@@ -551,7 +564,8 @@
       "properties": {
         "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.12
       },
       "geometry": {
         "type": "LineString",
