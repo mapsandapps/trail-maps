@@ -33,6 +33,13 @@ var list = [
     latitude: 33.76676536958019,
     longitude: -84.2778691649437,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/265224cdc240e32648b3eff09437673b&map=17/33.76690/-84.27942'
+  },
+  {
+    name: 'Wahsega 4-H Camp',
+    id: 'wahsega',
+    latitude: 34.61731641680938,
+    longitude: -84.09947142004967,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/b5579667ca3e576b96f11e38e1d8d5d4&map=16/34.6193/-84.1023'
   }
 ];
 // thomson park http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863

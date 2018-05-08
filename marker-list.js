@@ -8,11 +8,11 @@ var markerList = {
       iconRetinaUrl: 'markers/trailhead-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46],
-      shadowUrl: 'markers/shadow.png',
-      shadowRetinaUrl: 'markers/shadow-retina.png',
-      shadowSize: [30, 13],
-      shadowAnchor: [15, 41]
+      popupAnchor: [0, -46] //,
+      // shadowUrl: 'markers/shadow.png',
+      // shadowRetinaUrl: 'markers/shadow-retina.png',
+      // shadowSize: [30, 13],
+      // shadowAnchor: [15, 41]
     })
   },
   farm: {
@@ -24,11 +24,7 @@ var markerList = {
       iconRetinaUrl: 'markers/barn-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46],
-      shadowUrl: 'markers/shadow.png',
-      shadowRetinaUrl: 'markers/shadow-retina.png',
-      shadowSize: [30, 13],
-      shadowAnchor: [15, 41]
+      popupAnchor: [0, -46]
     })
   },
   parking: {
@@ -40,11 +36,7 @@ var markerList = {
       iconRetinaUrl: 'markers/parking-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46],
-      shadowUrl: 'markers/shadow.png',
-      shadowRetinaUrl: 'markers/shadow-retina.png',
-      shadowSize: [30, 13],
-      shadowAnchor: [15, 41]
+      popupAnchor: [0, -46]
     })
   },
   attraction: {
@@ -61,11 +53,7 @@ var markerList = {
       iconRetinaUrl: 'markers/bus-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46],
-      shadowUrl: 'markers/shadow.png',
-      shadowRetinaUrl: 'markers/shadow-retina.png',
-      shadowSize: [30, 13],
-      shadowAnchor: [15, 41]
+      popupAnchor: [0, -46]
     })
   },
   rail: {
@@ -77,11 +65,7 @@ var markerList = {
       iconRetinaUrl: 'markers/rail-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46],
-      shadowUrl: 'markers/shadow.png',
-      shadowRetinaUrl: 'markers/shadow-retina.png',
-      shadowSize: [30, 13],
-      shadowAnchor: [15, 41]
+      popupAnchor: [0, -46]
     })
   },
   fuel: {
@@ -93,11 +77,7 @@ var markerList = {
       iconRetinaUrl: 'markers/gas-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46],
-      shadowUrl: 'markers/shadow.png',
-      shadowRetinaUrl: 'markers/shadow-retina.png',
-      shadowSize: [30, 13],
-      shadowAnchor: [15, 41]
+      popupAnchor: [0, -46]
     })
   },
   restaurant: {
@@ -109,11 +89,7 @@ var markerList = {
       iconRetinaUrl: 'markers/food-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46],
-      shadowUrl: 'markers/shadow.png',
-      shadowRetinaUrl: 'markers/shadow-retina.png',
-      shadowSize: [30, 13],
-      shadowAnchor: [15, 41]
+      popupAnchor: [0, -46]
     })
   },
   swimming: {
@@ -125,11 +101,7 @@ var markerList = {
       iconRetinaUrl: 'markers/swimming-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46],
-      shadowUrl: 'markers/shadow.png',
-      shadowRetinaUrl: 'markers/shadow-retina.png',
-      shadowSize: [30, 13],
-      shadowAnchor: [15, 41]
+      popupAnchor: [0, -46]
     })
   },
   bicycle: {
@@ -141,11 +113,7 @@ var markerList = {
       iconRetinaUrl: 'markers/bike-parking-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46],
-      shadowUrl: 'markers/shadow.png',
-      shadowRetinaUrl: 'markers/shadow-retina.png',
-      shadowSize: [30, 13],
-      shadowAnchor: [15, 41]
+      popupAnchor: [0, -46]
     })
   },
   roadblock: {
@@ -157,11 +125,7 @@ var markerList = {
       iconRetinaUrl: 'markers/gate-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46],
-      shadowUrl: 'markers/shadow.png',
-      shadowRetinaUrl: 'markers/shadow-retina.png',
-      shadowSize: [30, 13],
-      shadowAnchor: [15, 41]
+      popupAnchor: [0, -46]
     })
   },
   toilets: {
@@ -173,11 +137,19 @@ var markerList = {
       iconRetinaUrl: 'markers/restroom-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46],
-      shadowUrl: 'markers/shadow.png',
-      shadowRetinaUrl: 'markers/shadow-retina.png',
-      shadowSize: [30, 13],
-      shadowAnchor: [15, 41]
+      popupAnchor: [0, -46]
+    })
+  },
+  theatre: {
+    name: 'Amphitheater',
+    maki: 'theatre',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/amphitheater.png',
+      iconRetinaUrl: 'markers/amphitheater-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
     })
   }
 };
