@@ -40,6 +40,13 @@ var list = [
     latitude: 34.61731641680938,
     longitude: -84.09947142004967,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/b5579667ca3e576b96f11e38e1d8d5d4&map=16/34.6193/-84.1023'
+  },
+  {
+    name: 'Ashford Forest Preserve',
+    id: 'ashford-forest-preserve',
+    latitude: 33.87319039591478,
+    longitude: -84.31594848632812,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/1d6a389de4ce8e961a2fc1a05ad26c4d&map=17/33.87372/-84.31360'
   }
 ];
 // thomson park http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863

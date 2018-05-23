@@ -117,7 +117,7 @@ var markerList = {
     })
   },
   roadblock: {
-    name: 'Gate',
+    name: undefined, // gate or roadblock
     maki: 'roadblock',
     linkOut: true,
     marker: L.icon({
@@ -147,6 +147,18 @@ var markerList = {
     marker: L.icon({
       iconUrl: 'markers/amphitheater.png',
       iconRetinaUrl: 'markers/amphitheater-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
+  },
+  playground: {
+    name: 'Playground',
+    maki: 'playground',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/playground.png',
+      iconRetinaUrl: 'markers/playground-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
       popupAnchor: [0, -46]
