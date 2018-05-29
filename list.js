@@ -47,6 +47,13 @@ var list = [
     latitude: 33.87319039591478,
     longitude: -84.31594848632812,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/1d6a389de4ce8e961a2fc1a05ad26c4d&map=17/33.87372/-84.31360'
+  },
+  {
+    name: 'Zonolite Park',
+    id: 'zonolite',
+    latitude: 33.8056,
+    longitude: -84.3422,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/54cebccb83945d3df23f4e9eaf0a77fb&map=16/33.8050/-84.3393'
   }
 ];
 // thomson park http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863
