@@ -162,7 +162,7 @@ function processGeojson(file) {
       processLineString(feature);
     } else if (feature.geometry.type === 'Point') {
       processPoint(feature);
-    } else if (feature.geometry.type === 'Polygon') {
+    } else if (feature.geometry.type === 'Polygon' || feature.geometry.type === 'MultiPolygon') {
       processPolygon(feature);
     }
   });

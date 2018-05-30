@@ -54,6 +54,13 @@ var list = [
     latitude: 33.8056,
     longitude: -84.3422,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/54cebccb83945d3df23f4e9eaf0a77fb&map=16/33.8050/-84.3393'
+  },
+  {
+    name: 'Herbert Taylor Park & Daniel Johnson Nature Preserve',
+    id: 'herbert-taylor',
+    latitude: 33.7990,
+    longitude: -84.3428,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/1568ce472fa849d5b769d5c009a423c7&map=16/33.7983/-84.3444'
   }
 ];
 // thomson park http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863
