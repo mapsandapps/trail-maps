@@ -61,6 +61,13 @@ var list = [
     latitude: 33.7990,
     longitude: -84.3428,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/1568ce472fa849d5b769d5c009a423c7&map=16/33.7983/-84.3444'
+  },
+  {
+    name: 'Kirkwood Urban Forest',
+    id: 'kirkwood-urban-forest',
+    latitude: 33.7520,
+    longitude: -84.3273,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/0b96c32bc3c22047369a7d9b06d28f5c&map=17/33.74969/-84.32930'
   }
 ];
 // thomson park http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863
