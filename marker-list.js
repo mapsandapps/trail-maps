@@ -163,5 +163,17 @@ var markerList = {
       iconAnchor: [15, 41],
       popupAnchor: [0, -46]
     })
+  },
+  'fast-food': {
+    name: 'Picnic area',
+    maki: 'fast-food',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/picnic.png',
+      iconRetinaUrl: 'markers/picnic-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
   }
 };

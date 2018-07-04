@@ -68,6 +68,13 @@ var list = [
     latitude: 33.7520,
     longitude: -84.3273,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/0b96c32bc3c22047369a7d9b06d28f5c&map=17/33.74969/-84.32930'
+  },
+  {
+    name: 'Sykes Park',
+    id: 'sykes-park',
+    latitude: 33.6692,
+    longitude: -84.47120,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/f74d2588233c98dbd80d8235f98b9a8e&map=17/33.66977/-84.47426'
   }
 ];
 // thomson park http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863
