@@ -175,5 +175,17 @@ var markerList = {
       iconAnchor: [15, 41],
       popupAnchor: [0, -46]
     })
+  },
+  disability: {
+    name: 'Accessible',
+    maki: 'disability',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/accessible.png',
+      iconRetinaUrl: 'markers/accessible-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
   }
 };

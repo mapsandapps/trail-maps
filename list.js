@@ -75,6 +75,20 @@ var list = [
     latitude: 33.6692,
     longitude: -84.47120,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/f74d2588233c98dbd80d8235f98b9a8e&map=17/33.66977/-84.47426'
+  },
+  {
+    name: 'Big Creek Park',
+    id: 'big-creek-park',
+    latitude: 34.0304,
+    longitude: -84.3106,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/e7daa33d036ee09105e77313e8cc8947&map=18/34.03002/-84.31118'
+  },
+  {
+    name: 'Hampton Beecher Park',
+    id: 'hampton-beecher',
+    latitude: 33.745400691285234,
+    longitude: -84.46689784526825,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/7df3a24a72ec60207838557e98c49227&map=18/33.74513/-84.46786'
   }
 ];
 // thomson park http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863
