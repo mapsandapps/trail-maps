@@ -187,5 +187,17 @@ var markerList = {
       iconAnchor: [15, 41],
       popupAnchor: [0, -46]
     })
+  },
+  museum: {
+    name: 'Museum',
+    maki: 'museum',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/museum.png',
+      iconRetinaUrl: 'markers/museum-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
   }
 };
