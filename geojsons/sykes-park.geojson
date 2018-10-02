@@ -1034,6 +1034,22 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "name": "MARTA #84"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.47261095046997,
+          33.66599670720281
+        ]
+      }
     }
   ]
 }
