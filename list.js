@@ -103,6 +103,13 @@ var list = [
     latitude: 33.69493212304233,
     longitude: -84.4573438167572,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/b36703b3a73f693ca354e788591040df&map=16/33.6929/-84.4541'
+  },
+  {
+    name: 'Kittredge Park',
+    id: 'kittredge-park',
+    latitude: 33.8239,
+    longitude: -84.3276,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/65280af6f625e0111a5f3489a6534670&map=16/33.8266/-84.3287'
   }
 ];
 // thomson park http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863
