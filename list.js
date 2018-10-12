@@ -110,6 +110,13 @@ var list = [
     latitude: 33.8239,
     longitude: -84.3276,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/65280af6f625e0111a5f3489a6534670&map=16/33.8266/-84.3287'
+  },
+  {
+    name: 'Lullwater Park',
+    id: 'lullwater-park',
+    latitude: 33.800743,
+    longitude: -84.3157768,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/4d6368f696371eeb7e91060347826cc7&map=16/33.7997/-84.3155'
   }
 ];
 // thomson park http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863
