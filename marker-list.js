@@ -199,5 +199,17 @@ var markerList = {
       iconAnchor: [15, 41],
       popupAnchor: [0, -46]
     })
+  },
+  camera: {
+    name: 'Point of Interest',
+    maki: 'camera',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/camera.png',
+      iconRetinaUrl: 'markers/camera-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
   }
 };

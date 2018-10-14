@@ -113,7 +113,7 @@ var list = [
   },
   {
     name: 'Lullwater Park',
-    id: 'lullwater-park',
+    id: 'lullwater',
     latitude: 33.800743,
     longitude: -84.3157768,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/4d6368f696371eeb7e91060347826cc7&map=16/33.7997/-84.3155'
