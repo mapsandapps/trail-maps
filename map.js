@@ -118,6 +118,10 @@ function createPopup(feature, marker) {
     popupContent += `${feature.properties.name}<br>`;
   }
 
+  if (feature.properties.trailhead) {
+    popupContent += `<a href="${feature.properties.trailhead}">Photo of trailhead</a><br>`;
+  }
+
   if (symbol === 'attraction') {
     // TODO: display photo
   } else if (markerList[symbol] && markerList[symbol].linkOut) {

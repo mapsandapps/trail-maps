@@ -83,7 +83,8 @@
       "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
-        "marker-symbol": "entrance"
+        "marker-symbol": "entrance",
+        "trailhead": "https://www.flickr.com/photos/atlnature/45321442851/in/album-72157699193904772/"
       },
       "geometry": {
         "type": "Point",
@@ -98,7 +99,8 @@
       "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
-        "marker-symbol": "entrance"
+        "marker-symbol": "entrance",
+        "trailhead": "https://www.flickr.com/photos/atlnature/44409091665/in/album-72157699193904772/"
       },
       "geometry": {
         "type": "Point",
@@ -196,8 +198,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.31334137916565,
-          33.803301886049134
+          -84.31349158287048,
+          33.8032907421082
         ]
       }
     },
@@ -442,8 +444,12 @@
             33.801714974249236
           ],
           [
-            -84.31442499160767,
-            33.80090367651234
+            -84.31453764438629,
+            33.80097945739581
+          ],
+          [
+            -84.31458055973053,
+            33.80086355719391
           ]
         ]
       }
@@ -452,33 +458,37 @@
       "type": "Feature",
       "properties": {
         "stroke": "#55d391",
-        "stroke-width": 4,
+        "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Powerhouse Trail",
+        "name": "",
         "miles": 0.2
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -84.31335210800171,
-            33.80331080120085
+            -84.31349158287048,
+            33.803280712560124
           ],
           [
-            -84.31357741355896,
-            33.80268673833836
+            -84.31356400251389,
+            33.80267336551292
           ],
           [
-            -84.31348085403442,
-            33.80220531530642
+            -84.31346744298936,
+            33.802191942405756
           ],
           [
-            -84.31400656700134,
-            33.80186653451235
+            -84.31406289339066,
+            33.801772923793294
           ],
           [
-            -84.31438744068146,
-            33.80129595330149
+            -84.3139261007309,
+            33.80163250752274
+          ],
+          [
+            -84.3132796883583,
+            33.801576786716595
           ]
         ]
       }
@@ -751,8 +761,8 @@
             33.80044898980238
           ],
           [
-            -84.31442499160767,
-            33.80089476110987
+            -84.3144518136978,
+            33.800872472599636
           ],
           [
             -84.3145751953125,
@@ -1005,8 +1015,8 @@
             33.796485980811795
           ],
           [
-            -84.31300342082977,
-            33.796780203757805
+            -84.3133145570755,
+            33.79652610218218
           ]
         ]
       }
@@ -1086,12 +1096,12 @@
             33.80227663740797
           ],
           [
-            -84.3139100074768,
-            33.80167039765019
+            -84.31406289339066,
+            33.801764008481385
           ],
           [
-            -84.31347012519836,
-            33.801581244382426
+            -84.31436330080032,
+            33.801273664895724
           ]
         ]
       }
@@ -1102,7 +1112,8 @@
         "stroke": "#55d391",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "name": "Gatewood Trail"
+        "name": "Tom Gordon Walking Path",
+        "miles": 0.3
       },
       "geometry": {
         "type": "LineString",
@@ -1160,16 +1171,16 @@
             33.80128703793988
           ],
           [
-            -84.31639909744263,
-            33.80173280488235
+            -84.31640982627869,
+            33.801710516590376
           ],
           [
-            -84.3161416053772,
-            33.80200917922068
+            -84.31631863117218,
+            33.80172834722443
           ],
           [
-            -84.31604504585266,
-            33.80236578995131
+            -84.31626498699187,
+            33.8016971436124
           ]
         ]
       }
@@ -1178,9 +1189,8 @@
       "type": "Feature",
       "properties": {
         "stroke": "#55d391",
-        "stroke-width": 4,
+        "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "Ronald McDonald House Trail",
         "miles": 0.2
       },
       "geometry": {
@@ -1282,6 +1292,194 @@
         "coordinates": [
           -84.30808424949646,
           33.796040186542385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#55d391",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "miles": 0.3
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.31737005710602,
+            33.803863538792875
+          ],
+          [
+            -84.3173325061798,
+            33.804086415844125
+          ],
+          [
+            -84.31703209877014,
+            33.8042647170672
+          ],
+          [
+            -84.3160879611969,
+            33.804295919743055
+          ],
+          [
+            -84.31556761264801,
+            33.80423797190743
+          ],
+          [
+            -84.31369006633759,
+            33.80424242943464
+          ],
+          [
+            -84.31350231170654,
+            33.80411761858499
+          ],
+          [
+            -84.313405752182,
+            33.803649576277536
+          ],
+          [
+            -84.31349292397499,
+            33.80345288630583
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#55d391",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "VA Spur"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.31428551673889,
+            33.80140516640575
+          ],
+          [
+            -84.31382417678833,
+            33.80096608430362
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#55d391",
+        "stroke-width": 2,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.32072013616562,
+            33.80107084013664
+          ],
+          [
+            -84.3213826417923,
+            33.80096162660573
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance",
+        "trailhead": "https://www.flickr.com/photos/atlnature/45321429291/in/album-72157699193904772/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.32139873504639,
+          33.800988372789455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance",
+        "name": "VA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.31327164173126,
+          33.80155895605098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance",
+        "name": "VA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.31380808353424,
+          33.80095716890766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance",
+        "trailhead": "https://www.flickr.com/photos/atlnature/44409074135/in/album-72157699193904772/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.31349091231823,
+          33.80345010032565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance",
+        "trailhead": "https://www.flickr.com/photos/atlnature/45272711842/in/album-72157699193904772/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.31746125221252,
+          33.80189773806263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3173325061798,
+          33.801826415645294
         ]
       }
     }
