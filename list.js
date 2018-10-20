@@ -117,6 +117,22 @@ var list = [
     latitude: 33.800743,
     longitude: -84.3157768,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/4d6368f696371eeb7e91060347826cc7&map=16/33.7997/-84.3155'
+  },
+  {
+    name: 'Garrard Landing Park',
+    id: 'garrard-landing',
+    latitude: 33.9743,
+    longitude: -84.2653,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/bb3e330ebbea79bb6abd4205cd5b86c5&map=17/33.97439/-84.26641',
+    updated: '2018-10-18'
+  },
+  {
+    name: 'CRNRA: Jones Bridge',
+    id: 'jones-bridge',
+    latitude: 33.99893,
+    longitude: -84.24804,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/95620309c8b5f9e4ddbcb312a86b284f&map=14/33.9865/-84.2599',
+    updated: '2018-10-18'
   }
 ];
 // thomson park http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863

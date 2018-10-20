@@ -211,5 +211,17 @@ var markerList = {
       iconAnchor: [15, 41],
       popupAnchor: [0, -46]
     })
+  },
+  harbor: {
+    name: 'Boat Ramp',
+    maki: 'harbor',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/boat-ramp.png',
+      iconRetinaUrl: 'markers/boat-ramp-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
   }
 };
