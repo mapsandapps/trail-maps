@@ -1096,7 +1096,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "bus",
-        "name": "MARTA #142"
+        "name": "MARTA #142 (westbound stop)"
       },
       "geometry": {
         "type": "Point",
@@ -1165,6 +1165,22 @@
         "coordinates": [
           -84.25759434700012,
           33.98952339385981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "name": "MARTA #142 (eastbound stop)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2735481262207,
+          33.98852706905152
         ]
       }
     }
