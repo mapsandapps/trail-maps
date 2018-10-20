@@ -1121,6 +1121,52 @@
           33.98600951771175
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.24781769514082,
+          33.99898567323323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.23930168151855,
+          34.00082463553238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance",
+        "name": "Driveway only open for CREEC events"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.25759434700012,
+          33.98952339385981
+        ]
+      }
     }
   ]
 }
