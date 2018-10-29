@@ -267,9 +267,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#03763A",
+        "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 1.19
       },
       "geometry": {
         "type": "LineString",
@@ -485,9 +486,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#03763A",
+        "stroke": "#03763a",
         "stroke-width": 4,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "miles": 0.75
       },
       "geometry": {
         "type": "LineString",

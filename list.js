@@ -133,6 +133,14 @@ var list = [
     longitude: -84.24804,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/95620309c8b5f9e4ddbcb312a86b284f&map=14/33.9865/-84.2599',
     updated: '2018-10-18'
+  },
+  {
+    name: 'Big Trees Forest Preserve',
+    id: 'big-trees',
+    latitude: 33.9647,
+    longitude: -84.3633,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/44c41aafd99f29c35953fea49da21d28&map=17/33.96370/-84.36414',
+    updated: '2018-10-28'
   }
 ];
 // thomson park http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863
