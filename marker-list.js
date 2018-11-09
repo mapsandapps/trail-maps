@@ -223,5 +223,41 @@ var markerList = {
       iconAnchor: [15, 41],
       popupAnchor: [0, -46]
     })
+  },
+  water: {
+    name: 'Water',
+    maki: 'water',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/water-fountain.png',
+      iconRetinaUrl: 'markers/water-fountain-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
+  },
+  danger: {
+    name: 'Warning',
+    maki: 'danger',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/warning.png',
+      iconRetinaUrl: 'markers/warning-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
+  },
+  building: {
+    name: 'Office',
+    maki: 'building',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/office.png',
+      iconRetinaUrl: 'markers/office-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
   }
 };

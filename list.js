@@ -141,6 +141,37 @@ var list = [
     longitude: -84.3633,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/44c41aafd99f29c35953fea49da21d28&map=17/33.96370/-84.36414',
     updated: '2018-10-28'
+  },
+  {
+    name: 'Thomson Park',
+    id: 'thomson-park',
+    latitude: 33.8090,
+    longitude: -84.3164,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863',
+    updated: 'DRAFT'
+  },
+  {
+    name: 'Arabia Mountain',
+    id: 'arabia-mountain',
+    latitude: 33.6719,
+    longitude: -84.1168,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/a9b61ef4732226c22bc6a35b2d5157ff&map=16/33.6816/-84.1222',
+    updated: 'DRAFT'
+  },
+  {
+    name: 'Intrenchment Creek',
+    id: 'intrenchment-creek',
+    latitude: 33.6902,
+    longitude: -84.3222,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/34a98da65bdd171ed1f94c6ab6e7aef8&map=16/33.6928/-84.3306',
+    updated: 'DRAFT'
+  },
+  {
+    name: 'Intrenchment Creek',
+    id: 'intrenchment-creek',
+    latitude: 33.6902,
+    longitude: -84.3222,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/ec052bfd8c23918cb4729d6feb2d9fc0&map=17/35.00973/-85.34528',
+    updated: 'DRAFT'
   }
 ];
-// thomson park http://geojson.io/#id=gist:mapsandapps/ee9b23fbc914a747c4e57c3b8eddd9c3&map=17/33.81056/-84.31863
