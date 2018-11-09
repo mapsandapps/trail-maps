@@ -167,11 +167,11 @@ var list = [
     updated: 'DRAFT'
   },
   {
-    name: 'Intrenchment Creek',
-    id: 'intrenchment-creek',
-    latitude: 33.6902,
-    longitude: -84.3222,
+    name: 'Lookout Mountain',
+    id: 'lookout-mountain',
+    latitude: 35.0099,
+    longitude: -85.3437,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/ec052bfd8c23918cb4729d6feb2d9fc0&map=17/35.00973/-85.34528',
-    updated: 'DRAFT'
+    updated: '2018-11-07'
   }
 ];
