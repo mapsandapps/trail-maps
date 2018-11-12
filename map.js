@@ -113,7 +113,7 @@ function addGMapsLinkToPoint(marker) {
 function createPopup(feature, marker) {
   const symbol = feature.properties['marker-symbol'];
 
-  let popupContent = markerList[symbol].name ? markerList[symbol].name + '<br>' : '';
+  let popupContent = markerList[symbol] && markerList[symbol].name ? markerList[symbol].name + '<br>' : '';
   if (feature.properties.name) {
     popupContent += `${feature.properties.name}<br>`;
   }
@@ -136,15 +136,17 @@ function processPoint(feature) {
   const symbol = feature.properties['marker-symbol'];
 
   var marker;
-  if (markerList[symbol] && markerList[symbol].marker) {
-    marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates), {
-      icon: markerList[symbol].marker
-    });
+  if (markerList[symbol]) {
+    if (markerList[symbol].marker) {
+      marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates), {
+        icon: markerList[symbol].marker
+      });
+    }
+    createPopup(feature, marker);
   } else {
     marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates));
   }
   marker.addTo(map);
-  createPopup(feature, marker);
 }
 
 function processPolygon(feature) {

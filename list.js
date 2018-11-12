@@ -173,5 +173,14 @@ var list = [
     longitude: -85.3437,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/ec052bfd8c23918cb4729d6feb2d9fc0&map=17/35.00973/-85.34528',
     updated: '2018-11-07'
+  },
+  {
+    name: 'McDaniel Farm Park',
+    id: 'mcdaniel-farm',
+    latitude: 33.9689,
+    longitude: -84.1281,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/5dfaf666089e0dcf4a9de00eacac67d0&map=18/33.96913/-84.12765',
+    updated: '2018-11-10'
   }
 ];
+// gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593

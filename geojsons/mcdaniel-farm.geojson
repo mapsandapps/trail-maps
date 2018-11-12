@@ -1,0 +1,4554 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "disability",
+        "name": "Accessible parking (4 spots, 2 of which are van accessible)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12817373871803,
+          33.968898423496164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "parking",
+        "name": "Bus parking (3 spots)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12804365158081,
+          33.96858477322714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1282930970192,
+          33.968620364805204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bicycle",
+        "name": "Bike racks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12807,
+          33.96895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12807885557413,
+          33.968889525632136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12796452641486,
+          33.96881723045239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12830650806426,
+          33.96915312445931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12785321474075,
+          33.96827000956019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1258630156517,
+          33.96745640125691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12534199655056,
+          33.96824387188881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12303596735,
+          33.968713792626794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12219107151031,
+          33.96874326685873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12220112979412,
+          33.97004735236791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12355497479439,
+          33.97084592108445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12297360599041,
+          33.970858711469454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12259574979544,
+          33.970891799630415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12218570709229,
+          33.97057342981652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12214,
+          33.97107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12193,
+          33.97103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1216841340065,
+          33.971129533517626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12162378430367,
+          33.97102609850451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12184774875641,
+          33.971329729959756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.120829179883,
+          33.97199371145234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12021294236183,
+          33.972260637224466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12001848220825,
+          33.97202040406726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "dog-park",
+        "name": "Separate areas for large and small dogs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12001512944698,
+          33.9718407848512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "playground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1208191215992,
+          33.97271997002909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12001311779022,
+          33.97300691274958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "fast-food",
+        "name": "Rentable picnic pavilion (12 tables)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1205710172653,
+          33.97317596382153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "disability",
+        "name": "Accessible parking (2 spots)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12023,
+          33.97308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12026,
+          33.97296242556952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bicycle",
+        "name": "Bike racks (3)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12023,
+          33.97284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "disability",
+        "name": "Accessible parking (2 spots)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1201,
+          33.97252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12018008530139,
+          33.972441367740295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.11989107728004,
+          33.97229289069852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12034168839455,
+          33.972514215931895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "water",
+        "name": "Water fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1207,
+          33.97291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12185378372669,
+          33.973283844922065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12178672850132,
+          33.97323713353452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "fast-food",
+        "name": "1 table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1212,
+          33.97356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1204959154129,
+          33.97398562482229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "fast-food",
+        "name": "1 table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12254,
+          33.97232514416035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12344433367252,
+          33.97135308618065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "fast-food",
+        "name": "Swing and picnic table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12382,
+          33.97142871580426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12358850240707,
+          33.97137533019457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12402369081974,
+          33.971308598135344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12455946207045,
+          33.97104889870638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "camera",
+        "name": "Small waterfall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12703,
+          33.9714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12733,
+          33.97139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1259578987956,
+          33.97076584210854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12732750177383,
+            33.97139201320119
+          ],
+          [
+            -84.12709951400755,
+            33.9713074859339
+          ],
+          [
+            -84.12695601582527,
+            33.97125298804599
+          ],
+          [
+            -84.12695601582527,
+            33.97108170874226
+          ],
+          [
+            -84.12689432501793,
+            33.970920438952625
+          ],
+          [
+            -84.12672266364098,
+            33.97086482860941
+          ],
+          [
+            -84.12645980715752,
+            33.97084480887696
+          ],
+          [
+            -84.1262398660183,
+            33.97080254498188
+          ],
+          [
+            -84.12595957517624,
+            33.97076472990002
+          ],
+          [
+            -84.12576913833617,
+            33.97083146238604
+          ],
+          [
+            -84.12561759352684,
+            33.970770290942525
+          ],
+          [
+            -84.12528365850449,
+            33.970733588055296
+          ],
+          [
+            -84.12498190999031,
+            33.97064016245267
+          ],
+          [
+            -84.12477672100067,
+            33.97054896117014
+          ],
+          [
+            -84.12460774183273,
+            33.97047777961337
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12698149681091,
+          33.96928770413616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12697881460188,
+            33.969292153047476
+          ],
+          [
+            -84.12700295448303,
+            33.969367784504
+          ],
+          [
+            -84.12703111767769,
+            33.96947010930868
+          ],
+          [
+            -84.12702441215515,
+            33.96955241395355
+          ],
+          [
+            -84.12698417901993,
+            33.96960691293132
+          ],
+          [
+            -84.12675216794014,
+            33.96977040965507
+          ],
+          [
+            -84.12655502557753,
+            33.9699105494538
+          ],
+          [
+            -84.12644371390343,
+            33.970035117969914
+          ],
+          [
+            -84.12641152739525,
+            33.970169696251034
+          ],
+          [
+            -84.12640079855919,
+            33.970368782739115
+          ],
+          [
+            -84.12643432617186,
+            33.97048000403792
+          ],
+          [
+            -84.12647724151611,
+            33.970593449612856
+          ],
+          [
+            -84.12648528814316,
+            33.970687987476346
+          ],
+          [
+            -84.12646517157555,
+            33.970714680501125
+          ],
+          [
+            -84.1263297200203,
+            33.970709119454995
+          ],
+          [
+            -84.12618488073349,
+            33.970694660733336
+          ],
+          [
+            -84.1260775923729,
+            33.97067019212184
+          ],
+          [
+            -84.12598237395287,
+            33.970695772942776
+          ],
+          [
+            -84.12595890462399,
+            33.97076612016067
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12442669272423,
+          33.9704277300456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12460371851921,
+          33.97047333076409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12568464875221,
+          33.9698404795833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12442401051521,
+            33.97043106668437
+          ],
+          [
+            -84.12444815039635,
+            33.97029982546079
+          ],
+          [
+            -84.12452325224876,
+            33.97007738224644
+          ],
+          [
+            -84.12461578845978,
+            33.969972833734666
+          ],
+          [
+            -84.1246922314167,
+            33.969822684051444
+          ],
+          [
+            -84.12485584616661,
+            33.96968699299854
+          ],
+          [
+            -84.12495911121368,
+            33.969638055188646
+          ],
+          [
+            -84.12507846951485,
+            33.96964139185839
+          ],
+          [
+            -84.12525951862335,
+            33.96967587077148
+          ],
+          [
+            -84.12540704011916,
+            33.96982157183056
+          ],
+          [
+            -84.12551701068878,
+            33.96984715290677
+          ],
+          [
+            -84.1256833076477,
+            33.96983936736267
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12644237279892,
+            33.97144984759882
+          ],
+          [
+            -84.12488669157028,
+            33.97112508470244
+          ],
+          [
+            -84.124566167593,
+            33.971052791423155
+          ],
+          [
+            -84.12388354539871,
+            33.97079364731705
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12401765584944,
+            33.97131860794755
+          ],
+          [
+            -84.12397742271422,
+            33.97149211117221
+          ],
+          [
+            -84.12401765584944,
+            33.971616677371586
+          ],
+          [
+            -84.12405788898467,
+            33.9717790580361
+          ],
+          [
+            -84.12413835525511,
+            33.97194366277678
+          ],
+          [
+            -84.1238808631897,
+            33.972195018049824
+          ],
+          [
+            -84.12376821041107,
+            33.97243969946036
+          ],
+          [
+            -84.12367969751358,
+            33.97266213649532
+          ],
+          [
+            -84.12362068891525,
+            33.97279782280091
+          ],
+          [
+            -84.12345707416534,
+            33.972904592200635
+          ],
+          [
+            -84.12337124347685,
+            33.97298911788035
+          ],
+          [
+            -84.12319421768188,
+            33.97302025889907
+          ],
+          [
+            -84.12304133176804,
+            33.973004688391136
+          ],
+          [
+            -84.12313520908356,
+            33.97260875165998
+          ],
+          [
+            -84.12328004837036,
+            33.97199259925987
+          ],
+          [
+            -84.12343829870224,
+            33.97166116525572
+          ],
+          [
+            -84.123575091362,
+            33.97150100876394
+          ],
+          [
+            -84.12358716130257,
+            33.97137310579345
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "name": "Gravel trail"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12219107151031,
+            33.96874271074124
+          ],
+          [
+            -84.12212803959846,
+            33.96865595636839
+          ],
+          [
+            -84.1220086812973,
+            33.96865706860449
+          ],
+          [
+            -84.12189200520515,
+            33.96870934368523
+          ],
+          [
+            -84.12172302603722,
+            33.96884058736333
+          ],
+          [
+            -84.12158489227295,
+            33.96886171980105
+          ],
+          [
+            -84.12146553397179,
+            33.968842811830704
+          ],
+          [
+            -84.12149235606194,
+            33.96866596649285
+          ],
+          [
+            -84.1216841340065,
+            33.96855585505898
+          ],
+          [
+            -84.12174314260483,
+            33.96853694702065
+          ],
+          [
+            -84.12190407514572,
+            33.96853361030755
+          ],
+          [
+            -84.1220261156559,
+            33.96847466168814
+          ],
+          [
+            -84.1221334040165,
+            33.96840347839514
+          ],
+          [
+            -84.12237346172333,
+            33.96830671351067
+          ],
+          [
+            -84.12249952554703,
+            33.96820438730619
+          ],
+          [
+            -84.12288710474968,
+            33.96795858146404
+          ],
+          [
+            -84.12310168147087,
+            33.96787627527665
+          ],
+          [
+            -84.12347853183746,
+            33.967751703598324
+          ],
+          [
+            -84.12369981408119,
+            33.96767940745135
+          ],
+          [
+            -84.12399619817732,
+            33.967545937480054
+          ],
+          [
+            -84.12439048290253,
+            33.96742136531788
+          ],
+          [
+            -84.12464797496796,
+            33.96729456846541
+          ],
+          [
+            -84.12485852837563,
+            33.967227833203985
+          ],
+          [
+            -84.12511602044106,
+            33.96714107728582
+          ],
+          [
+            -84.12539899349213,
+            33.967052096765016
+          ],
+          [
+            -84.1255733370781,
+            33.96700538195433
+          ],
+          [
+            -84.12564039230347,
+            33.9670721173903
+          ],
+          [
+            -84.12567526102066,
+            33.967212261635424
+          ],
+          [
+            -84.12573426961899,
+            33.967331272836866
+          ],
+          [
+            -84.12577852606773,
+            33.96739689576456
+          ],
+          [
+            -84.12582278251648,
+            33.96743248783976
+          ],
+          [
+            -84.1258630156517,
+            33.96745695738283
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1253413259983,
+            33.96824554025106
+          ],
+          [
+            -84.12507444620132,
+            33.968188815916456
+          ],
+          [
+            -84.12482768297195,
+            33.9682021628221
+          ],
+          [
+            -84.1247110068798,
+            33.96822107093488
+          ],
+          [
+            -84.12450313568115,
+            33.968286693176005
+          ],
+          [
+            -84.12421211600304,
+            33.968399029437364
+          ],
+          [
+            -84.123937189579,
+            33.968373447925536
+          ],
+          [
+            -84.12376686930656,
+            33.96838901928148
+          ],
+          [
+            -84.12363812327385,
+            33.96843462109316
+          ],
+          [
+            -84.12350535392761,
+            33.96844463124367
+          ],
+          [
+            -84.12340074777603,
+            33.96847799840353
+          ],
+          [
+            -84.12315934896469,
+            33.9685792120417
+          ],
+          [
+            -84.12307620048523,
+            33.96864038506135
+          ],
+          [
+            -84.1230346262455,
+            33.96871490486213
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12738248705864,
+          33.96918593522662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12830516695976,
+            33.9691542366889
+          ],
+          [
+            -84.12837490439415,
+            33.96926323511987
+          ],
+          [
+            -84.12842184305191,
+            33.96936389171008
+          ],
+          [
+            -84.12843525409698,
+            33.96942228360007
+          ],
+          [
+            -84.12844464182854,
+            33.96951682276555
+          ],
+          [
+            -84.12844061851501,
+            33.969596902917594
+          ],
+          [
+            -84.12841647863388,
+            33.96967253410309
+          ],
+          [
+            -84.12836685776709,
+            33.96972814522598
+          ],
+          [
+            -84.12830919027328,
+            33.96976262410391
+          ],
+          [
+            -84.12823677062988,
+            33.969782644091126
+          ],
+          [
+            -84.12816166877747,
+            33.969782644091126
+          ],
+          [
+            -84.1280946135521,
+            33.969761511882254
+          ],
+          [
+            -84.12801012396812,
+            33.96972703300389
+          ],
+          [
+            -84.12793904542923,
+            33.969673646325916
+          ],
+          [
+            -84.12738114595412,
+            33.96918649134118
+          ],
+          [
+            -84.12709817290305,
+            33.968948473964005
+          ],
+          [
+            -84.12703916430472,
+            33.96889731126322
+          ],
+          [
+            -84.12690505385399,
+            33.96883391396088
+          ],
+          [
+            -84.1268339753151,
+            33.96880499587742
+          ],
+          [
+            -84.12671998143196,
+            33.96881055704807
+          ],
+          [
+            -84.12663415074347,
+            33.96879387353503
+          ],
+          [
+            -84.12657514214514,
+            33.96876161873382
+          ],
+          [
+            -84.1265107691288,
+            33.96869377238796
+          ],
+          [
+            -84.12647321820258,
+            33.96865039518764
+          ],
+          [
+            -84.12632301449776,
+            33.96861369138545
+          ],
+          [
+            -84.12622913718224,
+            33.96859033441219
+          ],
+          [
+            -84.12618890404701,
+            33.968568089669795
+          ],
+          [
+            -84.12616074085236,
+            33.968534722545265
+          ],
+          [
+            -84.1261339187622,
+            33.968467988256954
+          ],
+          [
+            -84.12613525986671,
+            33.96840347839514
+          ],
+          [
+            -84.12615135312079,
+            33.968323397119306
+          ],
+          [
+            -84.126186221838,
+            33.96824442800956
+          ],
+          [
+            -84.12621438503265,
+            33.968189928158665
+          ],
+          [
+            -84.12627205252646,
+            33.96816768331151
+          ],
+          [
+            -84.1263324022293,
+            33.96815656088577
+          ],
+          [
+            -84.1264383494854,
+            33.96816545882648
+          ],
+          [
+            -84.12656709551811,
+            33.96817213228143
+          ],
+          [
+            -84.1266368329525,
+            33.96817546900867
+          ],
+          [
+            -84.1266945004463,
+            33.968158785371024
+          ],
+          [
+            -84.12676557898521,
+            33.96811318341144
+          ],
+          [
+            -84.12688359618187,
+            33.9680164181967
+          ],
+          [
+            -84.12692651152611,
+            33.96796191819968
+          ],
+          [
+            -84.1269426047802,
+            33.96789852020003
+          ],
+          [
+            -84.12695467472076,
+            33.96782844867175
+          ],
+          [
+            -84.12695199251175,
+            33.9677606015814
+          ],
+          [
+            -84.12695065140724,
+            33.967672733957755
+          ],
+          [
+            -84.12694528698921,
+            33.967599325493715
+          ],
+          [
+            -84.12693321704865,
+            33.96753592722377
+          ],
+          [
+            -84.12691444158554,
+            33.96749254943289
+          ],
+          [
+            -84.1268889605999,
+            33.96745473287919
+          ],
+          [
+            -84.12684872746468,
+            33.96742692657899
+          ],
+          [
+            -84.12680983543396,
+            33.967415804056365
+          ],
+          [
+            -84.12677764892578,
+            33.967415804056365
+          ],
+          [
+            -84.12670120596886,
+            33.96743248783976
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "farm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12727653980255,
+          33.96909862519074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1280771791935,
+            33.96889119398171
+          ],
+          [
+            -84.127988666296,
+            33.96891788757049
+          ],
+          [
+            -84.12791088223457,
+            33.968921780384825
+          ],
+          [
+            -84.12779085338116,
+            33.968916775337796
+          ],
+          [
+            -84.12762992084026,
+            33.96892066815218
+          ],
+          [
+            -84.12752397358418,
+            33.96893735164036
+          ],
+          [
+            -84.12748642265797,
+            33.96896460133068
+          ],
+          [
+            -84.12746362388134,
+            33.96899963663398
+          ],
+          [
+            -84.12745155394076,
+            33.96906080935119
+          ],
+          [
+            -84.12744082510471,
+            33.96911697698916
+          ],
+          [
+            -84.12741333246231,
+            33.96915924172196
+          ],
+          [
+            -84.12738248705864,
+            33.969187047455776
+          ],
+          [
+            -84.12733688950539,
+            33.96922208266745
+          ],
+          [
+            -84.12728860974312,
+            33.9692465516956
+          ],
+          [
+            -84.12721954286098,
+            33.96926267900576
+          ],
+          [
+            -84.12714645266533,
+            33.96927880631287
+          ],
+          [
+            -84.1270337998867,
+            33.96928547968044
+          ],
+          [
+            -84.12697881460188,
+            33.969289928591856
+          ],
+          [
+            -84.12687420845032,
+            33.96928770413616
+          ],
+          [
+            -84.12670120596886,
+            33.96927435740087
+          ],
+          [
+            -84.12655904889107,
+            33.96926768403243
+          ],
+          [
+            -84.12637799978256,
+            33.96925322506569
+          ],
+          [
+            -84.12624388933182,
+            33.96925767397881
+          ],
+          [
+            -84.12618085741997,
+            33.969252112837395
+          ],
+          [
+            -84.12605881690979,
+            33.96922208266745
+          ],
+          [
+            -84.12600517272949,
+            33.969203174777235
+          ],
+          [
+            -84.12596091628075,
+            33.96917314459001
+          ],
+          [
+            -84.125916659832,
+            33.969125318714404
+          ],
+          [
+            -84.12587106227875,
+            33.969063033812816
+          ],
+          [
+            -84.12583954632281,
+            33.96901409564385
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12583820521832,
+          33.96901187118095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12603065371512,
+          33.96864817071523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12616342306137,
+          33.96853694702065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "roadblock",
+        "name": "Gate open 10-4 daily"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12609703838825,
+          33.968585885464186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "roadblock",
+        "name": "Gate open 10-4 daily"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12762455642223,
+          33.96830226454783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12734761834145,
+          33.96833229504257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "fast-food",
+        "name": "Rentable pavilion with 16 picnic tables and 2 grills"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12802755832672,
+          33.969859387331816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12785120308399,
+            33.96827056568076
+          ],
+          [
+            -84.12774726748466,
+            33.968286137055536
+          ],
+          [
+            -84.12756152451038,
+            33.96830560126998
+          ],
+          [
+            -84.12734560668468,
+            33.96833007056184
+          ],
+          [
+            -84.12723027169703,
+            33.968334519523225
+          ],
+          [
+            -84.12702843546867,
+            33.96836010104676
+          ],
+          [
+            -84.1267079114914,
+            33.968399029437364
+          ],
+          [
+            -84.12653625011444,
+            33.96841626914749
+          ],
+          [
+            -84.126410856843,
+            33.96844351900479
+          ],
+          [
+            -84.12624657154083,
+            33.96849190138295
+          ],
+          [
+            -84.1261627525091,
+            33.96853694702065
+          ],
+          [
+            -84.12611313164234,
+            33.96857087026291
+          ],
+          [
+            -84.12607423961163,
+            33.968616471977086
+          ],
+          [
+            -84.12602931261063,
+            33.96864817071523
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1278525441885,
+            33.96827084374106
+          ],
+          [
+            -84.12784181535244,
+            33.968247208613256
+          ],
+          [
+            -84.12782773375511,
+            33.96822551990197
+          ],
+          [
+            -84.12780225276947,
+            33.96820716791118
+          ],
+          [
+            -84.12776302546263,
+            33.96819548936954
+          ],
+          [
+            -84.12770200520754,
+            33.96819076234033
+          ],
+          [
+            -84.12753336131573,
+            33.96820438730619
+          ],
+          [
+            -84.12747904658318,
+            33.96820049445901
+          ],
+          [
+            -84.12740662693977,
+            33.96818659143196
+          ],
+          [
+            -84.12734158337116,
+            33.96816823943277
+          ],
+          [
+            -84.12727385759354,
+            33.96816212209883
+          ],
+          [
+            -84.12719674408436,
+            33.96815099967234
+          ],
+          [
+            -84.12715181708336,
+            33.96812541808594
+          ],
+          [
+            -84.12712901830673,
+            33.96809316303123
+          ],
+          [
+            -84.12712767720222,
+            33.96806257633012
+          ],
+          [
+            -84.12714511156082,
+            33.968031989617984
+          ],
+          [
+            -84.12718132138252,
+            33.96799973452783
+          ],
+          [
+            -84.12722893059252,
+            33.967962474322285
+          ],
+          [
+            -84.12726178765297,
+            33.967927438591694
+          ],
+          [
+            -84.12731744349003,
+            33.967865152812806
+          ],
+          [
+            -84.12742137908934,
+            33.967751703598324
+          ],
+          [
+            -84.12747502326965,
+            33.96767718295352
+          ],
+          [
+            -84.12750989198685,
+            33.967608223492725
+          ],
+          [
+            -84.1275219619274,
+            33.967541488477394
+          ],
+          [
+            -84.1275192797184,
+            33.967474753409704
+          ],
+          [
+            -84.12749648094177,
+            33.96741135504691
+          ],
+          [
+            -84.12745490670204,
+            33.96734573213036
+          ],
+          [
+            -84.12741333246231,
+            33.96730235424249
+          ],
+          [
+            -84.12733420729637,
+            33.96727121112985
+          ],
+          [
+            -84.1272483766079,
+            33.967256751823676
+          ],
+          [
+            -84.12715986371039,
+            33.96725341506038
+          ],
+          [
+            -84.12703782320021,
+            33.96725341506038
+          ],
+          [
+            -84.12688359618187,
+            33.9672589763325
+          ],
+          [
+            -84.1266904771328,
+            33.967264537604244
+          ],
+          [
+            -84.12647992372513,
+            33.967292343957524
+          ],
+          [
+            -84.12630021572113,
+            33.967321262555316
+          ],
+          [
+            -84.12614464759827,
+            33.96734350762383
+          ],
+          [
+            -84.126006513834,
+            33.967370201698394
+          ],
+          [
+            -84.12592470645905,
+            33.96740134477478
+          ],
+          [
+            -84.12586569786072,
+            33.96745695738283
+          ],
+          [
+            -84.1257905960083,
+            33.96759265199383
+          ],
+          [
+            -84.12567391991615,
+            33.96778395878255
+          ],
+          [
+            -84.12560015916824,
+            33.967904081429964
+          ],
+          [
+            -84.12551432847977,
+            33.9680342141065
+          ],
+          [
+            -84.12543922662735,
+            33.968149887429625
+          ],
+          [
+            -84.12538290023804,
+            33.96821217299999
+          ],
+          [
+            -84.1253413259983,
+            33.96824554025106
+          ],
+          [
+            -84.1252313554287,
+            33.96829225438055
+          ],
+          [
+            -84.12509322166443,
+            33.96836566224649
+          ],
+          [
+            -84.12501946091652,
+            33.96843128437607
+          ],
+          [
+            -84.12497386336327,
+            33.968492457502094
+          ],
+          [
+            -84.12497520446777,
+            33.968565865195224
+          ],
+          [
+            -84.12494033575058,
+            33.968618140332005
+          ],
+          [
+            -84.12488669157028,
+            33.96864817071523
+          ],
+          [
+            -84.12483304738998,
+            33.96867486438028
+          ],
+          [
+            -84.12479281425476,
+            33.96874604744612
+          ],
+          [
+            -84.12473648786545,
+            33.968826128324
+          ],
+          [
+            -84.1246546804905,
+            33.96890064796204
+          ],
+          [
+            -84.12459433078766,
+            33.968980728694326
+          ],
+          [
+            -84.12459701299667,
+            33.96907526835066
+          ],
+          [
+            -84.12462383508682,
+            33.96914533885164
+          ],
+          [
+            -84.1247271001339,
+            33.96920762369295
+          ],
+          [
+            -84.12482768297195,
+            33.969240990553445
+          ],
+          [
+            -84.12493497133255,
+            33.969243215010366
+          ],
+          [
+            -84.12503957748413,
+            33.96923765386801
+          ],
+          [
+            -84.12511602044106,
+            33.96922208266745
+          ],
+          [
+            -84.12520453333853,
+            33.969175369048685
+          ],
+          [
+            -84.1252675652504,
+            33.96911864533426
+          ],
+          [
+            -84.1253064572811,
+            33.96907526835066
+          ],
+          [
+            -84.12533059716225,
+            33.96901520787527
+          ],
+          [
+            -84.12536680698393,
+            33.96897294307088
+          ],
+          [
+            -84.12544324994087,
+            33.96893846387278
+          ],
+          [
+            -84.12551298737526,
+            33.9688750666011
+          ],
+          [
+            -84.12561893463135,
+            33.968800546940635
+          ],
+          [
+            -84.12570476531982,
+            33.9687382618012
+          ],
+          [
+            -84.12579327821732,
+            33.96869377238796
+          ],
+          [
+            -84.12586703896523,
+            33.968663742020865
+          ],
+          [
+            -84.12593342363834,
+            33.96864817071523
+          ],
+          [
+            -84.12597969174385,
+            33.968641497297654
+          ],
+          [
+            -84.12602730095387,
+            33.96864928295143
+          ],
+          [
+            -84.1260614991188,
+            33.96867986944154
+          ],
+          [
+            -84.12610441446304,
+            33.9687315883907
+          ],
+          [
+            -84.12614330649376,
+            33.968783863425635
+          ],
+          [
+            -84.12615671753883,
+            33.96881333763327
+          ],
+          [
+            -84.1261600703001,
+            33.96886505650127
+          ],
+          [
+            -84.12614330649376,
+            33.968906765242856
+          ],
+          [
+            -84.12609502673149,
+            33.96895125454468
+          ],
+          [
+            -84.12603802978992,
+            33.968969606374905
+          ],
+          [
+            -84.12595354020596,
+            33.96898295315803
+          ],
+          [
+            -84.12583887577057,
+            33.96901242729669
+          ],
+          [
+            -84.12575840950012,
+            33.969025217957444
+          ],
+          [
+            -84.12569336593151,
+            33.96904190142512
+          ],
+          [
+            -84.12558406591415,
+            33.96910307411193
+          ],
+          [
+            -84.1255371272564,
+            33.96915590503329
+          ],
+          [
+            -84.12552572786808,
+            33.969202062548256
+          ],
+          [
+            -84.12552237510681,
+            33.96925878620706
+          ],
+          [
+            -84.1255284100771,
+            33.969345539964934
+          ],
+          [
+            -84.12553645670413,
+            33.96939447794317
+          ],
+          [
+            -84.12554550915956,
+            33.96946343595562
+          ],
+          [
+            -84.12558037787676,
+            33.96955658479492
+          ],
+          [
+            -84.12559144198895,
+            33.969596902917594
+          ],
+          [
+            -84.12562362849712,
+            33.96964139185839
+          ],
+          [
+            -84.12568531930447,
+            33.969696446890396
+          ],
+          [
+            -84.12570275366306,
+            33.969753170219434
+          ],
+          [
+            -84.12568666040897,
+            33.96983992347298
+          ],
+          [
+            -84.12566989660263,
+            33.96992111554038
+          ],
+          [
+            -84.12568464875221,
+            33.97000620029495
+          ],
+          [
+            -84.12568666040897,
+            33.970084611660056
+          ],
+          [
+            -84.12566117942333,
+            33.970134105321364
+          ],
+          [
+            -84.12562832236289,
+            33.970180262305405
+          ],
+          [
+            -84.12557266652584,
+            33.97022363872539
+          ],
+          [
+            -84.12549890577793,
+            33.97025700518725
+          ],
+          [
+            -84.12541709840296,
+            33.97027924948791
+          ],
+          [
+            -84.12532187998295,
+            33.97028703499174
+          ],
+          [
+            -84.12521861493587,
+            33.970278137273
+          ],
+          [
+            -84.12501610815525,
+            33.970242546388725
+          ],
+          [
+            -84.12491485476494,
+            33.97021640932361
+          ],
+          [
+            -84.12480488419533,
+            33.97023086812659
+          ],
+          [
+            -84.12468686699867,
+            33.9702831422399
+          ],
+          [
+            -84.12463188171387,
+            33.97036655831166
+          ],
+          [
+            -84.12459969520567,
+            33.97047333076409
+          ],
+          [
+            -84.12460505962372,
+            33.97061458161499
+          ],
+          [
+            -84.12462383508682,
+            33.97076028106577
+          ],
+          [
+            -84.12462919950485,
+            33.970870389645384
+          ],
+          [
+            -84.12461310625076,
+            33.97096159058319
+          ],
+          [
+            -84.12455946207045,
+            33.97105001091119
+          ],
+          [
+            -84.12451319396496,
+            33.971088381968336
+          ],
+          [
+            -84.12443608045578,
+            33.971127309110045
+          ],
+          [
+            -84.12433817982672,
+            33.97117124114858
+          ],
+          [
+            -84.1241343319416,
+            33.971254100248125
+          ],
+          [
+            -84.12402302026749,
+            33.971308598135344
+          ],
+          [
+            -84.12394054234028,
+            33.97134252027199
+          ],
+          [
+            -84.12387818098068,
+            33.971376442395126
+          ],
+          [
+            -84.12382118403912,
+            33.97138533999893
+          ],
+          [
+            -84.12372328341007,
+            33.97138589609915
+          ],
+          [
+            -84.12365555763245,
+            33.971376998495366
+          ],
+          [
+            -84.12358716130257,
+            33.97137310579345
+          ],
+          [
+            -84.12344366312027,
+            33.97134863737716
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12734627723694,
+            33.96833118280222
+          ],
+          [
+            -84.12735499441624,
+            33.96837289180562
+          ],
+          [
+            -84.1273509711027,
+            33.968409039592046
+          ],
+          [
+            -84.12733621895313,
+            33.96842961601746
+          ],
+          [
+            -84.12730604410172,
+            33.96843907004911
+          ],
+          [
+            -84.12725977599621,
+            33.96844296288534
+          ],
+          [
+            -84.12721753120422,
+            33.968454641393016
+          ],
+          [
+            -84.12717327475548,
+            33.96847188109187
+          ],
+          [
+            -84.12714779376984,
+            33.9684830034764
+          ],
+          [
+            -84.12712566554546,
+            33.968498018693175
+          ],
+          [
+            -84.12711426615715,
+            33.96852137569181
+          ],
+          [
+            -84.12711158394814,
+            33.96855529894027
+          ],
+          [
+            -84.12710756063461,
+            33.96859422724151
+          ],
+          [
+            -84.12708006799221,
+            33.96860924243867
+          ],
+          [
+            -84.12703983485699,
+            33.968610910793736
+          ],
+          [
+            -84.12696674466133,
+            33.96860201289964
+          ],
+          [
+            -84.12691041827202,
+            33.96859645171532
+          ],
+          [
+            -84.12688158452511,
+            33.96858755381972
+          ],
+          [
+            -84.12685208022594,
+            33.96855585505898
+          ],
+          [
+            -84.12682928144932,
+            33.96852971747546
+          ],
+          [
+            -84.12681251764297,
+            33.96849356974034
+          ],
+          [
+            -84.12679508328438,
+            33.96845186079609
+          ],
+          [
+            -84.12677899003029,
+            33.96839235600022
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12677899003029,
+          33.96839068764088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1204959154129,
+            33.97398784915509
+          ],
+          [
+            -84.12056230008601,
+            33.973962825407845
+          ],
+          [
+            -84.12064343690872,
+            33.973948923322844
+          ],
+          [
+            -84.12074469029903,
+            33.973940025987275
+          ],
+          [
+            -84.1208466142416,
+            33.97393168473434
+          ],
+          [
+            -84.12089891731739,
+            33.9739183387279
+          ],
+          [
+            -84.12095792591572,
+            33.973883861534944
+          ],
+          [
+            -84.12103973329067,
+            33.9738093462637
+          ],
+          [
+            -84.12112757563591,
+            33.97375262564032
+          ],
+          [
+            -84.12128783762454,
+            33.97368422719123
+          ],
+          [
+            -84.12148095667362,
+            33.97361416043022
+          ],
+          [
+            -84.12157282233238,
+            33.97357857094219
+          ],
+          [
+            -84.1217116266489,
+            33.97352018190615
+          ],
+          [
+            -84.12178136408329,
+            33.97348514846528
+          ],
+          [
+            -84.12181422114372,
+            33.97345845631014
+          ],
+          [
+            -84.12183567881584,
+            33.973429539799305
+          ],
+          [
+            -84.12184707820415,
+            33.97339005762442
+          ],
+          [
+            -84.12185043096542,
+            33.97332610758391
+          ],
+          [
+            -84.12185311317444,
+            33.973287181448754
+          ],
+          [
+            -84.1218289732933,
+            33.97326438184702
+          ],
+          [
+            -84.12178874015808,
+            33.97324047006304
+          ],
+          [
+            -84.12174247205257,
+            33.97323713353452
+          ],
+          [
+            -84.12168480455875,
+            33.973229348300755
+          ],
+          [
+            -84.12162512540817,
+            33.97322045088989
+          ],
+          [
+            -84.12157885730267,
+            33.97320543650691
+          ],
+          [
+            -84.12153728306293,
+            33.97318541732551
+          ],
+          [
+            -84.12150107324123,
+            33.97315483245594
+          ],
+          [
+            -84.12147156894207,
+            33.973119242775645
+          ],
+          [
+            -84.12145547568798,
+            33.97308698961505
+          ],
+          [
+            -84.12144675850868,
+            33.97305251208498
+          ],
+          [
+            -84.12144608795643,
+            33.97301970280954
+          ],
+          [
+            -84.12145346403122,
+            33.972972435187074
+          ],
+          [
+            -84.12146151065826,
+            33.97291960663672
+          ],
+          [
+            -84.1214668750763,
+            33.9728851290388
+          ],
+          [
+            -84.12147089838982,
+            33.972848427064385
+          ],
+          [
+            -84.12146888673304,
+            33.972816729891896
+          ],
+          [
+            -84.1214494407177,
+            33.97276445733601
+          ],
+          [
+            -84.12141591310501,
+            33.972712184748
+          ],
+          [
+            -84.12138640880585,
+            33.972676594882444
+          ],
+          [
+            -84.12133678793906,
+            33.97263544408185
+          ],
+          [
+            -84.12127912044525,
+            33.97258873233811
+          ],
+          [
+            -84.12120133638382,
+            33.972534235271326
+          ],
+          [
+            -84.12113830447197,
+            33.97250086970297
+          ],
+          [
+            -84.1210752725601,
+            33.972473065052704
+          ],
+          [
+            -84.12100419402122,
+            33.972446372579874
+          ],
+          [
+            -84.12093579769133,
+            33.972421904472405
+          ],
+          [
+            -84.12084594368935,
+            33.97238297792332
+          ],
+          [
+            -84.12080973386765,
+            33.97234627573214
+          ],
+          [
+            -84.12078559398651,
+            33.972304012583294
+          ],
+          [
+            -84.12077084183693,
+            33.9722584128465
+          ],
+          [
+            -84.12077352404593,
+            33.97221392527483
+          ],
+          [
+            -84.12079229950905,
+            33.97215831577751
+          ],
+          [
+            -84.12082314491272,
+            33.97209603309735
+          ],
+          [
+            -84.1208378970623,
+            33.97205376982413
+          ],
+          [
+            -84.12084192037582,
+            33.97202707721967
+          ],
+          [
+            -84.12082716822624,
+            33.971997048029664
+          ],
+          [
+            -84.12079229950905,
+            33.97196813102185
+          ],
+          [
+            -84.12075072526932,
+            33.97195812128608
+          ],
+          [
+            -84.12070780992508,
+            33.97197257979292
+          ],
+          [
+            -84.12066891789436,
+            33.972010394337644
+          ],
+          [
+            -84.12063136696814,
+            33.97205043324904
+          ],
+          [
+            -84.1205857694149,
+            33.97207823803749
+          ],
+          [
+            -84.12050262093544,
+            33.97211049158075
+          ],
+          [
+            -84.12042751908302,
+            33.97214608168322
+          ],
+          [
+            -84.12036180496216,
+            33.97218945710049
+          ],
+          [
+            -84.12030816078186,
+            33.97222838373818
+          ],
+          [
+            -84.1202612221241,
+            33.972262861602374
+          ],
+          [
+            -84.12021294236183,
+            33.97226731035802
+          ],
+          [
+            -84.12016466259956,
+            33.972256188468464
+          ],
+          [
+            -84.12012711167336,
+            33.97223283249563
+          ],
+          [
+            -84.1201002895832,
+            33.972197242429445
+          ],
+          [
+            -84.12007078528404,
+            33.97213384758717
+          ],
+          [
+            -84.12004128098488,
+            33.9720671161232
+          ],
+          [
+            -84.12001848220825,
+            33.97201929187514
+          ],
+          [
+            -84.1199916601181,
+            33.97195367251425
+          ],
+          [
+            -84.11995142698288,
+            33.971899175040456
+          ],
+          [
+            -84.11987766623497,
+            33.97183689217048
+          ],
+          [
+            -84.11979988217354,
+            33.97175125314979
+          ],
+          [
+            -84.11976367235184,
+            33.9716889701715
+          ],
+          [
+            -84.11974623799323,
+            33.97160666759444
+          ],
+          [
+            -84.11972880363464,
+            33.97148098918126
+          ],
+          [
+            -84.1197019815445,
+            33.97137421799401
+          ],
+          [
+            -84.11968320608139,
+            33.97126967107661
+          ],
+          [
+            -84.11965772509575,
+            33.97120293893447
+          ],
+          [
+            -84.11966979503632,
+            33.97113064572137
+          ],
+          [
+            -84.11968186497688,
+            33.97105501583267
+          ],
+          [
+            -84.11968052387238,
+            33.97102498629937
+          ],
+          [
+            -84.11965906620026,
+            33.9709793858767
+          ],
+          [
+            -84.11957189440727,
+            33.97088707275106
+          ],
+          [
+            -84.11956384778021,
+            33.97082256472427
+          ],
+          [
+            -84.11957859992981,
+            33.97073247584634
+          ],
+          [
+            -84.11960005760193,
+            33.97063015256057
+          ],
+          [
+            -84.11960542201994,
+            33.97052894136333
+          ],
+          [
+            -84.11961883306503,
+            33.970357660601245
+          ],
+          [
+            -84.11971807479858,
+            33.970245326927106
+          ],
+          [
+            -84.11976099014282,
+            33.970150788571495
+          ],
+          [
+            -84.1197918355465,
+            33.97004735236791
+          ],
+          [
+            -84.11985620856285,
+            33.969988404797746
+          ],
+          [
+            -84.11996483802795,
+            33.96993279384506
+          ],
+          [
+            -84.12006676197052,
+            33.96988608061669
+          ],
+          [
+            -84.12014991044997,
+            33.969866060653814
+          ],
+          [
+            -84.12021830677986,
+            33.96986828509437
+          ],
+          [
+            -84.1202786564827,
+            33.9698927539366
+          ],
+          [
+            -84.12034302949905,
+            33.96994836491547
+          ],
+          [
+            -84.12039533257484,
+            33.96997172151576
+          ],
+          [
+            -84.12057638168335,
+            33.9699906292351
+          ],
+          [
+            -84.1207104921341,
+            33.969952813792226
+          ],
+          [
+            -84.12087813019753,
+            33.969942803819215
+          ],
+          [
+            -84.12102967500687,
+            33.97000842473184
+          ],
+          [
+            -84.12123218178749,
+            33.97003956684212
+          ],
+          [
+            -84.121413230896,
+            33.970079606681445
+          ],
+          [
+            -84.12150710821152,
+            33.970115197633916
+          ],
+          [
+            -84.12155538797379,
+            33.97016524738562
+          ],
+          [
+            -84.1215942800045,
+            33.97024866357303
+          ],
+          [
+            -84.12164524197578,
+            33.9703142842496
+          ],
+          [
+            -84.12173375487328,
+            33.970384353729706
+          ],
+          [
+            -84.12183970212936,
+            33.97042995447148
+          ],
+          [
+            -84.12204355001448,
+            33.97049335058401
+          ],
+          [
+            -84.12217766046524,
+            33.970577878660535
+          ],
+          [
+            -84.1223493218422,
+            33.97074026130867
+          ],
+          [
+            -84.12247002124786,
+            33.97083813563176
+          ],
+          [
+            -84.12253439426422,
+            33.970873726266774
+          ],
+          [
+            -84.12259072065353,
+            33.970898194819696
+          ],
+          [
+            -84.12270739674567,
+            33.970925999984935
+          ],
+          [
+            -84.12278786301611,
+            33.97094157087349
+          ],
+          [
+            -84.122853577137,
+            33.97094824411058
+          ],
+          [
+            -84.12290453910828,
+            33.97094045866726
+          ],
+          [
+            -84.12294209003448,
+            33.9709182145396
+          ],
+          [
+            -84.1229635477066,
+            33.970898194819696
+          ],
+          [
+            -84.12297159433365,
+            33.970859267573104
+          ],
+          [
+            -84.12297159433365,
+            33.97082367693203
+          ],
+          [
+            -84.12297293543816,
+            33.97079475952522
+          ],
+          [
+            -84.12298232316971,
+            33.97073914909982
+          ],
+          [
+            -84.12301182746887,
+            33.97065017234357
+          ],
+          [
+            -84.12300780415535,
+            33.970553410015455
+          ],
+          [
+            -84.12297695875168,
+            33.97047555518876
+          ],
+          [
+            -84.1229259967804,
+            33.970398812504136
+          ],
+          [
+            -84.122853577137,
+            33.97033764074939
+          ],
+          [
+            -84.12275567650795,
+            33.970285366669565
+          ],
+          [
+            -84.12264704704283,
+            33.97023865363485
+          ],
+          [
+            -84.12256389856339,
+            33.97020083830226
+          ],
+          [
+            -84.12250086665154,
+            33.970188603926346
+          ],
+          [
+            -84.1224257647991,
+            33.97020083830226
+          ],
+          [
+            -84.12234529852866,
+            33.97020417494994
+          ],
+          [
+            -84.12228494882582,
+            33.9701963894385
+          ],
+          [
+            -84.12223935127258,
+            33.97017414511619
+          ],
+          [
+            -84.12221521139145,
+            33.97014077862181
+          ],
+          [
+            -84.12219911813736,
+            33.97005180123948
+          ],
+          [
+            -84.12217631936073,
+            33.96999619032822
+          ],
+          [
+            -84.1221521794796,
+            33.969929457186744
+          ],
+          [
+            -84.12210121750832,
+            33.96986272399288
+          ],
+          [
+            -84.12204757332802,
+            33.969812674063114
+          ],
+          [
+            -84.12195771932602,
+            33.969761511882254
+          ],
+          [
+            -84.12185579538345,
+            33.969700339669075
+          ],
+          [
+            -84.12176191806793,
+            33.969652514089944
+          ],
+          [
+            -84.12170022726058,
+            33.96960468848392
+          ],
+          [
+            -84.12162512540817,
+            33.96953239391213
+          ],
+          [
+            -84.1215755045414,
+            33.96947010930868
+          ],
+          [
+            -84.12153661251068,
+            33.96940560020702
+          ],
+          [
+            -84.12152588367462,
+            33.96937000895759
+          ],
+          [
+            -84.12153661251068,
+            33.96933330546597
+          ],
+          [
+            -84.1215768456459,
+            33.96928436745255
+          ],
+          [
+            -84.12163853645323,
+            33.96923209272527
+          ],
+          [
+            -84.12169888615608,
+            33.96916980790188
+          ],
+          [
+            -84.12174448370934,
+            33.96911753310419
+          ],
+          [
+            -84.12178337574005,
+            33.969071931658675
+          ],
+          [
+            -84.12188529968262,
+            33.968949586196295
+          ],
+          [
+            -84.12196040153503,
+            33.968887301165985
+          ],
+          [
+            -84.12204355001448,
+            33.96883280172706
+          ],
+          [
+            -84.12211462855339,
+            33.968786087894486
+          ],
+          [
+            -84.12219107151031,
+            33.968744935211184
+          ],
+          [
+            -84.12227153778076,
+            33.968717129332816
+          ],
+          [
+            -84.12234395742415,
+            33.96869710909474
+          ],
+          [
+            -84.12242978811264,
+            33.96867820108781
+          ],
+          [
+            -84.12253573536873,
+            33.968670415436684
+          ],
+          [
+            -84.12272348999977,
+            33.96867708885198
+          ],
+          [
+            -84.12286564707756,
+            33.968689323445346
+          ],
+          [
+            -84.12296891212462,
+            33.96870155803695
+          ],
+          [
+            -84.12303328514099,
+            33.96871601709748
+          ],
+          [
+            -84.12308424711227,
+            33.96874382297622
+          ],
+          [
+            -84.12312179803848,
+            33.968792761300705
+          ],
+          [
+            -84.12317410111427,
+            33.96890620912643
+          ],
+          [
+            -84.12324652075768,
+            33.96905413596601
+          ],
+          [
+            -84.12327334284782,
+            33.96920095031927
+          ],
+          [
+            -84.12327468395233,
+            33.96934442773784
+          ],
+          [
+            -84.12328004837036,
+            33.96946788485772
+          ],
+          [
+            -84.1233417391777,
+            33.9695490772803
+          ],
+          [
+            -84.1234141588211,
+            33.96962582073177
+          ],
+          [
+            -84.12347316741942,
+            33.96970701300357
+          ],
+          [
+            -84.12352681159973,
+            33.96984715290677
+          ],
+          [
+            -84.12356436252594,
+            33.96993613050325
+          ],
+          [
+            -84.12364214658737,
+            33.97001509804213
+          ],
+          [
+            -84.12372395396233,
+            33.970095177724986
+          ],
+          [
+            -84.12386074662209,
+            33.970213072676415
+          ],
+          [
+            -84.12397608160971,
+            33.97031650867843
+          ],
+          [
+            -84.12406995892525,
+            33.97039992471744
+          ],
+          [
+            -84.1241343319416,
+            33.97044107659988
+          ],
+          [
+            -84.12422016263008,
+            33.970461096427385
+          ],
+          [
+            -84.12432074546814,
+            33.97045331093948
+          ],
+          [
+            -84.12442401051521,
+            33.97043329111015
+          ],
+          [
+            -84.12448033690451,
+            33.97043662774869
+          ],
+          [
+            -84.12454605102539,
+            33.97045998421489
+          ],
+          [
+            -84.12459701299667,
+            33.97048000403792
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1196671128273,
+            33.97099273234442
+          ],
+          [
+            -84.11971002817154,
+            33.97095825396523
+          ],
+          [
+            -84.11981463432312,
+            33.970929336604165
+          ],
+          [
+            -84.11989778280258,
+            33.97087150185253
+          ],
+          [
+            -84.1199380159378,
+            33.97077807640142
+          ],
+          [
+            -84.11996349692345,
+            33.97071579271031
+          ],
+          [
+            -84.11993935704231,
+            33.97065795781346
+          ],
+          [
+            -84.119883030653,
+            33.970603459509256
+          ],
+          [
+            -84.11985620856285,
+            33.970547848958766
+          ],
+          [
+            -84.11988973617554,
+            33.970497799432245
+          ],
+          [
+            -84.11994740366934,
+            33.97047444297645
+          ],
+          [
+            -84.12012308835983,
+            33.97047221855175
+          ],
+          [
+            -84.12033498287201,
+            33.97047333076409
+          ],
+          [
+            -84.1204234957695,
+            33.97045998421489
+          ],
+          [
+            -84.12048518657684,
+            33.9704110468498
+          ],
+          [
+            -84.12050932645798,
+            33.97030204989002
+          ],
+          [
+            -84.1205522418022,
+            33.97024866357303
+          ],
+          [
+            -84.12068098783493,
+            33.970215297107885
+          ],
+          [
+            -84.12086606025696,
+            33.970213072676415
+          ],
+          [
+            -84.12105917930603,
+            33.97026868344582
+          ],
+          [
+            -84.12124961614609,
+            33.97034431403386
+          ],
+          [
+            -84.12141591310501,
+            33.97050002385626
+          ],
+          [
+            -84.12151247262955,
+            33.97060679614113
+          ],
+          [
+            -84.12161976099013,
+            33.97074915897907
+          ],
+          [
+            -84.12166267633438,
+            33.9708292379707
+          ],
+          [
+            -84.12165462970734,
+            33.97097493705368
+          ],
+          [
+            -84.12162378430367,
+            33.97102721070962
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12178605794907,
+            33.97324047006304
+          ],
+          [
+            -84.12179008126259,
+            33.97320376824199
+          ],
+          [
+            -84.12178203463554,
+            33.97315594463319
+          ],
+          [
+            -84.121775329113,
+            33.97311479406458
+          ],
+          [
+            -84.12178337574005,
+            33.973072531297696
+          ],
+          [
+            -84.12180885672569,
+            33.9730302685098
+          ],
+          [
+            -84.12183970212936,
+            33.97299023005979
+          ],
+          [
+            -84.1218638420105,
+            33.97291905054656
+          ],
+          [
+            -84.12187993526459,
+            33.972850095336284
+          ],
+          [
+            -84.12190943956375,
+            33.97279448625501
+          ],
+          [
+            -84.12192553281784,
+            33.97274443805078
+          ],
+          [
+            -84.1219362616539,
+            33.972696614183654
+          ],
+          [
+            -84.12194430828094,
+            33.972647678105744
+          ],
+          [
+            -84.1219536960125,
+            33.97256426427161
+          ],
+          [
+            -84.12197850644588,
+            33.97245971881732
+          ],
+          [
+            -84.12199191749094,
+            33.97242857759332
+          ],
+          [
+            -84.12202477455139,
+            33.97239576807714
+          ],
+          [
+            -84.12204355001448,
+            33.97236462682973
+          ],
+          [
+            -84.12208579480648,
+            33.972256744562976
+          ],
+          [
+            -84.12215888500214,
+            33.97203764304326
+          ],
+          [
+            -84.12218101322651,
+            33.97194143839052
+          ],
+          [
+            -84.12221252918243,
+            33.97183689217048
+          ],
+          [
+            -84.1222058236599,
+            33.97176571169181
+          ],
+          [
+            -84.12219107151031,
+            33.97170120433154
+          ],
+          [
+            -84.12214815616608,
+            33.97163669692233
+          ],
+          [
+            -84.12209048867226,
+            33.97155328209648
+          ],
+          [
+            -84.12203550338745,
+            33.97149655996819
+          ],
+          [
+            -84.12197649478912,
+            33.97147876478289
+          ],
+          [
+            -84.12194833159447,
+            33.97147097938814
+          ],
+          [
+            -84.12184372544289,
+            33.971331954362014
+          ],
+          [
+            -84.12171363830566,
+            33.97122073417748
+          ],
+          [
+            -84.12168547511101,
+            33.97113064572137
+          ],
+          [
+            -84.12162378430367,
+            33.97102721070962
+          ],
+          [
+            -84.12156075239182,
+            33.97100496660464
+          ],
+          [
+            -84.12147894501685,
+            33.97100162998838
+          ],
+          [
+            -84.12139445543289,
+            33.971038332759946
+          ],
+          [
+            -84.12131533026695,
+            33.971077259924556
+          ],
+          [
+            -84.12111818790436,
+            33.971254100248125
+          ],
+          [
+            -84.12106454372406,
+            33.97131415914226
+          ],
+          [
+            -84.12101089954376,
+            33.971360871586185
+          ],
+          [
+            -84.12097737193108,
+            33.97142871580426
+          ],
+          [
+            -84.12098005414009,
+            33.97147876478289
+          ],
+          [
+            -84.12098407745361,
+            33.97162112616105
+          ],
+          [
+            -84.12098675966263,
+            33.9717245604504
+          ],
+          [
+            -84.12098005414009,
+            33.97181019949796
+          ],
+          [
+            -84.12095993757248,
+            33.97188805310273
+          ],
+          [
+            -84.1209264099598,
+            33.971938101811006
+          ],
+          [
+            -84.1208915412426,
+            33.97196590663623
+          ],
+          [
+            -84.12083119153976,
+            33.97199426754856
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12168279290199,
+            33.971129533517626
+          ],
+          [
+            -84.12169687449932,
+            33.971098947908565
+          ],
+          [
+            -84.12174247205257,
+            33.97105334752553
+          ],
+          [
+            -84.12179008126259,
+            33.97102609850451
+          ],
+          [
+            -84.121865183115,
+            33.97101163983674
+          ],
+          [
+            -84.12193022668362,
+            33.97103110342739
+          ],
+          [
+            -84.1219912469387,
+            33.97106335736782
+          ],
+          [
+            -84.12206970155239,
+            33.97106613787935
+          ],
+          [
+            -84.12214010953903,
+            33.97107003059534
+          ],
+          [
+            -84.12226617336273,
+            33.971088381968336
+          ],
+          [
+            -84.12235870957375,
+            33.971102284521
+          ],
+          [
+            -84.1224217414856,
+            33.971104508929216
+          ],
+          [
+            -84.12246935069561,
+            33.971096723500196
+          ],
+          [
+            -84.12249751389027,
+            33.97107003059534
+          ],
+          [
+            -84.12251763045788,
+            33.971033883939974
+          ],
+          [
+            -84.12254579365253,
+            33.97101497645259
+          ],
+          [
+            -84.12258736789227,
+            33.97100162998838
+          ],
+          [
+            -84.1225940734148,
+            33.97098105418529
+          ],
+          [
+            -84.12259139120579,
+            33.9709610344802
+          ],
+          [
+            -84.12258267402649,
+            33.97094880021365
+          ],
+          [
+            -84.12258200347424,
+            33.97092878050098
+          ],
+          [
+            -84.12259742617607,
+            33.97089207768214
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12213742733002,
+            33.971070586697614
+          ],
+          [
+            -84.12211194634438,
+            33.97115567030209
+          ],
+          [
+            -84.12204287946224,
+            33.97122351468387
+          ],
+          [
+            -84.12194766104221,
+            33.971284129700486
+          ],
+          [
+            -84.12184741348028,
+            33.97133000801005
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12218168377876,
+            33.97057676644957
+          ],
+          [
+            -84.12206232547759,
+            33.9706201426673
+          ],
+          [
+            -84.12197649478912,
+            33.970683538638085
+          ],
+          [
+            -84.12192553281784,
+            33.97077807640142
+          ],
+          [
+            -84.12191346287727,
+            33.970848145499374
+          ],
+          [
+            -84.1219215095043,
+            33.97093156101688
+          ],
+          [
+            -84.12192955613136,
+            33.9710294351198
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "fast-food",
+        "name": "Picnic table and swing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12197,
+          33.97062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12145614624023,
+          33.972955196400555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12145681679247,
+            33.97295575249051
+          ],
+          [
+            -84.12139244377612,
+            33.97294963550094
+          ],
+          [
+            -84.12134081125258,
+            33.97294963550094
+          ],
+          [
+            -84.12129253149031,
+            33.972960757299816
+          ],
+          [
+            -84.12123888731,
+            33.97298800570091
+          ],
+          [
+            -84.12119932472704,
+            33.97302359543611
+          ],
+          [
+            -84.12117049098013,
+            33.9730608534242
+          ],
+          [
+            -84.12114098668097,
+            33.973088101793216
+          ],
+          [
+            -84.12108868360518,
+            33.973110345353284
+          ],
+          [
+            -84.12102766335008,
+            33.973119798864516
+          ],
+          [
+            -84.12097938358782,
+            33.97311368188677
+          ],
+          [
+            -84.12093378603457,
+            33.97309533095086
+          ],
+          [
+            -84.12090092897414,
+            33.973075867832684
+          ],
+          [
+            -84.12087544798848,
+            33.97304806337043
+          ],
+          [
+            -84.12085466086863,
+            33.9730085810184
+          ],
+          [
+            -84.12084460258482,
+            33.972965762108835
+          ],
+          [
+            -84.12080168724059,
+            33.97292794798897
+          ],
+          [
+            -84.12072524428366,
+            33.97288123640591
+          ],
+          [
+            -84.12068635225295,
+            33.972830076071226
+          ],
+          [
+            -84.12064746022223,
+            33.97277446697685
+          ],
+          [
+            -84.12060856819151,
+            33.97271997002909
+          ],
+          [
+            -84.12058040499686,
+            33.972669921781
+          ],
+          [
+            -84.12055760622023,
+            33.97261208821319
+          ],
+          [
+            -84.1205509006977,
+            33.97258650796872
+          ],
+          [
+            -84.12051737308501,
+            33.97255870334645
+          ],
+          [
+            -84.12045568227767,
+            33.97253979619811
+          ],
+          [
+            -84.12040472030638,
+            33.972542020568696
+          ],
+          [
+            -84.12036046385764,
+            33.97255203023574
+          ],
+          [
+            -84.12030816078186,
+            33.9725970737228
+          ],
+          [
+            -84.12023171782491,
+            33.972575386120916
+          ],
+          [
+            -84.12019148468968,
+            33.972548693680196
+          ],
+          [
+            -84.12017941474913,
+            33.97249753314544
+          ],
+          [
+            -84.12018343806267,
+            33.97244526039331
+          ],
+          [
+            -84.12021562457083,
+            33.9723640707359
+          ],
+          [
+            -84.12021562457083,
+            33.97226508598024
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12025719881058,
+            33.97296687428857
+          ],
+          [
+            -84.1203148663044,
+            33.97295241595079
+          ],
+          [
+            -84.1204060614109,
+            33.97295352813072
+          ],
+          [
+            -84.1204784810543,
+            33.97296687428857
+          ],
+          [
+            -84.12053346633911,
+            33.972965762108835
+          ],
+          [
+            -84.12059515714645,
+            33.972944630690975
+          ],
+          [
+            -84.12066891789436,
+            33.97291015310321
+          ],
+          [
+            -84.12072122097015,
+            33.97288234858675
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12185244262218,
+            33.97328606927321
+          ],
+          [
+            -84.12189938127995,
+            33.97325882096763
+          ],
+          [
+            -84.1219215095043,
+            33.97321711436058
+          ],
+          [
+            -84.12193827331066,
+            33.973173183379004
+          ],
+          [
+            -84.12198722362518,
+            33.97311368188677
+          ],
+          [
+            -84.12202879786491,
+            33.9730463951024
+          ],
+          [
+            -84.12206903100014,
+            33.972999127494745
+          ],
+          [
+            -84.12210993468761,
+            33.97296298165941
+          ],
+          [
+            -84.12214681506157,
+            33.972940738060814
+          ],
+          [
+            -84.12222325801848,
+            33.97291571400542
+          ],
+          [
+            -84.12229165434837,
+            33.97288234858675
+          ],
+          [
+            -84.12233591079712,
+            33.972855656242416
+          ],
+          [
+            -84.12237212061882,
+            33.97282340298182
+          ],
+          [
+            -84.12239894270897,
+            33.97277669134133
+          ],
+          [
+            -84.12241503596306,
+            33.97270996038184
+          ],
+          [
+            -84.12244185805321,
+            33.97264879028963
+          ],
+          [
+            -84.12247002124786,
+            33.972587620153405
+          ],
+          [
+            -84.12249684333801,
+            33.972530898715064
+          ],
+          [
+            -84.12253439426422,
+            33.97247751379734
+          ],
+          [
+            -84.12257730960846,
+            33.97241634353793
+          ],
+          [
+            -84.12262290716171,
+            33.972360734173
+          ],
+          [
+            -84.12272080779076,
+            33.97225396409037
+          ],
+          [
+            -84.12279859185219,
+            33.972195018049824
+          ],
+          [
+            -84.12285894155502,
+            33.97214608168322
+          ],
+          [
+            -84.12291660904884,
+            33.97209269652392
+          ],
+          [
+            -84.12298366427422,
+            33.9720281894117
+          ],
+          [
+            -84.12303864955902,
+            33.97196368225055
+          ],
+          [
+            -84.12310436367989,
+            33.971884716521124
+          ],
+          [
+            -84.12316605448723,
+            33.9717879555978
+          ],
+          [
+            -84.12321031093596,
+            33.971703428724076
+          ],
+          [
+            -84.12325456738472,
+            33.971616677371586
+          ],
+          [
+            -84.1232867538929,
+            33.97153882351838
+          ],
+          [
+            -84.12332966923714,
+            33.97145985739441
+          ],
+          [
+            -84.12337392568588,
+            33.97140647180428
+          ],
+          [
+            -84.12343829870224,
+            33.97135308618065
+          ],
+          [
+            -84.12346914410591,
+            33.97127634428793
+          ],
+          [
+            -84.12348926067352,
+            33.971210724353746
+          ],
+          [
+            -84.12351205945014,
+            33.97112508470244
+          ],
+          [
+            -84.12353083491325,
+            33.97104834260398
+          ],
+          [
+            -84.12354692816734,
+            33.970949356316716
+          ],
+          [
+            -84.12355095148087,
+            33.970848145499374
+          ],
+          [
+            -84.12355497479439,
+            33.97080588160592
+          ],
+          [
+            -84.12354290485382,
+            33.970753607813926
+          ],
+          [
+            -84.12351205945014,
+            33.97070467061783
+          ],
+          [
+            -84.12346512079239,
+            33.97063348919141
+          ],
+          [
+            -84.12338867783546,
+            33.97052894136333
+          ],
+          [
+            -84.12332832813263,
+            33.970442188812655
+          ],
+          [
+            -84.12326663732529,
+            33.970357660601245
+          ],
+          [
+            -84.1231781244278,
+            33.97027424452075
+          ],
+          [
+            -84.12303328514099,
+            33.97014522748847
+          ],
+          [
+            -84.12291929125786,
+            33.97005958676415
+          ],
+          [
+            -84.12283346056938,
+            33.970005088076476
+          ],
+          [
+            -84.12275567650795,
+            33.96997060929686
+          ],
+          [
+            -84.12268593907355,
+            33.96996059932596
+          ],
+          [
+            -84.12262558937071,
+            33.96997617039128
+          ],
+          [
+            -84.12256121635437,
+            33.97000286363951
+          ],
+          [
+            -84.1224753856659,
+            33.970037342406044
+          ],
+          [
+            -84.12239626049995,
+            33.97005736232858
+          ],
+          [
+            -84.12232384085654,
+            33.97006403563506
+          ],
+          [
+            -84.12226617336273,
+            33.97006848450574
+          ],
+          [
+            -84.12220146507025,
+            33.97004985485818
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.12355229258536,
+            33.97084925770681
+          ],
+          [
+            -84.12340611219406,
+            33.97087706288804
+          ],
+          [
+            -84.12328407168388,
+            33.97089485819927
+          ],
+          [
+            -84.12319555878639,
+            33.97092822439778
+          ],
+          [
+            -84.12314862012863,
+            33.970929336604165
+          ],
+          [
+            -84.12308558821678,
+            33.97090598026689
+          ],
+          [
+            -84.12303730845451,
+            33.9708826239232
+          ],
+          [
+            -84.12297427654266,
+            33.970858155365775
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.11966979503632,
+          33.97098494690517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "name": "Gwinnett Transit Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.13121402263641,
+          33.963168006315954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "fast-food",
+        "name": "Swing and four picnic tables"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12323,
+          33.96953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "fast-food",
+        "name": "Picnic table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.12579,
+          33.96872
+        ]
+      }
+    }
+  ]
+}

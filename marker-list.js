@@ -259,5 +259,17 @@ var markerList = {
       iconAnchor: [15, 41],
       popupAnchor: [0, -46]
     })
+  },
+  cross: {
+    name: 'Intersection',
+    maki: 'cross',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/intersection.png',
+      iconRetinaUrl: 'markers/intersection-retina.png',
+      iconSize: [6, 6],
+      iconAnchor: [3, 3],
+      popupAnchor: [0, -8]
+    })
   }
 };
