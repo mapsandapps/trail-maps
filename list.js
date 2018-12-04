@@ -163,8 +163,16 @@ var list = [
     id: 'intrenchment-creek',
     latitude: 33.6902,
     longitude: -84.3222,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/34a98da65bdd171ed1f94c6ab6e7aef8&map=16/33.6928/-84.3306',
-    updated: 'DRAFT'
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/c698c5471bdf2ff6676afc9bdeccca98&map=19/33.69039/-84.32282',
+    updated: '2018-11-11'
+  },
+  {
+    name: 'Intrenchment Creek Area Map',
+    id: 'intrenchment-creek-area',
+    latitude: 33.6902,
+    longitude: -84.3222,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/762c00e0ac94efd41681d0546a490586&map=15/33.6941/-84.3267',
+    updated: '2018-11-11'
   },
   {
     name: 'Lookout Mountain',
@@ -184,3 +192,4 @@ var list = [
   }
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
+// chewacla http://geojson.io/#id=gist:mapsandapps/c24de3c2c12ec76fb039a5cd9306ed95&map=15/32.5495/-85.4776

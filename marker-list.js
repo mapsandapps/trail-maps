@@ -271,5 +271,17 @@ var markerList = {
       iconAnchor: [3, 3],
       popupAnchor: [0, -8]
     })
+  },
+  tunnel: { // not actually a maki icon. just put "tunnel" in as the icon name. it will appear broken in geojson.io
+    name: 'Tunnel',
+    maki: 'tunnel',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/tunnel.png',
+      iconRetinaUrl: 'markers/tunnel-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
   }
 };
