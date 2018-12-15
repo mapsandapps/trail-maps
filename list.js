@@ -189,6 +189,14 @@ var list = [
     longitude: -84.1281,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/5dfaf666089e0dcf4a9de00eacac67d0&map=18/33.96913/-84.12765',
     updated: '2018-11-10'
+  },
+  {
+    name: 'Shorty Howell Park',
+    id: 'shorty-howell',
+    latitude: 33.9730,
+    longitude: -84.1484,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/3d3e14145ce7a7ae823bcd077700249b&map=17/33.97270/-84.14840',
+    updated: '2018-12-15'
   }
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
