@@ -197,6 +197,22 @@ var list = [
     longitude: -84.1484,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/3d3e14145ce7a7ae823bcd077700249b&map=17/33.97270/-84.14840',
     updated: '2018-12-15'
+  },
+  {
+    name: 'Kiesel Park',
+    id: 'kiesel-park',
+    latitude: 32.585001938989066,
+    longitude: -85.544056892395,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/c4f5baf5f98713e49b961e34bb2ce6e3&map=16/32.5853/-85.5453',
+    updated: '2018-12-22'
+  },
+  {
+    name: 'Opelika Wood Duck Heritage Preserve and Siddique Nature Park',
+    id: 'wood-duck-preserve',
+    latitude: 32.653367181795296,
+    longitude: -85.4321537911892,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/80468d443250c3c7f877380ce1aefc95&map=16/32.6540/-85.4365',
+    updated: '2018-12-23'
   }
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593

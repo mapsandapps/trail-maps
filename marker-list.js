@@ -283,5 +283,17 @@ var markerList = {
       iconAnchor: [15, 41],
       popupAnchor: [0, -46]
     })
+  },
+  'dog-park': {
+    name: 'Dog Park',
+    maki: 'dog-park',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/dog-park.png',
+      iconRetinaUrl: 'markers/dog-park-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
   }
 };
