@@ -188,7 +188,24 @@ var list = [
     latitude: 33.9689,
     longitude: -84.1281,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/5dfaf666089e0dcf4a9de00eacac67d0&map=18/33.96913/-84.12765',
-    updated: '2018-11-10'
+    updated: '2018-11-10',
+    legend: [
+      {
+        name: 'Paved',
+        width: 6,
+        color: '#555555'
+      },
+      {
+        name: 'Gravel',
+        width: 4,
+        color: '#6F6F6F'
+      },
+      {
+        name: 'Natural',
+        width: 4,
+        color: '#03763A'
+      }
+    ]
   },
   {
     name: 'Shorty Howell Park',

@@ -20,6 +20,31 @@ function listParks() {
   document.getElementById('map').innerHTML = listHTML;
 }
 
+function addLegend(legendItems) {
+  if (legendItems) {
+    var legend = L.control({
+      position: 'bottomright'
+    });
+
+    legend.onAdd = function(map) {
+      var div = L.DomUtil.create('div', 'legend');
+
+      div.innerHTML += '<h4>Trails:</h4>';
+
+      for (var i = 0; i < legendItems.length; i++) {
+        var legendItem = legendItems[i];
+        var topMargin = 9 - legendItem.width / 2;
+        div.innerHTML +=
+          '<i style="background: ' + legendItem.color + '; height: ' + legendItem.width + 'px; margin-top: ' + topMargin + 'px;"></i> ' + legendItem.name + '<br>';
+      }
+
+      return div;
+    };
+
+    legend.addTo(map);
+  }
+}
+
 function drawMap(file) {
   const mapSettings = {
     maxZoom: 18,
@@ -89,11 +114,16 @@ function drawMap(file) {
 }
 
 function mapPark(parkID) {
+  var parkInfo = list.find(park => {
+    return park.id === parkID;
+  });
+
   fetch(`./geojsons/${parkID}.geojson`)
     .then(resp => resp.json())
     .then(response => {
       processGeojson(response);
       drawMap(response);
+      addLegend(parkInfo.legend);
     });
 }
 
