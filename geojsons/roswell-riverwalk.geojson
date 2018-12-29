@@ -51,7 +51,6 @@
         "stroke": "#6f6f6f",
         "stroke-width": 6,
         "stroke-opacity": 1,
-        "name": "Roswell Riverwalk",
         "surface": "paved",
         "miles": 0.68
       },
@@ -360,7 +359,6 @@
         "stroke-width": 4,
         "stroke-opacity": 1,
         "surface": "gravel",
-        "name": "Roswell Riverwalk",
         "miles": 0.68
       },
       "geometry": {
@@ -2143,7 +2141,6 @@
         "stroke": "#6f6f6f",
         "stroke-width": 6,
         "stroke-opacity": 1,
-        "name": "Roswell Riverwalk",
         "miles": "0.40"
       },
       "geometry": {
