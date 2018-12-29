@@ -237,7 +237,30 @@ var list = [
     latitude: 33.99444146447235,
     longitude: -84.38545927405357,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/97aa618f24efdc33cc29c13f2737d743&map=14/34.0019/-84.3528',
-    updated: '2018-12-17'
+    updated: '2018-12-17',
+    zoomLevelForDistances: 15,
+    legend: [
+      {
+        name: 'Boardwalk multi-use path',
+        width: 6,
+        color: '#8B472A'
+      },
+      {
+        name: 'Paved multi-use path',
+        width: 6,
+        color: '#6F6F6F'
+      },
+      {
+        name: 'Narrower paved trail',
+        width: 4,
+        color: '#6F6F6F'
+      },
+      {
+        name: 'Unpaved',
+        width: 4,
+        color: '#03763A'
+      }
+    ]
   }
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593

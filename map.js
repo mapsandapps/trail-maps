@@ -1,6 +1,9 @@
 var map;
+var parkInfo;
 var poiLayer = L.layerGroup();
 var trailsLayer = L.layerGroup();
+var showDistancesAtZoom = 17; // can be set by parkInfo
+var labelsVisible = true;
 
 function getUrlVars() {
   var vars = {};
@@ -114,9 +117,10 @@ function drawMap(file) {
 }
 
 function mapPark(parkID) {
-  var parkInfo = list.find(park => {
+  parkInfo = list.find(park => {
     return park.id === parkID;
   });
+  showDistancesAtZoom = parkInfo.showDistancesAtZoom;
 
   fetch(`./geojsons/${parkID}.geojson`)
     .then(resp => resp.json())
@@ -297,11 +301,9 @@ window.onload = () => {
   }
 }
 
-const SHOW_DISTANCES_ZOOM = 17;
-var labelsVisible = true;
 function showOrHideDistanceLabels() {
   var currentZoom = map.getZoom();
-  if (labelsVisible && currentZoom < SHOW_DISTANCES_ZOOM) {
+  if (labelsVisible && currentZoom < showDistancesAtZoom) {
     labelsVisible = false;
     trailsLayer.eachLayer(marker => {
       var distanceLabel = marker.getTooltip() && marker.getTooltip().options && marker.getTooltip().options.className && marker.getTooltip().options.className === 'distance-label';
@@ -309,7 +311,7 @@ function showOrHideDistanceLabels() {
         marker.closeTooltip();
       }
     });
-  } else if (!labelsVisible && currentZoom >= SHOW_DISTANCES_ZOOM) {
+  } else if (!labelsVisible && currentZoom >= showDistancesAtZoom) {
     labelsVisible = true;
     trailsLayer.eachLayer(marker => {
       var distanceLabel = marker.getTooltip() && marker.getTooltip().options && marker.getTooltip().options.className && marker.getTooltip().options.className === 'distance-label';
