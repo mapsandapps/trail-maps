@@ -261,6 +261,26 @@ var list = [
         color: '#03763A'
       }
     ]
+  },
+  {
+    name: 'Murphey Candler Park',
+    id: 'murphey-candler',
+    latitude: 33.9095,
+    longitude: -84.3257,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/dbc6b6b3a2f80ed632ed7d6cba38b971&map=17/33.91105/-84.32432',
+    updated: '2019-01-06',
+    legend: [
+      {
+        name: 'Paved',
+        width: 6,
+        color: '#555555'
+      },
+      {
+        name: 'Unpaved',
+        width: 4,
+        color: '#03763A'
+      }
+    ]
   }
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
