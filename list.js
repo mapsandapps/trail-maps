@@ -238,7 +238,7 @@ var list = [
     longitude: -84.38545927405357,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/97aa618f24efdc33cc29c13f2737d743&map=14/34.0019/-84.3528',
     updated: '2018-12-17',
-    zoomLevelForDistances: 15,
+    showDistancesAtZoom: 15,
     legend: [
       {
         name: 'Boardwalk multi-use path',
@@ -269,6 +269,28 @@ var list = [
     longitude: -84.3257,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/dbc6b6b3a2f80ed632ed7d6cba38b971&map=17/33.91105/-84.32432',
     updated: '2019-01-06',
+    showDistancesAtZoom: 16,
+    legend: [
+      {
+        name: 'Paved',
+        width: 6,
+        color: '#555555'
+      },
+      {
+        name: 'Unpaved',
+        width: 4,
+        color: '#03763A'
+      }
+    ]
+  },
+  {
+    name: 'Rogers Bridge Trail',
+    id: 'rogers-bridge',
+    latitude: 34.0425,
+    longitude: -84.1412,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/c1062859ae51f9c42e8f4c921f1999c8&map=16/34.0396/-84.1424',
+    updated: '2018-12-29',
+    showDistancesAtZoom: 15,
     legend: [
       {
         name: 'Paved',
