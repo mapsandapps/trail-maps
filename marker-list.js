@@ -295,5 +295,17 @@ var markerList = {
       iconAnchor: [15, 41],
       popupAnchor: [0, -46]
     })
+  },
+  'fitness-centre': {
+    name: 'Exercise',
+    maki: 'fitness-centre',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/gym.png',
+      iconRetinaUrl: 'markers/gym-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
   }
 };
