@@ -303,6 +303,35 @@ var list = [
         color: '#03763A'
       }
     ]
+  },
+  {
+    name: 'Roswell Area Park',
+    id: 'roswell-area-park',
+    latitude: 34.0362,
+    longitude: -84.3655,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/4b572fa9fb3a644bff0589eadbaacde2&map=18/34.03745/-84.36591',
+    updated: '2019-01-01'
+  },
+  {
+    name: 'Heritage Park',
+    id: 'heritage-park',
+    latitude: 33.8393,
+    longitude: -84.5432,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/a96b0aa97b133a133ac18aa1fee5d16a&map=17/33.84048/-84.54307',
+    updated: '2019-01-21',
+    showDistancesAtZoom: 15,
+    legend: [
+      {
+        name: 'Silver Comet Trail (continues to east and west), paved',
+        width: 6,
+        color: '#555555'
+      },
+      {
+        name: 'Heritage Park Trail, unpaved',
+        width: 4,
+        color: '#03763A'
+      }
+    ]
   }
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
