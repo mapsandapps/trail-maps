@@ -332,6 +332,15 @@ var list = [
         color: '#03763A'
       }
     ]
+  },
+  {
+    name: 'Simpsonwood Park',
+    id: 'simpsonwood-park',
+    latitude: 33.9860,
+    longitude: -84.2434,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/270dddd8ae35c762d3ee71eaca9cbc78&map=19/33.98616/-84.24347',
+    updated: '2019-01-25',
+    showDistancesAtZoom: 16
   }
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
