@@ -341,7 +341,16 @@ var list = [
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/270dddd8ae35c762d3ee71eaca9cbc78&map=19/33.98616/-84.24347',
     updated: '2019-01-25',
     showDistancesAtZoom: 16
-  }
+  },
+  {
+    name: 'Carters Lake: Tumbling Waters',
+    id: 'carters-lake-tumbling-waters',
+    latitude: 34.6503,
+    longitude: -84.6091,
+    geojsonio: 'carters-lake-tumbling-waters.geojson',
+    updated: '2019-10-12',
+    showDistancesAtZoom: 16
+  } 
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
 // chewacla http://geojson.io/#id=gist:mapsandapps/c24de3c2c12ec76fb039a5cd9306ed95&map=15/32.5495/-85.4776
