@@ -347,9 +347,18 @@ var list = [
     id: 'carters-lake-tumbling-waters',
     latitude: 34.6503,
     longitude: -84.6091,
-    geojsonio: 'carters-lake-tumbling-waters.geojson',
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/2be446829dc63722c143470ed9623507&map=17/34.65268/-84.60862',
     updated: '2019-10-12',
     showDistancesAtZoom: 16
+  },
+  {
+    name: 'Carters Lake: Hidden Pond Songbird Trail',
+    id: 'carters-lake-songbird-trail',
+    latitude: 34.6019,
+    longitude: -84.6950,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/bb7834eb80a2221fea078e12e92661bc&map=17/34.60000/-84.69685',
+    updated: '2019-10-13',
+    showDistancesAtZoom: 15
   } 
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
