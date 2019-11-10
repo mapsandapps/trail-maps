@@ -1519,6 +1519,56 @@
           33.99440254800631
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.3834114074707,
+            33.98426586953881
+          ],
+          [
+            -84.3830144405365,
+            33.98391891486998
+          ],
+          [
+            -84.38264966011047,
+            33.98360754408959
+          ],
+          [
+            -84.38225269317626,
+            33.983322861235
+          ],
+          [
+            -84.38156604766846,
+            33.98292252435757
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 249,
+        "offset": "SW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38262820243835,
+          33.983580855112464
+        ]
+      }
     }
   ]
 }
