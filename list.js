@@ -359,6 +359,15 @@ var list = [
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/bb7834eb80a2221fea078e12e92661bc&map=17/34.60000/-84.69685',
     updated: '2019-10-13',
     showDistancesAtZoom: 15
+  },
+  {
+    name: 'Gold Branch',
+    id: 'gold-branch',
+    latitude: 33.9843,
+    longitude: -84.3852,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/2956fcd2f6b991eaa7b10eee9e51eb0a&map=19/33.98431/-84.38499',
+    updated: '2019-11-09',
+    showDistancesAtZoom: 15
   } 
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
