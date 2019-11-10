@@ -550,7 +550,7 @@
         "marker-size": "medium",
         "marker-symbol": "miles",
         "yards": 357,
-        "offset": "NE"
+        "offset": "NW"
       },
       "geometry": {
         "type": "Point",
