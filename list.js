@@ -368,7 +368,16 @@ var list = [
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/2956fcd2f6b991eaa7b10eee9e51eb0a&map=19/33.98431/-84.38499',
     updated: '2019-11-09',
     showDistancesAtZoom: 15
-  } 
+  },
+  {
+    name: 'KSU Sports & Recreation Park Lakeside Trail',
+    id: 'ksu-recreation-park',
+    latitude: 34.0307,
+    longitude: -84.5626,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/fc9e708110989305426e9fea2006244d&map=21/34.03077/-84.56266',
+    updated: '2019-11-11',
+    showDistancesAtZoom: 16
+  }
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
 // chewacla http://geojson.io/#id=gist:mapsandapps/c24de3c2c12ec76fb039a5cd9306ed95&map=15/32.5495/-85.4776
