@@ -377,6 +377,15 @@ var list = [
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/fc9e708110989305426e9fea2006244d&map=21/34.03077/-84.56266',
     updated: '2019-11-11',
     showDistancesAtZoom: 16
+  },
+  {
+    name: 'Noonday Creek Trail',
+    id: 'noonday-creek',
+    latitude: 34.0230,
+    longitude: -84.5492,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/0714f808a4da16983926e8f242c6d198&map=19/34.02295/-84.54980',
+    updated: '2019-11-11',
+    showDistancesAtZoom: 15
   }
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
