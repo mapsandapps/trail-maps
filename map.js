@@ -23,6 +23,31 @@ function listParks() {
   document.getElementById('map').innerHTML = listHTML;
 }
 
+function addFullScreenControl() {
+  var fullScreenControl = L.control({
+    position: 'topright'
+  });
+
+  fullScreenControl.onAdd = function() {
+    var div = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control full-screen-control');
+
+    var fullScreenValue = getUrlVars()["full-screen"];
+    var oldURL = window.location.href;
+    var newURL = '';
+    if (fullScreenValue) {
+      newURL = oldURL.replace(`full-screen=${fullScreenValue}`, 'full-screen=on');
+    } else {
+      newURL = oldURL + '&full-screen=on';
+    }
+
+    div.innerHTML += `<a href="${newURL}" target="_top"><img src="expand.png"></a>`;
+
+    return div;
+  }
+
+  fullScreenControl.addTo(map);
+}
+
 function addLegend(legendItems) {
   if (legendItems) {
     var legend = L.control({
@@ -38,7 +63,7 @@ function addLegend(legendItems) {
         var legendItem = legendItems[i];
         var topMargin = 9 - legendItem.width / 2;
         div.innerHTML +=
-          '<i style="background: ' + legendItem.color + '; height: ' + legendItem.width + 'px; margin-top: ' + topMargin + 'px;"></i> ' + legendItem.name + '<br>';
+          `<div class="line" style="display: inline-block; background: ${legendItem.color}; height: ${legendItem.width}px; margin-top: ${topMargin}px;"></div> ${legendItem.name}<br>`;
       }
 
       return div;
@@ -88,13 +113,6 @@ function drawMap(file) {
   poiLayer.addTo(map);
   trailsLayer.addTo(map);
 
-  // map.addControl(new L.Control.Fullscreen({ // FIXME: doesn't seem to work in iframe
-  //   title: {
-  //       'false': 'View Fullscreen',
-  //       'true': 'Exit Fullscreen'
-  //   }
-  // }));
-
   var bounds = L.geoJSON(file).getBounds();
   map.fitBounds(bounds);
 
@@ -116,7 +134,7 @@ function drawMap(file) {
   showOrHideDistanceLabels();
 }
 
-function mapPark(parkID) {
+function mapPark(parkID, fullScreen) {
   parkInfo = list.find(park => {
     return park.id === parkID;
   });
@@ -128,6 +146,9 @@ function mapPark(parkID) {
       processGeojson(response);
       drawMap(response);
       addLegend(parkInfo.legend);
+      if (fullScreen === 'off') {
+        addFullScreenControl();
+      }
     });
 }
 
@@ -293,9 +314,10 @@ function processGeojson(file) {
 
 window.onload = () => {
   var parkID = getUrlVars()["park"];
+  var fullScreen = getUrlVars()["full-screen"];
 
   if (parkID) {
-    mapPark(parkID);
+    mapPark(parkID, fullScreen);
   } else {
     listParks();
   }
