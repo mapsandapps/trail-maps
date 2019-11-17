@@ -10,29 +10,25 @@ var list = [
     name: 'Proctor Creek Greenway',
     id: 'proctor-creek-greenway',
     latitude: 33.77200621120143,
-    longitude: -84.42974120378494,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/989a41e8400f17b60848a1c70dda5b04&map=15/33.7868/-84.4444'
+    longitude: -84.42974120378494
   },
   {
     name: 'Southside Park',
     id: 'southside-park',
     latitude: 33.66298966887982,
-    longitude: -84.37036246061325,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/be13714132c8be5a210b0ae77b0235c3&map=17/33.66302/-84.37078'
+    longitude: -84.37036246061325
   },
   {
     name: 'Boat Rock',
     id: 'boat-rock-preserve',
     latitude: 33.72172061276281,
-    longitude: -84.56431835889816,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/9f8d4e3ffe0441a89c9a867dbbd8ca16&map=18/33.72143/-84.56522'
+    longitude: -84.56431835889816
   },
   {
     name: 'UMCH',
     id: 'umch',
     latitude: 33.76676536958019,
-    longitude: -84.2778691649437,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/265224cdc240e32648b3eff09437673b&map=17/33.76690/-84.27942'
+    longitude: -84.2778691649437
   },
   {
     name: 'Wahsega 4-H Camp',
@@ -45,86 +41,73 @@ var list = [
     name: 'Ashford Forest Preserve',
     id: 'ashford-forest-preserve',
     latitude: 33.87319039591478,
-    longitude: -84.31594848632812,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/1d6a389de4ce8e961a2fc1a05ad26c4d&map=17/33.87372/-84.31360'
+    longitude: -84.31594848632812
   },
   {
     name: 'Zonolite Park',
     id: 'zonolite-park',
     latitude: 33.8056,
-    longitude: -84.3422,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/54cebccb83945d3df23f4e9eaf0a77fb&map=16/33.8050/-84.3393'
-    // 2nd map: http://geojson.io/#id=gist:mapsandapps/57237df87205f91287f02d09b443addb&map=17/33.80547/-84.34421
+    longitude: -84.3422
   },
   {
     name: 'Herbert Taylor Park & Daniel Johnson Nature Preserve',
     id: 'johnson-taylor',
     latitude: 33.7990,
-    longitude: -84.3428,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/1568ce472fa849d5b769d5c009a423c7&map=16/33.7983/-84.3444'
+    longitude: -84.3428
   },
   {
     name: 'Kirkwood Urban Forest',
     id: 'kirkwood-urban-forest',
     latitude: 33.7520,
-    longitude: -84.3273,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/0b96c32bc3c22047369a7d9b06d28f5c&map=17/33.74969/-84.32930'
+    longitude: -84.3273
   },
   {
     name: 'Sykes Park',
     id: 'sykes-park',
     latitude: 33.6692,
-    longitude: -84.47120,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/f74d2588233c98dbd80d8235f98b9a8e&map=17/33.66977/-84.47426'
+    longitude: -84.47120
   },
   {
     name: 'Big Creek Park',
     id: 'big-creek-park',
     latitude: 34.0304,
-    longitude: -84.3106,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/e7daa33d036ee09105e77313e8cc8947&map=18/34.03002/-84.31118'
+    longitude: -84.3106
   },
   {
     name: 'Hampton Beecher Park',
     id: 'hampton-beecher',
     latitude: 33.745400691285234,
-    longitude: -84.46689784526825,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/7df3a24a72ec60207838557e98c49227&map=18/33.74513/-84.46786'
+    longitude: -84.46689784526825
   },
   {
     name: 'Fernbank Forest',
     id: 'fernbank-forest',
     latitude: 33.7740,
-    longitude: -84.3277,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/47351e0ec3964c3793d1bc8a68419d19&map=16/33.7762/-84.3252'
+    longitude: -84.3277
   },
   {
     name: 'Connally Nature Park',
     id: 'connally-nature-park',
     latitude: 33.69493212304233,
-    longitude: -84.4573438167572,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/b36703b3a73f693ca354e788591040df&map=16/33.6929/-84.4541'
+    longitude: -84.4573438167572
   },
   {
     name: 'Kittredge Park',
     id: 'elwyn-john',
     latitude: 33.8239,
-    longitude: -84.3276,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/65280af6f625e0111a5f3489a6534670&map=16/33.8266/-84.3287'
+    longitude: -84.3276
   },
   {
     name: 'Lullwater Preserve',
     id: 'lullwater-preserve',
     latitude: 33.800743,
-    longitude: -84.3157768,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/4d6368f696371eeb7e91060347826cc7&map=16/33.7997/-84.3155'
+    longitude: -84.3157768
   },
   {
     name: 'Garrard Landing Park',
     id: 'garrard-landing-park',
     latitude: 33.9743,
     longitude: -84.2653,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/bb3e330ebbea79bb6abd4205cd5b86c5&map=17/33.97439/-84.26641',
     updated: '2018-10-18'
   },
   {
@@ -132,7 +115,6 @@ var list = [
     id: 'jones-bridge',
     latitude: 33.99893,
     longitude: -84.24804,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/95620309c8b5f9e4ddbcb312a86b284f&map=14/33.9865/-84.2599',
     updated: '2018-10-18'
   },
   {
@@ -140,7 +122,6 @@ var list = [
     id: 'big-trees-forest-preserve',
     latitude: 33.9647,
     longitude: -84.3633,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/44c41aafd99f29c35953fea49da21d28&map=17/33.96370/-84.36414',
     updated: '2018-10-28'
   },
   {
@@ -164,7 +145,6 @@ var list = [
     id: 'intrenchment-creek-park',
     latitude: 33.6902,
     longitude: -84.3222,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/c698c5471bdf2ff6676afc9bdeccca98&map=19/33.69039/-84.32282',
     updated: '2018-11-11'
   },
   {
@@ -180,7 +160,6 @@ var list = [
     id: 'lookout-mountain',
     latitude: 35.0099,
     longitude: -85.3437,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/ec052bfd8c23918cb4729d6feb2d9fc0&map=17/35.00973/-85.34528',
     updated: '2018-11-07'
   },
   {
@@ -188,7 +167,6 @@ var list = [
     id: 'mcdaniel-farm-park',
     latitude: 33.9689,
     longitude: -84.1281,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/5dfaf666089e0dcf4a9de00eacac67d0&map=18/33.96913/-84.12765',
     updated: '2018-11-10',
     legend: [
       {
@@ -213,7 +191,6 @@ var list = [
     id: 'shorty-howell-park',
     latitude: 33.9730,
     longitude: -84.1484,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/3d3e14145ce7a7ae823bcd077700249b&map=17/33.97270/-84.14840',
     updated: '2018-12-15'
   },
   {
@@ -221,7 +198,6 @@ var list = [
     id: 'kiesel-park',
     latitude: 32.585001938989066,
     longitude: -85.544056892395,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/c4f5baf5f98713e49b961e34bb2ce6e3&map=16/32.5853/-85.5453',
     updated: '2018-12-22'
   },
   {
@@ -229,7 +205,6 @@ var list = [
     id: 'siddique-nature-park',
     latitude: 32.653367181795296,
     longitude: -85.4321537911892,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/80468d443250c3c7f877380ce1aefc95&map=16/32.6540/-85.4365',
     updated: '2018-12-23'
   },
   {
@@ -237,7 +212,6 @@ var list = [
     id: 'roswell-riverwalk',
     latitude: 33.99444146447235,
     longitude: -84.38545927405357,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/97aa618f24efdc33cc29c13f2737d743&map=14/34.0019/-84.3528',
     updated: '2018-12-17',
     showDistancesAtZoom: 15,
     legend: [
@@ -268,7 +242,6 @@ var list = [
     id: 'murphey-candler-park',
     latitude: 33.9095,
     longitude: -84.3257,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/dbc6b6b3a2f80ed632ed7d6cba38b971&map=17/33.91105/-84.32432',
     updated: '2019-01-06',
     showDistancesAtZoom: 16,
     legend: [
@@ -289,7 +262,6 @@ var list = [
     id: 'rogers-bridge-trail',
     latitude: 34.0425,
     longitude: -84.1412,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/c1062859ae51f9c42e8f4c921f1999c8&map=16/34.0396/-84.1424',
     updated: '2018-12-29',
     showDistancesAtZoom: 15,
     legend: [
@@ -310,7 +282,6 @@ var list = [
     id: 'roswell-area-park',
     latitude: 34.0362,
     longitude: -84.3655,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/4b572fa9fb3a644bff0589eadbaacde2&map=18/34.03745/-84.36591',
     updated: '2019-01-01'
   },
   {
@@ -318,7 +289,6 @@ var list = [
     id: 'heritage-park',
     latitude: 33.8393,
     longitude: -84.5432,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/a96b0aa97b133a133ac18aa1fee5d16a&map=17/33.84048/-84.54307',
     updated: '2019-01-21',
     showDistancesAtZoom: 15,
     legend: [
@@ -339,7 +309,6 @@ var list = [
     id: 'simpsonwood-park',
     latitude: 33.9860,
     longitude: -84.2434,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/270dddd8ae35c762d3ee71eaca9cbc78&map=19/33.98616/-84.24347',
     updated: '2019-01-25',
     showDistancesAtZoom: 16
   },
@@ -354,7 +323,6 @@ var list = [
     id: 'carters-lake-tumbling-waters-nature-trail',
     latitude: 34.6503,
     longitude: -84.6091,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/2be446829dc63722c143470ed9623507&map=17/34.65268/-84.60862',
     updated: '2019-10-12',
     showDistancesAtZoom: 16
   },
@@ -363,7 +331,6 @@ var list = [
     id: 'carters-lake-hidden-pond-songbird-trail',
     latitude: 34.6019,
     longitude: -84.6950,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/bb7834eb80a2221fea078e12e92661bc&map=17/34.60000/-84.69685',
     updated: '2019-10-13',
     showDistancesAtZoom: 15
   },
@@ -372,7 +339,6 @@ var list = [
     id: 'gold-branch',
     latitude: 33.9843,
     longitude: -84.3852,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/2956fcd2f6b991eaa7b10eee9e51eb0a&map=19/33.98431/-84.38499',
     updated: '2019-11-09',
     showDistancesAtZoom: 15
   },
@@ -381,7 +347,6 @@ var list = [
     id: 'ksu-recreation-park',
     latitude: 34.0307,
     longitude: -84.5626,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/fc9e708110989305426e9fea2006244d&map=21/34.03077/-84.56266',
     updated: '2019-11-11',
     showDistancesAtZoom: 16
   },
@@ -390,7 +355,6 @@ var list = [
     id: 'noonday-creek-trail',
     latitude: 34.0230,
     longitude: -84.5492,
-    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/0714f808a4da16983926e8f242c6d198&map=19/34.02295/-84.54980',
     updated: '2019-11-11',
     showDistancesAtZoom: 15
   }
