@@ -598,7 +598,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "miles",
-        "yard": 353,
+        "yards": 353,
         "offset": "SE"
       },
       "geometry": {
