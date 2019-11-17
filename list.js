@@ -54,6 +54,7 @@ var list = [
     latitude: 33.8056,
     longitude: -84.3422,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/54cebccb83945d3df23f4e9eaf0a77fb&map=16/33.8050/-84.3393'
+    // 2nd map: http://geojson.io/#id=gist:mapsandapps/57237df87205f91287f02d09b443addb&map=17/33.80547/-84.34421
   },
   {
     name: 'Herbert Taylor Park & Daniel Johnson Nature Preserve',
@@ -340,6 +341,12 @@ var list = [
     longitude: -84.2434,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/270dddd8ae35c762d3ee71eaca9cbc78&map=19/33.98616/-84.24347',
     updated: '2019-01-25',
+    showDistancesAtZoom: 16
+  },
+  {
+    name: 'Mary Scott Nature Park',
+    id: 'mary-scott',
+    updated: '2019-02-02',
     showDistancesAtZoom: 16
   },
   {
