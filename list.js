@@ -348,7 +348,14 @@ var list = [
     latitude: 34.0307,
     longitude: -84.5626,
     updated: '2019-11-11',
-    showDistancesAtZoom: 16
+    showDistancesAtZoom: 16,
+    legend: [
+      {
+        name: 'Paved',
+        width: 6,
+        color: '#555555'
+      }
+    ]
   },
   {
     name: 'Noonday Creek Trail',
@@ -356,7 +363,19 @@ var list = [
     latitude: 34.0230,
     longitude: -84.5492,
     updated: '2019-11-11',
-    showDistancesAtZoom: 15
+    showDistancesAtZoom: 15,
+    legend: [
+      {
+        name: 'Paved',
+        width: 6,
+        color: '#555555'
+      },
+      {
+        name: 'Sidewalk',
+        width: 2,
+        color: '#555555'
+      }
+    ]
   }
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
