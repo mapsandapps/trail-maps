@@ -22,7 +22,7 @@ var list = [
   },
   {
     name: 'Boat Rock',
-    id: 'boat-rock',
+    id: 'boat-rock-preserve',
     latitude: 33.72172061276281,
     longitude: -84.56431835889816,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/9f8d4e3ffe0441a89c9a867dbbd8ca16&map=18/33.72143/-84.56522'
@@ -50,7 +50,7 @@ var list = [
   },
   {
     name: 'Zonolite Park',
-    id: 'zonolite',
+    id: 'zonolite-park',
     latitude: 33.8056,
     longitude: -84.3422,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/54cebccb83945d3df23f4e9eaf0a77fb&map=16/33.8050/-84.3393'
@@ -58,7 +58,7 @@ var list = [
   },
   {
     name: 'Herbert Taylor Park & Daniel Johnson Nature Preserve',
-    id: 'herbert-taylor',
+    id: 'johnson-taylor',
     latitude: 33.7990,
     longitude: -84.3428,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/1568ce472fa849d5b769d5c009a423c7&map=16/33.7983/-84.3444'
@@ -107,21 +107,21 @@ var list = [
   },
   {
     name: 'Kittredge Park',
-    id: 'kittredge-park',
+    id: 'elwyn-john',
     latitude: 33.8239,
     longitude: -84.3276,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/65280af6f625e0111a5f3489a6534670&map=16/33.8266/-84.3287'
   },
   {
-    name: 'Lullwater Park',
-    id: 'lullwater',
+    name: 'Lullwater Preserve',
+    id: 'lullwater-preserve',
     latitude: 33.800743,
     longitude: -84.3157768,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/4d6368f696371eeb7e91060347826cc7&map=16/33.7997/-84.3155'
   },
   {
     name: 'Garrard Landing Park',
-    id: 'garrard-landing',
+    id: 'garrard-landing-park',
     latitude: 33.9743,
     longitude: -84.2653,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/bb3e330ebbea79bb6abd4205cd5b86c5&map=17/33.97439/-84.26641',
@@ -137,7 +137,7 @@ var list = [
   },
   {
     name: 'Big Trees Forest Preserve',
-    id: 'big-trees',
+    id: 'big-trees-forest-preserve',
     latitude: 33.9647,
     longitude: -84.3633,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/44c41aafd99f29c35953fea49da21d28&map=17/33.96370/-84.36414',
@@ -161,7 +161,7 @@ var list = [
   },
   {
     name: 'Intrenchment Creek',
-    id: 'intrenchment-creek',
+    id: 'intrenchment-creek-park',
     latitude: 33.6902,
     longitude: -84.3222,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/c698c5471bdf2ff6676afc9bdeccca98&map=19/33.69039/-84.32282',
@@ -185,7 +185,7 @@ var list = [
   },
   {
     name: 'McDaniel Farm Park',
-    id: 'mcdaniel-farm',
+    id: 'mcdaniel-farm-park',
     latitude: 33.9689,
     longitude: -84.1281,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/5dfaf666089e0dcf4a9de00eacac67d0&map=18/33.96913/-84.12765',
@@ -210,7 +210,7 @@ var list = [
   },
   {
     name: 'Shorty Howell Park',
-    id: 'shorty-howell',
+    id: 'shorty-howell-park',
     latitude: 33.9730,
     longitude: -84.1484,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/3d3e14145ce7a7ae823bcd077700249b&map=17/33.97270/-84.14840',
@@ -226,7 +226,7 @@ var list = [
   },
   {
     name: 'Opelika Wood Duck Heritage Preserve and Siddique Nature Park',
-    id: 'wood-duck-preserve',
+    id: 'siddique-nature-park',
     latitude: 32.653367181795296,
     longitude: -85.4321537911892,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/80468d443250c3c7f877380ce1aefc95&map=16/32.6540/-85.4365',
@@ -265,7 +265,7 @@ var list = [
   },
   {
     name: 'Murphey Candler Park',
-    id: 'murphey-candler',
+    id: 'murphey-candler-park',
     latitude: 33.9095,
     longitude: -84.3257,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/dbc6b6b3a2f80ed632ed7d6cba38b971&map=17/33.91105/-84.32432',
@@ -286,7 +286,7 @@ var list = [
   },
   {
     name: 'Rogers Bridge Trail',
-    id: 'rogers-bridge',
+    id: 'rogers-bridge-trail',
     latitude: 34.0425,
     longitude: -84.1412,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/c1062859ae51f9c42e8f4c921f1999c8&map=16/34.0396/-84.1424',
@@ -351,7 +351,7 @@ var list = [
   },
   {
     name: 'Carters Lake: Tumbling Waters',
-    id: 'carters-lake-tumbling-waters',
+    id: 'carters-lake-tumbling-waters-nature-trail',
     latitude: 34.6503,
     longitude: -84.6091,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/2be446829dc63722c143470ed9623507&map=17/34.65268/-84.60862',
@@ -360,7 +360,7 @@ var list = [
   },
   {
     name: 'Carters Lake: Hidden Pond Songbird Trail',
-    id: 'carters-lake-songbird-trail',
+    id: 'carters-lake-hidden-pond-songbird-trail',
     latitude: 34.6019,
     longitude: -84.6950,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/bb7834eb80a2221fea078e12e92661bc&map=17/34.60000/-84.69685',
@@ -387,7 +387,7 @@ var list = [
   },
   {
     name: 'Noonday Creek Trail',
-    id: 'noonday-creek',
+    id: 'noonday-creek-trail',
     latitude: 34.0230,
     longitude: -84.5492,
     geojsonio: 'http://geojson.io/#id=gist:mapsandapps/0714f808a4da16983926e8f242c6d198&map=19/34.02295/-84.54980',
