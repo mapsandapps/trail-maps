@@ -19,8 +19,8 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#03763a",
-        "stroke-width": 4,
+        "stroke": "#555555",
+        "stroke-width": 6,
         "stroke-opacity": 1
       },
       "geometry": {
@@ -204,8 +204,8 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#03763a",
-        "stroke-width": 4,
+        "stroke": "#555555",
+        "stroke-width": 6,
         "stroke-opacity": 1
       },
       "geometry": {
@@ -297,8 +297,8 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#03763a",
-        "stroke-width": 4,
+        "stroke": "#555555",
+        "stroke-width": 6,
         "stroke-opacity": 1
       },
       "geometry": {
@@ -382,8 +382,8 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#03763a",
-        "stroke-width": 4,
+        "stroke": "#555555",
+        "stroke-width": 6,
         "stroke-opacity": 1
       },
       "geometry": {
@@ -515,8 +515,8 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#03763a",
-        "stroke-width": 4,
+        "stroke": "#555555",
+        "stroke-width": 6,
         "stroke-opacity": 1
       },
       "geometry": {
@@ -597,8 +597,8 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#03763a",
-        "stroke-width": 4,
+        "stroke": "#555555",
+        "stroke-width": 6,
         "stroke-opacity": 1
       },
       "geometry": {
@@ -794,8 +794,8 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#03763a",
-        "stroke-width": 4,
+        "stroke": "#555555",
+        "stroke-width": 6,
         "stroke-opacity": 1
       },
       "geometry": {
@@ -892,8 +892,8 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#03763a",
-        "stroke-width": 4,
+        "stroke": "#555555",
+        "stroke-width": 6,
         "stroke-opacity": 1
       },
       "geometry": {
@@ -1021,8 +1021,8 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#03763a",
-        "stroke-width": 4,
+        "stroke": "#555555",
+        "stroke-width": 6,
         "stroke-opacity": 1
       },
       "geometry": {
@@ -1135,8 +1135,8 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#03763a",
-        "stroke-width": 4,
+        "stroke": "#555555",
+        "stroke-width": 6,
         "stroke-opacity": 1
       },
       "geometry": {
