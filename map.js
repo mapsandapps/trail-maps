@@ -23,7 +23,7 @@ function listParks() {
   document.getElementById('map').innerHTML = listHTML;
 }
 
-function addFullScreenControl() {
+function addFullScreenControl(fullScreen, parkID) {
   var fullScreenControl = L.control({
     position: 'topright'
   });
@@ -31,16 +31,16 @@ function addFullScreenControl() {
   fullScreenControl.onAdd = function() {
     var div = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control full-screen-control');
 
-    var fullScreenValue = getUrlVars()["full-screen"];
-    var oldURL = window.location.href;
-    var newURL = '';
-    if (fullScreenValue) {
-      newURL = oldURL.replace(`full-screen=${fullScreenValue}`, 'full-screen=on');
-    } else {
-      newURL = oldURL + '&full-screen=on';
+    var url = '';
+    if (fullScreen === 'off') {
+      var oldURL = window.location.href;
+      url = oldURL.replace('full-screen=off', 'full-screen=on');
+    }
+    if (fullScreen === 'on') {
+      url = `https://atlnature.com/blog/${parkID}#park-map`;
     }
 
-    div.innerHTML += `<a href="${newURL}" target="_top"><img src="expand.png"></a>`;
+    div.innerHTML += `<a href="${url}" target="_top"><img src="${fullScreen === 'on' ? 'compress' : 'expand'}.png"></a>`;
 
     return div;
   }
@@ -146,8 +146,8 @@ function mapPark(parkID, fullScreen) {
       processGeojson(response);
       drawMap(response);
       addLegend(parkInfo.legend);
-      if (fullScreen === 'off') {
-        addFullScreenControl();
+      if (fullScreen === 'off' || fullScreen === 'on') {
+        addFullScreenControl(fullScreen, parkID);
       }
     });
 }
