@@ -376,7 +376,15 @@ var list = [
         color: '#555555'
       }
     ]
-  }
+  },
+  {
+    name: 'Johnson Ferry South',
+    id: 'johnson-ferry-south',
+    latitude: 33.9373,
+    longitude: -84.4134,
+    updated: '2019-11-24',
+    showDistancesAtZoom: 15
+  },
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
 // chewacla http://geojson.io/#id=gist:mapsandapps/c24de3c2c12ec76fb039a5cd9306ed95&map=15/32.5495/-85.4776
