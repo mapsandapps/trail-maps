@@ -411,6 +411,26 @@ var list = [
       }
     ]
   },
+  {
+    name: 'Peachtree Creek Greenway - area map',
+    id: 'peachtree-creek-greenway-area',
+    latitude: 33.8335,
+    longitude: -84.3384,
+    updated: '2019-12-07',
+    showDistancesAtZoom: 13,
+    legend: [
+      {
+        name: 'Existing',
+        width: 6,
+        color: '#03763A'
+      },
+      {
+        name: 'Planned (approximate paths)',
+        width: 6,
+        color: '#E57B3A'
+      }
+    ]
+  }
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
 // chewacla http://geojson.io/#id=gist:mapsandapps/c24de3c2c12ec76fb039a5cd9306ed95&map=15/32.5495/-85.4776
