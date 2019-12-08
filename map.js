@@ -62,8 +62,9 @@ function addLegend(legendItems) {
       for (var i = 0; i < legendItems.length; i++) {
         var legendItem = legendItems[i];
         var topMargin = 9 - legendItem.width / 2;
+        var dashArray = legendItem.style === 'stairs' ? 'dashed' : 'solid'
         div.innerHTML +=
-          `<div class="line" style="display: inline-block; background: ${legendItem.color}; height: ${legendItem.width}px; margin-top: ${topMargin}px;"></div> ${legendItem.name}<br>`;
+          `<div class="line" style="display: inline-block; border-bottom-color: ${legendItem.color}; border-bottom-width: ${legendItem.width}px; margin-top: ${topMargin}px; border-bottom-style: ${dashArray};"></div> ${legendItem.name}<br>`;
       }
 
       return div;
@@ -175,7 +176,8 @@ function onLocationFound(e) {
 function processLineString(feature) {
   var line = L.geoJSON(feature, {
     color: feature.properties.stroke,
-    weight: feature.properties['stroke-width']
+    weight: feature.properties['stroke-width'],
+    dashArray: feature.properties.style === 'stairs' ? '8' : 'none'
   });
 
   var popupText = feature.properties.name ? feature.properties.name : ''; // TODO: add .surface, etc.
@@ -205,7 +207,14 @@ function addGMapsLinkToPoint(marker) {
 function createPopup(feature, marker) {
   const symbol = feature.properties['marker-symbol'];
 
-  let popupContent = markerList[symbol] && markerList[symbol].name ? markerList[symbol].name + '<br>' : '';
+  let popupContent = ''
+  if (markerList[symbol] && markerList[symbol].name) {
+    if (markerList[symbol].name === 'Bike Parking' && feature.properties.name) {
+      // no-op
+    } else {
+      popupContent += markerList[symbol].name + '<br>';
+    }
+  }
   if (feature.properties.name) {
     popupContent += `${feature.properties.name}<br>`;
   }
@@ -259,16 +268,18 @@ function processPoint(feature) {
   var marker;
   if (symbol === 'miles') {
     var miles = feature.properties.miles || Math.round(feature.properties.yards / 176) / 10;
-    marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates), {
-      opacity: 0
-    });
-    marker.bindTooltip(miles.toString(), {
-      className: 'distance-label',
-      direction: 'center',
-      offset: getTextLabelOffset(feature),
-      pane: 'tilePane',
-      permanent: true
-    });
+    if (miles !== 0) {
+      marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates), {
+        opacity: 0
+      });
+      marker.bindTooltip(miles.toString(), {
+        className: 'distance-label',
+        direction: 'center',
+        offset: getTextLabelOffset(feature),
+        pane: 'tilePane',
+        permanent: true
+      });
+    }
   } else if (markerList[symbol]) {
     if (markerList[symbol].marker) {
       marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates), {
@@ -279,10 +290,12 @@ function processPoint(feature) {
   } else {
     marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates));
   }
-  if (symbol === 'cross' || symbol === 'miles') {
-    marker.addTo(trailsLayer);
-  } else {
-    marker.addTo(poiLayer);
+  if (marker) {
+    if (symbol === 'cross' || symbol === 'miles') {
+      marker.addTo(trailsLayer);
+    } else {
+      marker.addTo(poiLayer);
+    }
   }
 }
 

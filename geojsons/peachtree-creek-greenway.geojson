@@ -1,0 +1,1446 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "name": "Parking"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.33804988861084,
+              33.83370606631849
+            ],
+            [
+              -84.33832213282584,
+              33.833493292447784
+            ],
+            [
+              -84.3381679058075,
+              33.83338077830207
+            ],
+            [
+              -84.33791980147362,
+              33.833586868456166
+            ],
+            [
+              -84.33804988861084,
+              33.83370606631849
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "name": "Parking"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.32312741875648,
+              33.84158612445306
+            ],
+            [
+              -84.32349354028702,
+              33.841239702334555
+            ],
+            [
+              -84.32342648506165,
+              33.84119737413377
+            ],
+            [
+              -84.3230764567852,
+              33.84154379642387
+            ],
+            [
+              -84.32312741875648,
+              33.84158612445306
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "disability",
+        "name": "Accessible parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33819271624088,
+          33.833596894450984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bicycle",
+        "name": "Bike fix station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33832917362452,
+          33.83337242328535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "name": "Parking"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.33542937040329,
+              33.834945937029495
+            ],
+            [
+              -84.33537438511848,
+              33.83491920146266
+            ],
+            [
+              -84.33529660105705,
+              33.83503227057366
+            ],
+            [
+              -84.33535359799862,
+              33.835059563095314
+            ],
+            [
+              -84.33542937040329,
+              33.834945937029495
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "disability",
+        "name": "Accessible parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33538511395454,
+          33.83496877365289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33543272316456,
+          33.834946215524944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bicycle",
+        "name": "Bike fix-it station & racks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33548402041197,
+          33.83496738117602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance",
+        "name": "Note: not an accessible entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33333590626717,
+          33.83729139348108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "roadblock",
+        "name": "Private entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33202564716339,
+          33.838401438651765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "roadblock",
+        "name": "Private entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.32970084249973,
+          33.838696074411736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bicycle",
+        "name": "Bike rack"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.32446517050266,
+          33.83954293770317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "name": "MARTA #39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33666586875916,
+          33.83655785346234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "name": "MARTA #47"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.32147920131683,
+          33.841009124776264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "name": "MARTA #39"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.34008836746216,
+          33.83369715433453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "name": "MARTA #8"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33822691440582,
+          33.83304434898291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+        "name": "Current end of trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33848842978477,
+          33.833401387339855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+        "name": "Current end of trail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.32242333889008,
+          33.841820042131054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.33838047087193,
+            33.83352559846225
+          ],
+          [
+            -84.3383476138115,
+            33.83355901846438
+          ],
+          [
+            -84.33819204568863,
+            33.83366819038025
+          ],
+          [
+            -84.33805525302887,
+            33.83376622218588
+          ],
+          [
+            -84.33797210454941,
+            33.8338241500182
+          ],
+          [
+            -84.3378621339798,
+            33.8338419739587
+          ],
+          [
+            -84.33771729469298,
+            33.83387762182856
+          ],
+          [
+            -84.33756977319717,
+            33.833948917523664
+          ],
+          [
+            -84.33744102716446,
+            33.8340647729014
+          ],
+          [
+            -84.33735519647597,
+            33.83417394417134
+          ],
+          [
+            -84.33725863695145,
+            33.834214047868116
+          ],
+          [
+            -84.33715403079987,
+            33.83423632769154
+          ],
+          [
+            -84.33700382709503,
+            33.83423187172734
+          ],
+          [
+            -84.33673292398453,
+            33.83426529145331
+          ],
+          [
+            -84.33657467365265,
+            33.834298711166234
+          ],
+          [
+            -84.33641910552979,
+            33.8343209909676
+          ],
+          [
+            -84.33625549077988,
+            33.83436555055286
+          ],
+          [
+            -84.33610796928406,
+            33.834483633341534
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 269,
+        "offset": "SE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33737128973007,
+          33.83415612030006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.3361072987318,
+            33.83448419033544
+          ],
+          [
+            -84.33607812970877,
+            33.834520951924794
+          ],
+          [
+            -84.33602347970007,
+            33.834638477505884
+          ],
+          [
+            -84.33599263429642,
+            33.83469417677698
+          ],
+          [
+            -84.33586791157722,
+            33.8348423366614
+          ],
+          [
+            -84.33564394712448,
+            33.835069588917385
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 86,
+        "offset": "SE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33587864041328,
+          33.834828968862794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.33564193546772,
+            33.83507293085781
+          ],
+          [
+            -84.33551922440529,
+            33.83516427717905
+          ],
+          [
+            -84.33545619249344,
+            33.835230558899816
+          ],
+          [
+            -84.33540925383568,
+            33.83533694373914
+          ],
+          [
+            -84.33531537652016,
+            33.83551183789923
+          ],
+          [
+            -84.33519467711449,
+            33.835644400750304
+          ],
+          [
+            -84.3349626660347,
+            33.83585605529642
+          ],
+          [
+            -84.33467298746109,
+            33.83614791491613
+          ],
+          [
+            -84.33437526226044,
+            33.83652889047742
+          ],
+          [
+            -84.33406949043273,
+            33.836918775989524
+          ],
+          [
+            -84.33388710021973,
+            33.83715716225504
+          ],
+          [
+            -84.33379054069519,
+            33.8372485063488
+          ],
+          [
+            -84.33360815048216,
+            33.83732425503543
+          ],
+          [
+            -84.33338418602943,
+            33.837406687353415
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33338351547718,
+          33.837406687353415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3356429412961,
+          33.83507098139259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33610696345568,
+          33.83448391183849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.33338284492493,
+            33.837407522815695
+          ],
+          [
+            -84.33330237865448,
+            33.837428130882586
+          ],
+          [
+            -84.33319240808487,
+            33.83744678953342
+          ],
+          [
+            -84.33309584856033,
+            33.837443447685814
+          ],
+          [
+            -84.33301538228989,
+            33.83744678953342
+          ],
+          [
+            -84.33297246694565,
+            33.837465726667446
+          ],
+          [
+            -84.3329268693924,
+            33.837520310147916
+          ],
+          [
+            -84.33293357491493,
+            33.83762279332315
+          ],
+          [
+            -84.33297649025917,
+            33.8377018835157
+          ],
+          [
+            -84.33297649025917,
+            33.83777540391074
+          ],
+          [
+            -84.33291748166084,
+            33.83791464690984
+          ],
+          [
+            -84.33283567428589,
+            33.838046092092824
+          ],
+          [
+            -84.33265060186386,
+            33.83815080251765
+          ],
+          [
+            -84.33230996131897,
+            33.83820427162128
+          ],
+          [
+            -84.33209538459778,
+            33.83820649949987
+          ],
+          [
+            -84.33198273181915,
+            33.83821318313529
+          ],
+          [
+            -84.33189153671265,
+            33.838259968568664
+          ],
+          [
+            -84.33180034160614,
+            33.83832457698213
+          ],
+          [
+            -84.33164477348328,
+            33.83834239998413
+          ],
+          [
+            -84.33140069246292,
+            33.838317893355416
+          ],
+          [
+            -84.33121293783188,
+            33.83822655040457
+          ],
+          [
+            -84.33111101388931,
+            33.838210955256876
+          ],
+          [
+            -84.3308562040329,
+            33.838233234038434
+          ],
+          [
+            -84.33052092790604,
+            33.83826888007686
+          ],
+          [
+            -84.33043509721756,
+            33.83826442432288
+          ],
+          [
+            -84.33029025793076,
+            33.83823991767177
+          ],
+          [
+            -84.33017492294312,
+            33.83821318313529
+          ],
+          [
+            -84.33008641004562,
+            33.83821763889197
+          ],
+          [
+            -84.3299415707588,
+            33.83828893096693
+          ],
+          [
+            -84.32981550693512,
+            33.838415919828165
+          ],
+          [
+            -84.32969748973846,
+            33.83857187080313
+          ],
+          [
+            -84.32960093021393,
+            33.838683264182436
+          ],
+          [
+            -84.32934880256653,
+            33.83886149328732
+          ],
+          [
+            -84.32908594608307,
+            33.839008532019044
+          ],
+          [
+            -84.32897865772247,
+            33.83916448191262
+          ],
+          [
+            -84.32888746261597,
+            33.83936053280364
+          ],
+          [
+            -84.32878017425537,
+            33.8394674694637
+          ],
+          [
+            -84.3284797668457,
+            33.83960559578494
+          ],
+          [
+            -84.32812571525574,
+            33.8397570889128
+          ],
+          [
+            -84.32787358760834,
+            33.839837291048234
+          ],
+          [
+            -84.3277233839035,
+            33.83996650544149
+          ],
+          [
+            -84.32757318019867,
+            33.84011354227197
+          ],
+          [
+            -84.32737201452255,
+            33.840229389293576
+          ],
+          [
+            -84.32725936174393,
+            33.840276173623174
+          ],
+          [
+            -84.32714939117432,
+            33.84028731274549
+          ],
+          [
+            -84.32695627212524,
+            33.84025389537417
+          ],
+          [
+            -84.32669073343277,
+            33.84023607277081
+          ],
+          [
+            -84.32647347450256,
+            33.840211566685106
+          ],
+          [
+            -84.32630985975266,
+            33.840155871009614
+          ],
+          [
+            -84.32618647813797,
+            33.84006007436288
+          ],
+          [
+            -84.3259209394455,
+            33.839810557011454
+          ],
+          [
+            -84.32563126087187,
+            33.83953876049608
+          ],
+          [
+            -84.32549178600311,
+            33.83947192515499
+          ],
+          [
+            -84.32531476020813,
+            33.839436279618354
+          ],
+          [
+            -84.32513236999512,
+            33.83942736823185
+          ],
+          [
+            -84.32492852210999,
+            33.839436279618354
+          ],
+          [
+            -84.32463884353638,
+            33.83945410238853
+          ],
+          [
+            -84.32445645332336,
+            33.83950311498733
+          ],
+          [
+            -84.32430088520049,
+            33.839583317361125
+          ],
+          [
+            -84.32411849498749,
+            33.839783822966325
+          ],
+          [
+            -84.32387709617613,
+            33.840144731870154
+          ],
+          [
+            -84.32377517223358,
+            33.84038088131563
+          ],
+          [
+            -84.32376444339752,
+            33.84069723143694
+          ],
+          [
+            -84.32366788387299,
+            33.840860975582046
+          ],
+          [
+            -84.32357266545296,
+            33.84099130233041
+          ],
+          [
+            -84.3234747648239,
+            33.84105256697249
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.32347375899553,
+          33.84105284544804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 1346,
+        "offset": "S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33012396097183,
+          33.8382087273784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.32261344045399,
+          33.84178773925172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.3234720826149,
+            33.84105368087467
+          ],
+          [
+            -84.32332523167132,
+            33.84116340016798
+          ],
+          [
+            -84.32304427027702,
+            33.84144131795057
+          ],
+          [
+            -84.3230040371418,
+            33.84148364603052
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.32300370186567,
+          33.84148364603052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 70,
+        "offset": "SE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.32319447398184,
+          33.84129316950558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.32300202548502,
+            33.84148475992708
+          ],
+          [
+            -84.32291485369205,
+            33.84156830212753
+          ],
+          [
+            -84.32278208434582,
+            33.84165685677086
+          ],
+          [
+            -84.32261310517788,
+            33.84178773925172
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 54,
+        "offset": "SE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3228068947792,
+          33.84164181919639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.32261276990175,
+            33.84178829619804
+          ],
+          [
+            -84.32258192449808,
+            33.841799992069475
+          ],
+          [
+            -84.32250380516052,
+            33.841820042131054
+          ],
+          [
+            -84.32242266833782,
+            33.841820042131054
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.32261310517788,
+            33.84178941009063
+          ],
+          [
+            -84.32249642908573,
+            33.841870167264474
+          ],
+          [
+            -84.32235360145569,
+            33.84200717581244
+          ],
+          [
+            -84.3222865462303,
+            33.84213750081272
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3222865462303,
+          33.84213750081272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bicycle",
+        "name": "Bike repair station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3230352178216,
+          33.84154602421541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.32300269603729,
+            33.84148392450467
+          ],
+          [
+            -84.32307612150908,
+            33.84154045473646
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3230764567852,
+          33.84154045473646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "disability",
+        "name": "Accessible parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.32314351201057,
+          33.84151205038821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "style": "stairs"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.32347275316715,
+            33.84105340239915
+          ],
+          [
+            -84.3234710767865,
+            33.84109740152365
+          ],
+          [
+            -84.32347878813744,
+            33.84118484275451
+          ],
+          [
+            -84.32347744703293,
+            33.84122800638643
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.33610528707503,
+            33.834485304323216
+          ],
+          [
+            -84.33600135147572,
+            33.83451148303207
+          ],
+          [
+            -84.33592289686202,
+            33.83456941035932
+          ],
+          [
+            -84.33583036065102,
+            33.83466966910216
+          ],
+          [
+            -84.33568283915518,
+            33.83479332138971
+          ],
+          [
+            -84.33550514280796,
+            33.83493201225615
+          ],
+          [
+            -84.33545753359795,
+            33.83496487471761
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 89,
+        "offset": "SE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33571636676788,
+          33.834762129838545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "style": "stairs"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.33545552194118,
+            33.8349665456899
+          ],
+          [
+            -84.33552257716656,
+            33.83501333290047
+          ],
+          [
+            -84.33564059436321,
+            33.835071816877694
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "style": "stairs"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.33835566043854,
+            33.83317134563645
+          ],
+          [
+            -84.33830134570599,
+            33.833301684110985
+          ],
+          [
+            -84.33829262852669,
+            33.83340250134175
+          ],
+          [
+            -84.33832816779613,
+            33.83348493744205
+          ],
+          [
+            -84.33838047087193,
+            33.83352504146212
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.33838047087193,
+            33.83352531996218
+          ],
+          [
+            -84.33843679726124,
+            33.83347268343216
+          ],
+          [
+            -84.33846227824688,
+            33.833445668904176
+          ],
+          [
+            -84.33848842978477,
+            33.833401387339855
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.33338284492493,
+            33.83740780130313
+          ],
+          [
+            -84.33333590626717,
+            33.8372930644079
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "camera",
+        "name": "Overlook"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33292083442211,
+          33.83790684930789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33837980031967,
+          33.833521142460974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 371,
+        "offset": "SE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33449864387512,
+          33.836361796142064
+        ]
+      }
+    }
+  ]
+}

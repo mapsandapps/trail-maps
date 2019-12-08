@@ -177,7 +177,7 @@ var markerList = {
     })
   },
   disability: {
-    name: 'Accessible',
+    name: 'Accessibility',
     maki: 'disability',
     linkOut: false,
     marker: L.icon({
@@ -303,6 +303,18 @@ var markerList = {
     marker: L.icon({
       iconUrl: 'markers/gym.png',
       iconRetinaUrl: 'markers/gym-retina.png',
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46]
+    })
+  },
+  circle: {
+    name: 'Info',
+    maki: 'circle',
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: 'markers/info.png',
+      iconRetinaUrl: 'markers/info-retina.png',
       iconSize: [30, 41],
       iconAnchor: [15, 41],
       popupAnchor: [0, -46]
