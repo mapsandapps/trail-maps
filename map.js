@@ -23,7 +23,7 @@ function listParks() {
   document.getElementById('map').innerHTML = listHTML;
 }
 
-function addFullScreenControl(fullScreen, parkID) {
+function addFullScreenControl(fullScreen, parkInfo) {
   var fullScreenControl = L.control({
     position: 'topright'
   });
@@ -37,7 +37,7 @@ function addFullScreenControl(fullScreen, parkID) {
       url = oldURL.replace('full-screen=off', 'full-screen=on');
     }
     if (fullScreen === 'on') {
-      url = `https://atlnature.com/blog/${parkID}#park-map`;
+      url = `https://atlnature.com/blog/${parkInfo.id}#park-map`;
     }
 
     div.innerHTML += `<a href="${url}" target="_top"><img src="${fullScreen === 'on' ? 'compress' : 'expand'}.png"></a>`;
@@ -77,13 +77,11 @@ function addLegend(legendItems) {
 function drawMap(file) {
   const mapSettings = {
     maxZoom: 18,
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-      '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-      'Imagery © <a href="http://mapbox.com">Mapbox</a>'
+    attribution: '© <a href="https://apps.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   };
 
   function constructTileURL(name) {
-    return `https://api.tiles.mapbox.com/v4/mapbox.${ name }/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwc2FuZGFwcHMiLCJhIjoiY2pjYmNncHo2MHA2djJ3cW8ycWNzZHBwOSJ9.9c-NcWYyKKsbvtHF9tuQBA`;
+    return `https://api.mapbox.com/styles/v1/mapbox/${ name }/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwc2FuZGFwcHMiLCJhIjoiY2pjYmNncHo2MHA2djJ3cW8ycWNzZHBwOSJ9.9c-NcWYyKKsbvtHF9tuQBA`;
   }
 
   map = L.map('map', {
@@ -94,14 +92,16 @@ function drawMap(file) {
     watch: true,
     setView: false
   }).on('locationfound', onLocationFound);
-  var streets = L.tileLayer(constructTileURL('streets'), mapSettings).addTo(map);
-  var satellite = L.tileLayer(constructTileURL('satellite'), mapSettings);
-  var outdoors = L.tileLayer(constructTileURL('outdoors'), mapSettings);
+  var outdoors = L.tileLayer(constructTileURL('outdoors-v11'), mapSettings).addTo(map);
+  var streets = L.tileLayer(constructTileURL('streets-v11'), mapSettings);
+  var satellite = L.tileLayer(constructTileURL('satellite-v9'), mapSettings);
+  var satelliteStreets = L.tileLayer(constructTileURL('satellite-streets-v11'), mapSettings);
 
   var tileLayers = {
+    "Outdoors": outdoors,
     "Streets": streets,
     "Satellite": satellite,
-    "Outdoors": outdoors
+    "Satellite + Streets": satelliteStreets,
   };
 
   var dataLayers = {
@@ -148,7 +148,7 @@ function mapPark(parkID, fullScreen) {
       drawMap(response);
       addLegend(parkInfo.legend);
       if (fullScreen === 'off' || fullScreen === 'on') {
-        addFullScreenControl(fullScreen, parkID);
+        addFullScreenControl(fullScreen, parkInfo);
       }
     });
 }
