@@ -47,7 +47,8 @@ var list = [
     name: 'Zonolite Park',
     id: 'zonolite-park',
     latitude: 33.8056,
-    longitude: -84.3422
+    longitude: -84.3422,
+    geojsonio: 'http://geojson.io/#id=gist:mapsandapps/485d26ca083a7caccb5a2611092924f7&map=16/33.8026/-84.3415'
   },
   {
     name: 'Herbert Taylor Park & Daniel Johnson Nature Preserve',
