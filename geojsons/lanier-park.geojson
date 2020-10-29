@@ -1,0 +1,1788 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "harbor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05809164047241,
+          34.15107776695445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "name": "Connection to East Bank Park (steep and rocky)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05938446521759,
+            34.151006736862
+          ],
+          [
+            -84.05933082103729,
+            34.15098453994586
+          ],
+          [
+            -84.05930399894714,
+            34.15093792640299
+          ],
+          [
+            -84.05926644802094,
+            34.15085579771724
+          ],
+          [
+            -84.05920475721359,
+            34.15078698713526
+          ],
+          [
+            -84.0591162443161,
+            34.15070707800197
+          ],
+          [
+            -84.05905723571777,
+            34.15065158550382
+          ],
+          [
+            -84.05899554491043,
+            34.1506360475978
+          ],
+          [
+            -84.05888020992279,
+            34.15065158550382
+          ],
+          [
+            -84.05879169702528,
+            34.1506804416074
+          ],
+          [
+            -84.05856639146805,
+            34.15067156280734
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 0,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.05824720859528,
+              34.15096456271636
+            ],
+            [
+              -84.05837595462799,
+              34.15093792640299
+            ],
+            [
+              -84.05898213386536,
+              34.15008112050901
+            ],
+            [
+              -84.05883997678757,
+              34.15010109794745
+            ],
+            [
+              -84.0588641166687,
+              34.15002340788248
+            ],
+            [
+              -84.05885338783263,
+              34.14995459662237
+            ],
+            [
+              -84.05879437923431,
+              34.14990132335026
+            ],
+            [
+              -84.05873000621796,
+              34.149881345864536
+            ],
+            [
+              -84.05863881111145,
+              34.149892444468286
+            ],
+            [
+              -84.05857712030411,
+              34.14993905858813
+            ],
+            [
+              -84.05838936567305,
+              34.14997901352754
+            ],
+            [
+              -84.05788779258728,
+              34.15084025984878
+            ],
+            [
+              -84.0579655766487,
+              34.15090019161133
+            ],
+            [
+              -84.05824720859528,
+              34.15096456271636
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05840814113617,
+          34.150456251620284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05856505036354,
+          34.15067156280734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 0,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.05665129423141,
+              34.151770307225284
+            ],
+            [
+              -84.05612960457802,
+              34.151384083543824
+            ],
+            [
+              -84.05607327818869,
+              34.15142736732013
+            ],
+            [
+              -84.05660569667816,
+              34.151809151463326
+            ],
+            [
+              -84.05665129423141,
+              34.151770307225284
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 0,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.05699595808983,
+              34.151509495450114
+            ],
+            [
+              -84.0565051138401,
+              34.1511532363622
+            ],
+            [
+              -84.05631601810454,
+              34.15131749307542
+            ],
+            [
+              -84.05686184763908,
+              34.15167153179666
+            ],
+            [
+              -84.05693426728249,
+              34.151644895706255
+            ],
+            [
+              -84.05699327588081,
+              34.15159717268991
+            ],
+            [
+              -84.05699595808983,
+              34.151509495450114
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 0,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.05690208077431,
+              34.15200004288775
+            ],
+            [
+              -84.05688598752022,
+              34.1519456610724
+            ],
+            [
+              -84.05683502554893,
+              34.151956759404925
+            ],
+            [
+              -84.05680283904076,
+              34.151961198737524
+            ],
+            [
+              -84.05676394701004,
+              34.15195897907124
+            ],
+            [
+              -84.05672237277031,
+              34.15194788073903
+            ],
+            [
+              -84.05671298503876,
+              34.15200448221807
+            ],
+            [
+              -84.0567921102047,
+              34.15201669037524
+            ],
+            [
+              -84.05690208077431,
+              34.15200004288775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05652791261673,
+          34.15152170367884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "toilets",
+        "name": "Mens & Womens restrooms"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05608266592026,
+          34.15165377440398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05608400702477,
+          34.15170482689786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.056126922369,
+              34.15181525555624
+            ],
+            [
+              -84.05610680580139,
+              34.151722029361686
+            ],
+            [
+              -84.05604109168053,
+              34.151726468706606
+            ],
+            [
+              -84.05606590211391,
+              34.15182857357565
+            ],
+            [
+              -84.056126922369,
+              34.15181525555624
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "disability",
+        "name": "Accessible parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05607797205448,
+          34.15174422608402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "disability",
+        "name": "Accessible parking with curb cut to sidewalk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05574403703213,
+          34.15174200641203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 0,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.05597001314163,
+              34.15187352187558
+            ],
+            [
+              -84.0558747947216,
+              34.151723694116065
+            ],
+            [
+              -84.05579969286919,
+              34.15170815640726
+            ],
+            [
+              -84.05571922659874,
+              34.15172591378852
+            ],
+            [
+              -84.05544564127922,
+              34.152163188123694
+            ],
+            [
+              -84.05529409646988,
+              34.15263153528138
+            ],
+            [
+              -84.05536383390427,
+              34.15265151211662
+            ],
+            [
+              -84.05530750751494,
+              34.15280244805232
+            ],
+            [
+              -84.05553013086318,
+              34.152862378422554
+            ],
+            [
+              -84.05572593212128,
+              34.15224642536755
+            ],
+            [
+              -84.05597001314163,
+              34.15187352187558
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05555427074432,
+          34.1522874890443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "disability",
+        "name": "Accessible parking with curb cuts to sidewalk & trails"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0553618222475,
+          34.15279134983095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05593179166317,
+          34.152036667355915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.0559311211109,
+            34.15203888702014
+          ],
+          [
+            -84.05602097511292,
+            34.15212767354134
+          ],
+          [
+            -84.05605584383011,
+            34.152260853148135
+          ],
+          [
+            -84.05605584383011,
+            34.15245618285826
+          ],
+          [
+            -84.05599147081375,
+            34.152820205203476
+          ],
+          [
+            -84.05602231621742,
+            34.153095440569224
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05602499842644,
+          34.15309766020562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05602097511292,
+            34.15309877002381
+          ],
+          [
+            -84.05581310391426,
+            34.153035510364376
+          ],
+          [
+            -84.0556401014328,
+            34.1529589328185
+          ],
+          [
+            -84.0555864572525,
+            34.15289567305431
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0555864572525,
+          34.15289456323347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 51,
+        "offset": "NE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05579164624213,
+          34.153024412173615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 133,
+        "offset": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05603975057602,
+          34.15255606719453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05602365732193,
+            34.15310320929637
+          ],
+          [
+            -84.0559633076191,
+            34.15320642231779
+          ],
+          [
+            -84.05579566955566,
+            34.15336956522342
+          ],
+          [
+            -84.05569642782211,
+            34.15351939006321
+          ],
+          [
+            -84.05566290020943,
+            34.153665885205136
+          ],
+          [
+            -84.05567228794098,
+            34.15377908582258
+          ],
+          [
+            -84.05567899346352,
+            34.15391781186254
+          ],
+          [
+            -84.05566155910492,
+            34.153995498345374
+          ],
+          [
+            -84.0555703639984,
+            34.15415752992248
+          ],
+          [
+            -84.05547514557838,
+            34.15423410638158
+          ],
+          [
+            -84.05538395047188,
+            34.15426740047256
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05538126826286,
+          34.15426740047256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05539736151695,
+            34.15285849404799
+          ],
+          [
+            -84.05539400875568,
+            34.153035510364376
+          ],
+          [
+            -84.05540138483047,
+            34.15317923180289
+          ],
+          [
+            -84.0553866326809,
+            34.153433934446404
+          ],
+          [
+            -84.05539065599442,
+            34.15380017219533
+          ],
+          [
+            -84.05537590384483,
+            34.153938898200664
+          ],
+          [
+            -84.0553517639637,
+            34.15410869852102
+          ],
+          [
+            -84.05536249279976,
+            34.15422078874151
+          ],
+          [
+            -84.05537992715836,
+            34.15426740047256
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05539870262146,
+          34.15285349985187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 172,
+        "offset": "E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05538797378539,
+          34.153528268563896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05537992715836,
+            34.15426962007817
+          ],
+          [
+            -84.0554590523243,
+            34.1544272119266
+          ],
+          [
+            -84.0555328130722,
+            34.154549289916936
+          ],
+          [
+            -84.05559718608856,
+            34.15465028157555
+          ],
+          [
+            -84.05559986829758,
+            34.15475349270627
+          ],
+          [
+            -84.05553549528122,
+            34.15485559391579
+          ],
+          [
+            -84.055315554142,
+            34.155055356794776
+          ],
+          [
+            -84.05514389276505,
+            34.15522515487038
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05514255166054,
+          34.155224045080146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 138,
+        "offset": "NW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05555158853531,
+          34.154833398011164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05537456274033,
+            34.15427294948647
+          ],
+          [
+            -84.05530884861945,
+            34.15458036428629
+          ],
+          [
+            -84.05525654554367,
+            34.15491774241766
+          ],
+          [
+            -84.05514121055603,
+            34.155226264660584
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 119,
+        "offset": "E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05528604984283,
+          34.154715759619336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05513718724251,
+            34.155227374450796
+          ],
+          [
+            -84.05501782894135,
+            34.155248460461955
+          ],
+          [
+            -84.05496820807457,
+            34.155319486987096
+          ],
+          [
+            -84.05498027801514,
+            34.15539162324053
+          ],
+          [
+            -84.0549387037754,
+            34.15549816282521
+          ],
+          [
+            -84.05485555529594,
+            34.1555669695689
+          ],
+          [
+            -84.0545953810215,
+            34.155697924184224
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 87,
+        "offset": "SE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05487030744553,
+          34.15554810320927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05459135770798,
+            34.15570014375223
+          ],
+          [
+            -84.05449882149696,
+            34.155786706858805
+          ],
+          [
+            -84.05443176627159,
+            34.15586994053143
+          ],
+          [
+            -84.05433654785156,
+            34.155916551352256
+          ],
+          [
+            -84.05420243740082,
+            34.15593208828681
+          ],
+          [
+            -84.05408576130867,
+            34.15594207631466
+          ],
+          [
+            -84.05396103858948,
+            34.155898794852114
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05395701527596,
+          34.15589657528933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 76,
+        "offset": "N"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05431509017944,
+          34.155918770914504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05459403991699,
+          34.155697924184224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05459135770798,
+            34.15570014375223
+          ],
+          [
+            -84.05463427305222,
+            34.155792255772845
+          ],
+          [
+            -84.05469596385956,
+            34.15588880681913
+          ],
+          [
+            -84.05478447675704,
+            34.155960942586276
+          ],
+          [
+            -84.0548850595951,
+            34.15599201643621
+          ],
+          [
+            -84.05502319335938,
+            34.15600422401696
+          ],
+          [
+            -84.05523508787155,
+            34.15597315017153
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 84,
+        "offset": "NE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05483946204185,
+          34.15597536973231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05523777008057,
+          34.15597204039113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05513852834702,
+            34.155226264660584
+          ],
+          [
+            -84.05513718724251,
+            34.15533613382028
+          ],
+          [
+            -84.05516400933266,
+            34.155440453900184
+          ],
+          [
+            -84.05521899461746,
+            34.1554959432519
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 35,
+        "offset": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05514925718307,
+          34.15537830578301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05522167682648,
+          34.15549483346523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05521899461746,
+            34.15549483346523
+          ],
+          [
+            -84.05524045228958,
+            34.15569459483213
+          ],
+          [
+            -84.05524179339409,
+            34.15588325791143
+          ],
+          [
+            -84.05523642897606,
+            34.15597425995192
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 58,
+        "offset": "E"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05523911118507,
+          34.155754523150044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05523374676704,
+            34.15597425995192
+          ],
+          [
+            -84.05528739094733,
+            34.15610632371435
+          ],
+          [
+            -84.05534505844116,
+            34.156238387270214
+          ],
+          [
+            -84.05538395047188,
+            34.1562972054261
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05538395047188,
+          34.156298315202235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 42,
+        "offset": "NE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05530750751494,
+          34.1561507148486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05538260936737,
+            34.156301644530544
+          ],
+          [
+            -84.05548587441444,
+            34.156321620497664
+          ],
+          [
+            -84.05562669038773,
+            34.15631163251468
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05562870204449,
+          34.15631163251468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 25,
+        "offset": "S"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05550867319106,
+          34.156319955833915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05538462102413,
+            34.15629997986642
+          ],
+          [
+            -84.05543021857738,
+            34.156410402516485
+          ],
+          [
+            -84.05547715723515,
+            34.15651083706279
+          ],
+          [
+            -84.0555126965046,
+            34.15653303252651
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 32,
+        "offset": "NE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05543960630892,
+          34.156428713796274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05551470816135,
+            34.15653414229954
+          ],
+          [
+            -84.0555603057146,
+            34.15653747161856
+          ],
+          [
+            -84.05558578670025,
+            34.15651916036236
+          ],
+          [
+            -84.05562400817871,
+            34.15643426266813
+          ],
+          [
+            -84.05563272535801,
+            34.15636989573196
+          ],
+          [
+            -84.05562870204449,
+            34.15631163251468
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 34,
+        "offset": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05561931431292,
+          34.156443140862386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0555140376091,
+          34.15653303252651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05551135540009,
+            34.15653469718605
+          ],
+          [
+            -84.05551873147486,
+            34.156686181067236
+          ],
+          [
+            -84.05553080141544,
+            34.156901476372205
+          ],
+          [
+            -84.05555024743079,
+            34.15708070374606
+          ],
+          [
+            -84.05549928545952,
+            34.157206107193225
+          ],
+          [
+            -84.05540406703949,
+            34.1573359495042
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05540272593498,
+          34.1573370592667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 101,
+        "offset": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0555328130722,
+          34.15694198290173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.05562937259673,
+            34.15631163251468
+          ],
+          [
+            -84.05567362904549,
+            34.15613739751077
+          ],
+          [
+            -84.05568838119507,
+            34.15595539368331
+          ],
+          [
+            -84.05569642782211,
+            34.15578004816145
+          ],
+          [
+            -84.05566960573195,
+            34.155697924184224
+          ],
+          [
+            -84.05559584498405,
+            34.1556413251805
+          ],
+          [
+            -84.05535444617271,
+            34.15556364021161
+          ],
+          [
+            -84.05521899461746,
+            34.1554959432519
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 128,
+        "offset": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05569642782211,
+          34.15580335359988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 0,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.05801385641098,
+              34.149535068694874
+            ],
+            [
+              -84.05805006623268,
+              34.14949400367995
+            ],
+            [
+              -84.05796021223068,
+              34.14944405971598
+            ],
+            [
+              -84.05789248645306,
+              34.14941908772291
+            ],
+            [
+              -84.05783012509346,
+              34.149411318656895
+            ],
+            [
+              -84.05767120420933,
+              34.149422972255664
+            ],
+            [
+              -84.05746936798096,
+              34.14948401488951
+            ],
+            [
+              -84.05739024281502,
+              34.14951398125727
+            ],
+            [
+              -84.05741304159164,
+              34.14956170545062
+            ],
+            [
+              -84.05765108764172,
+              34.14949233888163
+            ],
+            [
+              -84.0578381717205,
+              34.14947125143336
+            ],
+            [
+              -84.05801385641098,
+              34.149535068694874
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05771479010582,
+          34.14944516958217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "disability",
+        "name": "Accessible parking with curb cut in sidewalk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05801050364971,
+          34.14949844314199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "toilets",
+        "name": "Mens & womens restroom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05783079564571,
+          34.149348056235624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "disability",
+        "name": "Accessible parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05799843370914,
+          34.15070152875379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0593871474266,
+          34.151006736862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "miles",
+        "yards": 164,
+        "offset": "W"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.05566692352295,
+          34.15363703012152
+        ]
+      }
+    }
+  ]
+}
