@@ -100,7 +100,7 @@ function drawMap(file) {
     dragging: !L.Browser.mobile
   })
     .on('mousedown', () => requestLocation(map))
-    .on('touchstart', () => requestLocation(map));
+    .on('click', () => requestLocation(map));
   var outdoors = L.tileLayer(constructTileURL('outdoors-v11'), mapSettings).addTo(map);
   var streets = L.tileLayer(constructTileURL('streets-v11'), mapSettings);
   var satellite = L.tileLayer(constructTileURL('satellite-v9'), mapSettings);
