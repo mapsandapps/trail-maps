@@ -74,6 +74,16 @@ function addLegend(legendItems) {
   }
 }
 
+function requestLocation(map) {
+  if (map) {
+    map.locate({
+      watch: true,
+      setView: false
+    })
+      .on('locationfound', onLocationFound);
+  }
+};
+
 function drawMap(file) {
   const mapSettings = {
     maxZoom: 18,
@@ -88,10 +98,9 @@ function drawMap(file) {
     center: [33.7530, -84.3984],
     zoom: 11,
     dragging: !L.Browser.mobile
-  }).locate({
-    watch: true,
-    setView: false
-  }).on('locationfound', onLocationFound);
+  })
+    .on('mousedown', () => requestLocation(map))
+    .on('touchstart', () => requestLocation(map));
   var outdoors = L.tileLayer(constructTileURL('outdoors-v11'), mapSettings).addTo(map);
   var streets = L.tileLayer(constructTileURL('streets-v11'), mapSettings);
   var satellite = L.tileLayer(constructTileURL('satellite-v9'), mapSettings);
