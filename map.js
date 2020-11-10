@@ -74,13 +74,12 @@ function addLegend(legendItems) {
   }
 }
 
-function requestLocation(map) {
+function requestLocation() {
   if (map) {
     map.locate({
       watch: true,
       setView: false
-    })
-      .on('locationfound', onLocationFound);
+    }).on('locationfound', onLocationFound);
   }
 };
 
@@ -98,9 +97,7 @@ function drawMap(file) {
     center: [33.7530, -84.3984],
     zoom: 11,
     dragging: !L.Browser.mobile
-  })
-    .on('mousedown', () => requestLocation(map))
-    .on('click', () => requestLocation(map));
+  });
   var outdoors = L.tileLayer(constructTileURL('outdoors-v11'), mapSettings).addTo(map);
   var streets = L.tileLayer(constructTileURL('streets-v11'), mapSettings);
   var satellite = L.tileLayer(constructTileURL('satellite-v9'), mapSettings);
@@ -140,6 +137,23 @@ function drawMap(file) {
     }
   });
 
+  var geolocationControl = L.Control.extend({
+    onAdd: function() {
+      var div = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control geolocation-control');
+
+      div.innerHTML += `<span><img src="geolocation.png" onclick="requestLocation()"></span>`;
+
+      return div;
+    },
+    onRemove: function() {}
+  });
+
+  L.control.geolocation = function() {
+    return new geolocationControl();
+  }
+
+  L.control.geolocation({ position: 'topright' }).addTo(map);
+
   map.on('zoomend', showOrHideDistanceLabels);
   showOrHideDistanceLabels();
 }
@@ -164,7 +178,6 @@ function mapPark(parkID, fullScreen) {
 
 var geolocationDot;
 var geolocationAccuracy;
-// TODO: should i make geolocation accessible via a button instead of by default?
 function onLocationFound(e) {
   console.log('location found');
   if (geolocationDot) {
