@@ -1,5 +1,12 @@
 # trail-maps
 
+To run in localhost:
+
+```
+cd /trail-maps
+http-server -p 8084
+```
+
 To create a new map:
 
 1. Import GPS track into geojson.io
@@ -12,6 +19,11 @@ To create a new map:
 1. Save the geojson from geojson.io to the geojsons folder ([example of geojson.io finished map](http://geojson.io/#id=gist:anonymous/ac4e24e1b474df5dac41080189200dc1&map=16/33.8282/-84.2443))
 1. Add info about the trail to list.js
 1. Push the changes to github master branch to update [the site](https://mapsandapps.github.io/trail-maps/)
+
+To edit an existing map:
+
+1. Open the existing map from `geojsons` in geojson.io
+1. Follow steps for creating a new map
 
 Trail colors & widths:
 

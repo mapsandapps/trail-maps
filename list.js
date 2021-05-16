@@ -25,8 +25,8 @@ var list = [
     longitude: -84.56431835889816
   },
   {
-    name: 'UMCH',
-    id: 'umch',
+    name: 'Legacy Park',
+    id: 'legacy-park',
     latitude: 33.76676536958019,
     longitude: -84.2778691649437
   },
