@@ -451,6 +451,26 @@ var list = [
         color: '#03763A'
       }
     ]
+  },
+  {
+    name: 'Blue Heron Nature Preserve',
+    id: 'blue-heron',
+    latitude: 33.8662,
+    longitude: -84.3800,
+    updated: '2021-05-31',
+    showDistancesAtZoom: 13,
+    legend: [
+      {
+        name: 'Sidewalk',
+        width: 4,
+        color: '#555555'
+      },
+      {
+        name: 'Unpaved',
+        width: 4,
+        color: '#03763A'
+      }
+    ]
   }
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593

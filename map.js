@@ -20,6 +20,20 @@ function listParks() {
   list.forEach(park => {
     listHTML += `<a href="?park=${ park.id }">${ park.name }</a><br>`;
   });
+
+  listHTML += "<br><br><h1>Map markers</h1><table><thead><th>Icon</th><th>Name</th><th>Geojson.io name</th><th>Description</th></thead><tbody>"
+  for (const property in markerList) {
+    const icon = markerList[property]
+    listHTML += `<tr><td><img src="${icon.marker.options.iconUrl}"></td><td>${icon.name}</td><td>${icon.maki}</td><td>${icon.description}</td></tr>`
+  }
+  listHTML += "</tbody></table><br><br>"
+
+  listHTML += "<h1>Default trail markings</h1><table><thead><th>Example</th><th>Type</th><th>Color</th><th>Width</th></thead><tbody>"
+  defaultLegend.forEach(item => {
+    listHTML += `<tr><th class="legend" style="box-shadow: none">${getLegendLine(item)}</th><th>${item.name}</th><th>${item.color}</th><th>${item.width}</th></tr>`
+  })
+  listHTML += "</tbody></table>"
+
   document.getElementById('map').innerHTML = listHTML;
 }
 
@@ -48,6 +62,12 @@ function addFullScreenControl(fullScreen, parkInfo) {
   fullScreenControl.addTo(map);
 }
 
+function getLegendLine(legendItem) {
+  var topMargin = 9 - legendItem.width / 2;
+  var dashArray = legendItem.style === 'stairs' ? 'dashed' : 'solid'
+  return `<div class="line" style="display: inline-block; border-bottom-color: ${legendItem.color}; border-bottom-width: ${legendItem.width}px; margin-top: ${topMargin}px; border-bottom-style: ${dashArray};"></div> `;
+}
+
 function addLegend(legendItems) {
   if (legendItems) {
     var legend = L.control({
@@ -61,10 +81,7 @@ function addLegend(legendItems) {
 
       for (var i = 0; i < legendItems.length; i++) {
         var legendItem = legendItems[i];
-        var topMargin = 9 - legendItem.width / 2;
-        var dashArray = legendItem.style === 'stairs' ? 'dashed' : 'solid'
-        div.innerHTML +=
-          `<div class="line" style="display: inline-block; border-bottom-color: ${legendItem.color}; border-bottom-width: ${legendItem.width}px; margin-top: ${topMargin}px; border-bottom-style: ${dashArray};"></div> ${legendItem.name}<br>`;
+        div.innerHTML += getLegendLine(legendItem) + `${legendItem.name}<br>`
       }
 
       return div;
@@ -245,9 +262,7 @@ function createPopup(feature, marker) {
     popupContent += `<a href="${feature.properties.trailhead}">Photo of trailhead</a><br>`;
   }
 
-  if (symbol === 'attraction') {
-    // TODO: display photo
-  } else if (markerList[symbol] && markerList[symbol].linkOut) {
+  if (markerList[symbol] && markerList[symbol].linkOut) {
     popupContent += addGMapsLinkToPoint(marker);
   } else {
     // TODO: possibly display a popup if the marker isn't a photo or navigable point

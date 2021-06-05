@@ -2,6 +2,7 @@ var markerList = {
   entrance: {
     name: 'Trailhead',
     maki: 'entrance',
+    description: '',
     linkOut: true,
     marker: L.icon({
       iconUrl: 'markers/trailhead.png',
@@ -18,6 +19,7 @@ var markerList = {
   farm: {
     name: 'Farm',
     maki: 'farm',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/barn.png',
@@ -30,6 +32,7 @@ var markerList = {
   parking: {
     name: 'Parking',
     maki: 'parking',
+    description: '',
     linkOut: true,
     marker: L.icon({
       iconUrl: 'markers/parking.png',
@@ -39,14 +42,10 @@ var markerList = {
       popupAnchor: [0, -46]
     })
   },
-  attraction: {
-    name: 'Photo',
-    maki: 'attraction',
-    linkOut: false
-  },
   bus: {
     name: 'Bus Stop',
     maki: 'bus',
+    description: '',
     linkOut: true,
     marker: L.icon({
       iconUrl: 'markers/bus.png',
@@ -59,6 +58,7 @@ var markerList = {
   rail: {
     name: 'Rail Station',
     maki: 'rail',
+    description: '',
     linkOut: true,
     marker: L.icon({
       iconUrl: 'markers/rail.png',
@@ -71,6 +71,7 @@ var markerList = {
   fuel: {
     name: 'Gas Station',
     maki: 'fuel',
+    description: '',
     linkOut: true,
     marker: L.icon({
       iconUrl: 'markers/gas.png',
@@ -83,6 +84,7 @@ var markerList = {
   restaurant: {
     name: 'Food',
     maki: 'restaurant',
+    description: '',
     linkOut: true,
     marker: L.icon({
       iconUrl: 'markers/food.png',
@@ -95,6 +97,7 @@ var markerList = {
   swimming: {
     name: 'Swimming',
     maki: 'swimming',
+    description: '',
     linkOut: true,
     marker: L.icon({
       iconUrl: 'markers/swimming.png',
@@ -107,6 +110,7 @@ var markerList = {
   bicycle: {
     name: 'Bike Parking',
     maki: 'bicycle',
+    description: '',
     linkOut: true,
     marker: L.icon({
       iconUrl: 'markers/bike-parking.png',
@@ -117,8 +121,9 @@ var markerList = {
     })
   },
   roadblock: {
-    name: undefined, // gate or roadblock
+    name: undefined,
     maki: 'roadblock',
+    description: 'Gate or roadblock',
     linkOut: true,
     marker: L.icon({
       iconUrl: 'markers/gate.png',
@@ -131,6 +136,7 @@ var markerList = {
   toilets: {
     name: 'Restroom',
     maki: 'toilets',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/restroom.png',
@@ -143,6 +149,7 @@ var markerList = {
   theatre: {
     name: 'Amphitheater',
     maki: 'theatre',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/amphitheater.png',
@@ -155,6 +162,7 @@ var markerList = {
   playground: {
     name: 'Playground',
     maki: 'playground',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/playground.png',
@@ -167,6 +175,7 @@ var markerList = {
   'fast-food': {
     name: 'Picnic area',
     maki: 'fast-food',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/picnic.png',
@@ -179,6 +188,7 @@ var markerList = {
   disability: {
     name: 'Accessibility',
     maki: 'disability',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/accessible.png',
@@ -191,6 +201,7 @@ var markerList = {
   museum: {
     name: 'Museum',
     maki: 'museum',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/museum.png',
@@ -203,6 +214,7 @@ var markerList = {
   camera: {
     name: 'Point of Interest',
     maki: 'camera',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/camera.png',
@@ -215,6 +227,7 @@ var markerList = {
   harbor: {
     name: 'Boat Ramp',
     maki: 'harbor',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/boat-ramp.png',
@@ -227,6 +240,7 @@ var markerList = {
   water: {
     name: 'Water',
     maki: 'water',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/water-fountain.png',
@@ -239,6 +253,7 @@ var markerList = {
   danger: {
     name: 'Warning',
     maki: 'danger',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/warning.png',
@@ -251,6 +266,7 @@ var markerList = {
   building: {
     name: 'Office',
     maki: 'building',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/office.png',
@@ -263,6 +279,7 @@ var markerList = {
   cross: {
     name: 'Intersection',
     maki: 'cross',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/intersection.png',
@@ -272,9 +289,10 @@ var markerList = {
       popupAnchor: [0, -8]
     })
   },
-  tunnel: { // not actually a maki icon. just put "tunnel" in as the icon name. it will appear broken in geojson.io
+  tunnel: {
     name: 'Tunnel',
     maki: 'tunnel',
+    description: 'Note: not actually a maki icon. just put "tunnel" in as the icon name. it will appear broken in geojson.io',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/tunnel.png',
@@ -287,6 +305,7 @@ var markerList = {
   'dog-park': {
     name: 'Dog Park',
     maki: 'dog-park',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/dog-park.png',
@@ -299,6 +318,7 @@ var markerList = {
   'fitness-centre': {
     name: 'Exercise',
     maki: 'fitness-centre',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/gym.png',
@@ -311,6 +331,7 @@ var markerList = {
   circle: {
     name: 'Info',
     maki: 'circle',
+    description: '',
     linkOut: false,
     marker: L.icon({
       iconUrl: 'markers/info.png',
