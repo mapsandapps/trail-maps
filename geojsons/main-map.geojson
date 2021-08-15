@@ -1,0 +1,1205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.38312, 34.0038514]
+      },
+      "properties": {
+        "park": "Chattahoochee Nature Center",
+        "name": "<a href='http://atlnature.com/blog/chattahoochee-nature-center' target='_parent'>Chattahoochee Nature Center</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.5779355, 33.9830816]
+      },
+      "properties": {
+        "park": "Kennesaw Mountain National Battlefield Park",
+        "name": "<a href='http://atlnature.com/blog/kennesaw-mountain-national-battlefield-park' target='_parent'>Kennesaw Mountain National Battlefield Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2775, 33.8185]
+      },
+      "properties": {
+        "park": "Shamrock Forest",
+        "name": "<a href='http://atlnature.com/blog/shamrock-forest' target='_parent'>Shamrock Forest</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.117255, 33.672383]
+      },
+      "properties": {
+        "park": "Arabia Mountain",
+        "name": "<a href='http://atlnature.com/blog/arabia-mountain' target='_parent'>Arabia Mountain</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.34768, 33.77375]
+      },
+      "properties": {
+        "park": "Olmsted Linear Park",
+        "name": "<a href='http://atlnature.com/blog/olmsted-linear-park' target='_parent'>Olmsted Linear Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3422, 33.80555]
+      },
+      "properties": {
+        "park": "Zonolite Park",
+        "name": "<a href='http://atlnature.com/blog/zonolite-park' target='_parent'>Zonolite Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.352064, 33.809825]
+      },
+      "properties": {
+        "park": "Morningside Nature Preserve",
+        "name": "<a href='http://atlnature.com/blog/morningside-nature-preserve' target='_parent'>Morningside Nature Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.342665, 33.799085]
+      },
+      "properties": {
+        "park": "Daniel Johnson Nature Preserve and Herbert Taylor Park",
+        "name": "<a href='http://atlnature.com/blog/johnson-taylor' target='_parent'>Daniel Johnson Nature Preserve and Herbert Taylor Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3591, 33.82059]
+      },
+      "properties": {
+        "park": "Meadow Loop Trail",
+        "name": "<a href='http://atlnature.com/blog/meadow-loop' target='_parent'>Meadow Loop Trail</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.40268, 33.81044]
+      },
+      "properties": {
+        "park": "Tanyard Creek Park",
+        "name": "<a href='http://atlnature.com/blog/tanyard-creek' target='_parent'>Tanyard Creek Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.32802, 33.82443]
+      },
+      "properties": {
+        "park": "Kittredge Park",
+        "name": "<a href='http://atlnature.com/blog/elwyn-john' target='_parent'>Kittredge Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.30722, 33.80827]
+      },
+      "properties": {
+        "park": "Mason Mill/Melton/Medlock Parks",
+        "name": "<a href='http://atlnature.com/blog/mason-mill' target='_parent'>Mason Mill/Melton/Medlock Parks</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.28415, 33.80597]
+      },
+      "properties": {
+        "park": "Clyde Shepherd Nature Preserve",
+        "name": "<a href='http://atlnature.com/blog/clyde-shepherd' target='_parent'>Clyde Shepherd Nature Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.34472, 33.68257]
+      },
+      "properties": {
+        "park": "Constitution Lakes",
+        "name": "<a href='http://atlnature.com/blog/constitution-lakes' target='_parent'>Constitution Lakes</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.379949, 33.86622]
+      },
+      "properties": {
+        "park": "Blue Heron Nature Preserve",
+        "name": "<a href='http://atlnature.com/blog/blue-heron' target='_parent'>Blue Heron Nature Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2795, 33.8564]
+      },
+      "properties": {
+        "park": "Mary Scott Nature Park",
+        "name": "<a href='http://atlnature.com/blog/mary-scott-nature-park' target='_parent'>Mary Scott Nature Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.25993, 33.87195]
+      },
+      "properties": {
+        "park": "Mercer University Cecil B. Day Campus Nature Trail",
+        "name": "<a href='http://atlnature.com/blog/mercer-university-atlanta-campus-nature-trail' target='_parent'>Mercer University Cecil B. Day Campus Nature Trail</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.32257, 33.9094]
+      },
+      "properties": {
+        "park": "Murphey Candler Park",
+        "name": "<a href='http://atlnature.com/blog/murphey-candler-park' target='_parent'>Murphey Candler Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.45815, 33.89432]
+      },
+      "properties": {
+        "park": "Bob Callan/Rottenwood Creek Trail",
+        "name": "<a href='http://atlnature.com/blog/bob-callan-trail' target='_parent'>Bob Callan/Rottenwood Creek Trail</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3039271, 33.7861547]
+      },
+      "properties": {
+        "park": "Woodlands Garden",
+        "name": "<a href='http://atlnature.com/blog/woodlands-garden' target='_parent'>Woodlands Garden</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4798628, 33.7188481]
+      },
+      "properties": {
+        "park": "Cascade Springs Nature Preserve",
+        "name": "<a href='http://atlnature.com/blog/cascade-springs' target='_parent'>Cascade Springs Nature Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4349276, 33.7303108]
+      },
+      "properties": {
+        "park": "Outdoor Activity Center",
+        "name": "<a href='http://atlnature.com/blog/outdoor-activity-center' target='_parent'>Outdoor Activity Center</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4668224, 33.7456449]
+      },
+      "properties": {
+        "park": "Hampton-Beecher Nature Preserve",
+        "name": "<a href='http://atlnature.com/blog/hampton-beecher' target='_parent'>Hampton-Beecher Nature Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4556384, 33.6933259]
+      },
+      "properties": {
+        "park": "Connally Nature Park",
+        "name": "<a href='http://atlnature.com/blog/connally-nature-park' target='_parent'>Connally Nature Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.147008, 33.8060202]
+      },
+      "properties": {
+        "park": "Stone Mountain",
+        "name": "<a href='http://atlnature.com/blog/stone-mountain' target='_parent'>Stone Mountain</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4503184, 33.8284472]
+      },
+      "properties": {
+        "park": "Standing Peachtree Park",
+        "name": "<a href='http://atlnature.com/blog/standing-peachtree' target='_parent'>Standing Peachtree Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3655373, 33.8677393]
+      },
+      "properties": {
+        "park": "Mountain Way Common",
+        "name": "<a href='http://atlnature.com/blog/mountain-way-common' target='_parent'>Mountain Way Common</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4141943, 33.937455]
+      },
+      "properties": {
+        "park": "Johnson Ferry South",
+        "name": "<a href='http://atlnature.com/blog/johnson-ferry-south' target='_parent'>Johnson Ferry South</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.413083, 33.711914]
+      },
+      "properties": {
+        "park": "Perkerson Park",
+        "name": "<a href='http://atlnature.com/blog/perkerson-park' target='_parent'>Perkerson Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.291946, 33.781366]
+      },
+      "properties": {
+        "park": "Decatur Cemetery",
+        "name": "<a href='http://atlnature.com/blog/decatur-cemetery' target='_parent'>Decatur Cemetery</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3829759, 33.688941]
+      },
+      "properties": {
+        "park": "Southtowne Trail",
+        "name": "<a href='http://atlnature.com/blog/southtowne-trail' target='_parent'>Southtowne Trail</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3309178, 33.7491801]
+      },
+      "properties": {
+        "park": "Kirkwood Urban Forest",
+        "name": "<a href='http://atlnature.com/blog/kirkwood-urban-forest' target='_parent'>Kirkwood Urban Forest</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3612197, 33.8207269]
+      },
+      "properties": {
+        "park": "Cheshire Farm Trail",
+        "name": "<a href='http://atlnature.com/blog/cheshire-farm-trail' target='_parent'>Cheshire Farm Trail</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3867272, 33.7007645]
+      },
+      "properties": {
+        "park": "South Bend Park",
+        "name": "<a href='http://atlnature.com/blog/south-bend-park' target='_parent'>South Bend Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.373, 33.785]
+      },
+      "properties": {
+        "park": "Piedmont Park",
+        "name": "<a href='http://atlnature.com/blog/piedmont-park' target='_parent'>Piedmont Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3686656, 33.782184]
+      },
+      "properties": {
+        "park": "BeltLine Interim Hiking Trail: Eastside Trail Northern Ettension",
+        "name": "<a href='http://atlnature.com/blog/beltline-interim-eastside-northern-extension' target='_parent'>BeltLine Interim Hiking Trail: Eastside Trail Northern Extension</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3577876, 33.7581291]
+      },
+      "properties": {
+        "park": "Springvale Park",
+        "name": "<a href='http://atlnature.com/blog/springvale-park' target='_parent'>Springvale Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.6271948, 33.7436209]
+      },
+      "properties": {
+        "park": "Sweetwater Creek State Park",
+        "name": "<a href='http://atlnature.com/blog/sweetwater-creek-state-park' target='_parent'>Sweetwater Creek State Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.564213, 33.7219191]
+      },
+      "properties": {
+        "park": "Boat Rock Preserve",
+        "name": "<a href='http://atlnature.com/blog/boat-rock-preserve' target='_parent'>Boat Rock Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.326029, 33.7749701]
+      },
+      "properties": {
+        "park": "WildWoods & Fernbank Forest",
+        "name": "<a href='http://atlnature.com/blog/fernbank-forest' target='_parent'>WildWoods & Fernbank Forest</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3627921, 33.9640649]
+      },
+      "properties": {
+        "park": "Big Trees Forest Preserve",
+        "name": "<a href='http://atlnature.com/blog/big-trees-forest-preserve' target='_parent'>Big Trees Forest Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.333958, 33.778251]
+      },
+      "properties": {
+        "park": "Lullwater Conservation Garden",
+        "name": "<a href='http://atlnature.com/blog/lullwater-conservation-garden' target='_parent'>Lullwater Conservation Garden</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.31406, 33.797792]
+      },
+      "properties": {
+        "park": "Lullwater Preserve",
+        "name": "<a href='http://atlnature.com/blog/lullwater-preserve' target='_parent'>Lullwater Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4453967, 33.8810104]
+      },
+      "properties": {
+        "park": "West Palisades",
+        "name": "<a href='http://atlnature.com/blog/west-palisades' target='_parent'>West Palisades</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4378684, 33.882]
+      },
+      "properties": {
+        "park": "East Palisades",
+        "name": "<a href='http://atlnature.com/blog/east-palisades' target='_parent'>East Palisades</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4643645, 33.8098386]
+      },
+      "properties": {
+        "park": "Spink-Collins Park",
+        "name": "<a href='http://atlnature.com/blog/spink-collins-park' target='_parent'>Spink-Collins Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4391595, 33.9216884]
+      },
+      "properties": {
+        "park": "Cochran Shoals",
+        "name": "<a href='http://atlnature.com/blog/cochran-shoals' target='_parent'>Cochran Shoals</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3844168, 33.9540723]
+      },
+      "properties": {
+        "park": "Lost Corner Preserve",
+        "name": "<a href='http://atlnature.com/blog/lost-corner-preserve' target='_parent'>Lost Corner Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.1750921, 33.6240972]
+      },
+      "properties": {
+        "park": "Panola Mountain",
+        "name": "<a href='http://atlnature.com/blog/panola-mountain' target='_parent'>Panola Mountain</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3480666, 33.7377346]
+      },
+      "properties": {
+        "park": "Brownwood Park",
+        "name": "<a href='http://atlnature.com/blog/brownwood-park' target='_parent'>Brownwood Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3359141, 33.956771]
+      },
+      "properties": {
+        "park": "Dunwoody Nature Center",
+        "name": "<a href='http://atlnature.com/blog/dunwoody-nature-center' target='_parent'>Dunwoody Nature Center</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3705987, 33.8248892]
+      },
+      "properties": {
+        "park": "Sidney Marcus Trail",
+        "name": "<a href='http://atlnature.com/blog/sidney-marcus-trail' target='_parent'>Sidney Marcus Trail</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2891063, 33.8250794]
+      },
+      "properties": {
+        "park": "Frazier Rowe Park",
+        "name": "<a href='http://atlnature.com/blog/frazier-rowe-park' target='_parent'>Frazier Rowe Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2360608, 33.8155226]
+      },
+      "properties": {
+        "park": "Friendship Forest Wildlife Sanctuary",
+        "name": "<a href='http://atlnature.com/blog/friendship-forest' target='_parent'>Friendship Forest Wildlife Sanctuary</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4044625, 33.9462446]
+      },
+      "properties": {
+        "park": "Johnson Ferry North",
+        "name": "<a href='http://atlnature.com/blog/johnson-ferry-north' target='_parent'>Johnson Ferry North</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4437041, 33.9379719]
+      },
+      "properties": {
+        "park": "Sope Creek",
+        "name": "<a href='http://atlnature.com/blog/sope-creek' target='_parent'>Sope Creek</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3587076, 34.0145111]
+      },
+      "properties": {
+        "park": "Old Mill Park",
+        "name": "<a href='http://atlnature.com/blog/old-mill-park' target='_parent'>Old Mill Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.350641, 34.007396]
+      },
+      "properties": {
+        "park": "Vickery Creek",
+        "name": "<a href='http://atlnature.com/blog/vickery-creek' target='_parent'>Vickery Creek</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3748761, 34.0024564]
+      },
+      "properties": {
+        "park": "Roswell Riverwalk",
+        "name": "<a href='http://atlnature.com/blog/roswell-riverwalk' target='_parent'>Roswell Riverwalk</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2139126, 33.8626178]
+      },
+      "properties": {
+        "park": "Kelley Cofer Park",
+        "name": "<a href='http://atlnature.com/blog/kelley-cofer-park' target='_parent'>Kelley Cofer Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3274183, 33.7702158]
+      },
+      "properties": {
+        "park": "Frazer Forest",
+        "name": "<a href='http://atlnature.com/blog/frazer-forest' target='_parent'>Frazer Forest</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3553625, 34.008948]
+      },
+      "properties": {
+        "park": "Allenbrook",
+        "name": "<a href='http://atlnature.com/blog/allenbrook' target='_parent'>Allenbrook</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2714162, 33.8436379]
+      },
+      "properties": {
+        "park": "Briarlake Forest Park",
+        "name": "<a href='http://atlnature.com/blog/briarlake-forest-park' target='_parent'>Briarlake Forest Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2289715, 33.8667152]
+      },
+      "properties": {
+        "park": "Henderson Park",
+        "name": "<a href='http://atlnature.com/blog/henderson-park' target='_parent'>Henderson Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2323487, 34.0208428]
+      },
+      "properties": {
+        "park": "Autrey Mill Nature Preserve",
+        "name": "<a href='http://atlnature.com/blog/autrey-mill' target='_parent'>Autrey Mill Nature Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2046212, 33.9950895]
+      },
+      "properties": {
+        "park": "Medlock Bridge",
+        "name": "<a href='http://atlnature.com/blog/medlock-bridge' target='_parent'>Medlock Bridge</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2967283, 33.9346774]
+      },
+      "properties": {
+        "park": "Brook Run",
+        "name": "<a href='http://atlnature.com/blog/brook-run' target='_parent'>Brook Run</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2857678, 33.7814699]
+      },
+      "properties": {
+        "park": "Glenn Creek Nature Preserve",
+        "name": "<a href='http://atlnature.com/blog/glenn-creek-nature-preserve' target='_parent'>Glenn Creek Nature Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3862816, 33.8418024]
+      },
+      "properties": {
+        "park": "Atlanta History Center",
+        "name": "<a href='http://atlnature.com/blog/atlanta-history-center' target='_parent'>Atlanta History Center</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3123594, 34.0237155]
+      },
+      "properties": {
+        "park": "Big Creek Greenway",
+        "name": "<a href='http://atlnature.com/blog/big-creek-greenway' target='_parent'>Big Creek Greenway</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3111418, 34.0302298]
+      },
+      "properties": {
+        "park": "Big Creek Park",
+        "name": "<a href='http://atlnature.com/blog/big-creek-park' target='_parent'>Big Creek Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3600838, 33.8148753]
+      },
+      "properties": {
+        "park": "Confluence Trail",
+        "name": "<a href='http://atlnature.com/blog/confluence-trail' target='_parent'>Confluence Trail</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3905321, 33.980769]
+      },
+      "properties": {
+        "park": "Gold Branch",
+        "name": "<a href='http://atlnature.com/blog/gold-branch' target='_parent'>Gold Branch</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3294621, 33.9903216]
+      },
+      "properties": {
+        "park": "Island Ford",
+        "name": "<a href='http://atlnature.com/blog/island-ford' target='_parent'>Island Ford</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.246261, 33.8310489]
+      },
+      "properties": {
+        "park": "Johns Homestead",
+        "name": "<a href='http://atlnature.com/blog/johns-homestead' target='_parent'>Johns Homestead</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.5283834, 33.7417372]
+      },
+      "properties": {
+        "park": "Herbert Greene",
+        "name": "<a href='http://atlnature.com/blog/herbert-greene' target='_parent'>Herbert Greene</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2068636, 33.79158]
+      },
+      "properties": {
+        "park": "Pine Lake",
+        "name": "<a href='http://atlnature.com/blog/pine-lake' target='_parent'>Pine Lake</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4417988, 33.9035135]
+      },
+      "properties": {
+        "park": "Powers Island",
+        "name": "<a href='http://atlnature.com/blog/powers-island' target='_parent'>Powers Island</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3693196, 33.6622092]
+      },
+      "properties": {
+        "park": "Southside Park",
+        "name": "<a href='http://atlnature.com/blog/southside-park' target='_parent'>Southside Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3167302, 33.8101999]
+      },
+      "properties": {
+        "park": "Thomson Park",
+        "name": "<a href='http://atlnature.com/blog/thomson-park' target='_parent'>Thomson Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4304705, 33.7733132]
+      },
+      "properties": {
+        "park": "Proctor Creek Greenway",
+        "name": "<a href='http://atlnature.com/blog/proctor-creek-greenway' target='_parent'>Proctor Creek Greenway</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.312008, 33.873847]
+      },
+      "properties": {
+        "park": "Ashford Forest Preserve",
+        "name": "<a href='http://atlnature.com/blog/ashford-forest-preserve' target='_parent'>Ashford Forest Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.9291304, 33.6633803]
+      },
+      "properties": {
+        "park": "Big Haynes Creek Nature Center",
+        "name": "<a href='http://atlnature.com/blog/big-haynes-creek-nature-center' target='_parent'>Big Haynes Creek Nature Center</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4007055, 33.8170591]
+      },
+      "properties": {
+        "park": "Atlanta Memorial Park",
+        "name": "<a href='http://atlnature.com/blog/atlanta-memorial-park' target='_parent'>Atlanta Memorial Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4712, 33.6692]
+      },
+      "properties": {
+        "park": "Sykes Park",
+        "name": "<a href='http://atlnature.com/blog/sykes-park' target='_parent'>Sykes Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3469689, 33.6011637]
+      },
+      "properties": {
+        "park": "Reynolds Nature Preserve",
+        "name": "<a href='http://atlnature.com/blog/reynolds-nature-preserve' target='_parent'>Reynolds Nature Preserve</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2653, 33.9743]
+      },
+      "properties": {
+        "park": "Garrard Landing Park",
+        "name": "<a href='http://atlnature.com/blog/garrard-landing-park' target='_parent'>Garrard Landing Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.24804, 33.99893]
+      },
+      "properties": {
+        "park": "Jones Bridge Unit",
+        "name": "<a href='http://atlnature.com/blog/jones-bridge' target='_parent'>Jones Bridge Unit</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.1280329, 33.9682623]
+      },
+      "properties": {
+        "park": "McDaniel Farm Park",
+        "name": "<a href='http://atlnature.com/blog/mcdaniel-farm-park' target='_parent'>McDaniel Farm Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3221283, 33.6902657]
+      },
+      "properties": {
+        "park": "Intrenchment Creek Park",
+        "name": "<a href='http://atlnature.com/blog/intrenchment-creek-park' target='_parent'>Intrenchment Creek Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.1471056, 33.9735637]
+      },
+      "properties": {
+        "park": "Shorty Howell Park",
+        "name": "<a href='http://atlnature.com/blog/shorty-howell-park' target='_parent'>Shorty Howell Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.1411637, 34.0331923]
+      },
+      "properties": {
+        "park": "Rogers Bridge Trail",
+        "name": "<a href='http://atlnature.com/blog/rogers-bridge-trail' target='_parent'>Rogers Bridge Trail</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.5432, 33.8393]
+      },
+      "properties": {
+        "park": "Heritage Park",
+        "name": "<a href='http://atlnature.com/blog/heritage-park' target='_parent'>Heritage Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3640269, 34.038458]
+      },
+      "properties": {
+        "park": "Roswell Area Park",
+        "name": "<a href='http://atlnature.com/blog/roswell-area-park' target='_parent'>Roswell Area Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.245481, 33.984862]
+      },
+      "properties": {
+        "park": "Simpsonwood Park",
+        "name": "<a href='http://atlnature.com/blog/simpsonwood-park' target='_parent'>Simpsonwood Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2810103, 33.7668742]
+      },
+      "properties": {
+        "park": "Decatur Legacy Park",
+        "name": "<a href='http://atlnature.com/blog/decatur-legacy-park' target='_parent'>Decatur Legacy Park</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.5492, 34.023]
+      },
+      "properties": {
+        "park": "Noonday Creek Trail",
+        "name": "<a href='http://atlnature.com/blog/noonday-creek-trail' target='_parent'>Noonday Creek Trail</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.5626, 34.0307]
+      },
+      "properties": {
+        "park": "KSU Sports & Recreation Park Lakeside Trail",
+        "name": "<a href='http://atlnature.com/blog/ksu-recreation-park' target='_parent'>KSU Sports & Recreation Park Lakeside Trail</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3384, 33.8335]
+      },
+      "properties": {
+        "park": "Peachtree Creek Greenway",
+        "name": "<a href='http://atlnature.com/blog/peachtree-creek-greenway' target='_parent'>Peachtree Creek Greenway</a>",
+        "marker-symbol": "logo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3796, 33.9705]
+      },
+      "properties": {
+        "park": "Morgan Falls Overlook Park & Morgan Falls River Park",
+        "name": "<a href='http://atlnature.com/blog/morgan-falls' target='_parent'>Morgan Falls Overlook Park & Morgan Falls River Park</a>",
+        "marker-symbol": "logo"
+      }
+    }
+  ]
+}

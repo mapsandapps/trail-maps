@@ -1,344 +1,358 @@
 var markerList = {
   entrance: {
-    name: 'Trailhead',
-    maki: 'entrance',
-    description: '',
+    name: "Trailhead",
+    maki: "entrance",
+    description: "",
     linkOut: true,
     marker: L.icon({
-      iconUrl: 'markers/trailhead.png',
-      iconRetinaUrl: 'markers/trailhead-retina.png',
+      iconUrl: "markers/trailhead.png",
+      iconRetinaUrl: "markers/trailhead-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46] //,
+      popupAnchor: [0, -46], //,
       // shadowUrl: 'markers/shadow.png',
       // shadowRetinaUrl: 'markers/shadow-retina.png',
       // shadowSize: [30, 13],
       // shadowAnchor: [15, 41]
-    })
+    }),
   },
   farm: {
-    name: 'Farm',
-    maki: 'farm',
-    description: '',
+    name: "Farm",
+    maki: "farm",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/barn.png',
-      iconRetinaUrl: 'markers/barn-retina.png',
+      iconUrl: "markers/barn.png",
+      iconRetinaUrl: "markers/barn-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   parking: {
-    name: 'Parking',
-    maki: 'parking',
-    description: '',
+    name: "Parking",
+    maki: "parking",
+    description: "",
     linkOut: true,
     marker: L.icon({
-      iconUrl: 'markers/parking.png',
-      iconRetinaUrl: 'markers/parking-retina.png',
+      iconUrl: "markers/parking.png",
+      iconRetinaUrl: "markers/parking-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   bus: {
-    name: 'Bus Stop',
-    maki: 'bus',
-    description: '',
+    name: "Bus Stop",
+    maki: "bus",
+    description: "",
     linkOut: true,
     marker: L.icon({
-      iconUrl: 'markers/bus.png',
-      iconRetinaUrl: 'markers/bus-retina.png',
+      iconUrl: "markers/bus.png",
+      iconRetinaUrl: "markers/bus-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   rail: {
-    name: 'Rail Station',
-    maki: 'rail',
-    description: '',
+    name: "Rail Station",
+    maki: "rail",
+    description: "",
     linkOut: true,
     marker: L.icon({
-      iconUrl: 'markers/rail.png',
-      iconRetinaUrl: 'markers/rail-retina.png',
+      iconUrl: "markers/rail.png",
+      iconRetinaUrl: "markers/rail-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   fuel: {
-    name: 'Gas Station',
-    maki: 'fuel',
-    description: '',
+    name: "Gas Station",
+    maki: "fuel",
+    description: "",
     linkOut: true,
     marker: L.icon({
-      iconUrl: 'markers/gas.png',
-      iconRetinaUrl: 'markers/gas-retina.png',
+      iconUrl: "markers/gas.png",
+      iconRetinaUrl: "markers/gas-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   restaurant: {
-    name: 'Food',
-    maki: 'restaurant',
-    description: '',
+    name: "Food",
+    maki: "restaurant",
+    description: "",
     linkOut: true,
     marker: L.icon({
-      iconUrl: 'markers/food.png',
-      iconRetinaUrl: 'markers/food-retina.png',
+      iconUrl: "markers/food.png",
+      iconRetinaUrl: "markers/food-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   swimming: {
-    name: 'Swimming',
-    maki: 'swimming',
-    description: '',
+    name: "Swimming",
+    maki: "swimming",
+    description: "",
     linkOut: true,
     marker: L.icon({
-      iconUrl: 'markers/swimming.png',
-      iconRetinaUrl: 'markers/swimming-retina.png',
+      iconUrl: "markers/swimming.png",
+      iconRetinaUrl: "markers/swimming-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   bicycle: {
-    name: 'Bike Parking',
-    maki: 'bicycle',
-    description: '',
+    name: "Bike Parking",
+    maki: "bicycle",
+    description: "",
     linkOut: true,
     marker: L.icon({
-      iconUrl: 'markers/bike-parking.png',
-      iconRetinaUrl: 'markers/bike-parking-retina.png',
+      iconUrl: "markers/bike-parking.png",
+      iconRetinaUrl: "markers/bike-parking-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   roadblock: {
     name: undefined,
-    maki: 'roadblock',
-    description: 'Gate or roadblock',
+    maki: "roadblock",
+    description: "Gate or roadblock",
     linkOut: true,
     marker: L.icon({
-      iconUrl: 'markers/gate.png',
-      iconRetinaUrl: 'markers/gate-retina.png',
+      iconUrl: "markers/gate.png",
+      iconRetinaUrl: "markers/gate-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   toilets: {
-    name: 'Restroom',
-    maki: 'toilets',
-    description: '',
+    name: "Restroom",
+    maki: "toilets",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/restroom.png',
-      iconRetinaUrl: 'markers/restroom-retina.png',
+      iconUrl: "markers/restroom.png",
+      iconRetinaUrl: "markers/restroom-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   theatre: {
-    name: 'Amphitheater',
-    maki: 'theatre',
-    description: '',
+    name: "Amphitheater",
+    maki: "theatre",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/amphitheater.png',
-      iconRetinaUrl: 'markers/amphitheater-retina.png',
+      iconUrl: "markers/amphitheater.png",
+      iconRetinaUrl: "markers/amphitheater-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   playground: {
-    name: 'Playground',
-    maki: 'playground',
-    description: '',
+    name: "Playground",
+    maki: "playground",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/playground.png',
-      iconRetinaUrl: 'markers/playground-retina.png',
+      iconUrl: "markers/playground.png",
+      iconRetinaUrl: "markers/playground-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
-  'fast-food': {
-    name: 'Picnic area',
-    maki: 'fast-food',
-    description: '',
+  "fast-food": {
+    name: "Picnic area",
+    maki: "fast-food",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/picnic.png',
-      iconRetinaUrl: 'markers/picnic-retina.png',
+      iconUrl: "markers/picnic.png",
+      iconRetinaUrl: "markers/picnic-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   disability: {
-    name: 'Accessibility',
-    maki: 'disability',
-    description: '',
+    name: "Accessibility",
+    maki: "disability",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/accessible.png',
-      iconRetinaUrl: 'markers/accessible-retina.png',
+      iconUrl: "markers/accessible.png",
+      iconRetinaUrl: "markers/accessible-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   museum: {
-    name: 'Museum',
-    maki: 'museum',
-    description: '',
+    name: "Museum",
+    maki: "museum",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/museum.png',
-      iconRetinaUrl: 'markers/museum-retina.png',
+      iconUrl: "markers/museum.png",
+      iconRetinaUrl: "markers/museum-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   camera: {
-    name: 'Point of Interest',
-    maki: 'camera',
-    description: '',
+    name: "Point of Interest",
+    maki: "camera",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/camera.png',
-      iconRetinaUrl: 'markers/camera-retina.png',
+      iconUrl: "markers/camera.png",
+      iconRetinaUrl: "markers/camera-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   harbor: {
-    name: 'Boat Ramp',
-    maki: 'harbor',
-    description: '',
+    name: "Boat Ramp",
+    maki: "harbor",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/boat-ramp.png',
-      iconRetinaUrl: 'markers/boat-ramp-retina.png',
+      iconUrl: "markers/boat-ramp.png",
+      iconRetinaUrl: "markers/boat-ramp-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   water: {
-    name: 'Water',
-    maki: 'water',
-    description: '',
+    name: "Water",
+    maki: "water",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/water-fountain.png',
-      iconRetinaUrl: 'markers/water-fountain-retina.png',
+      iconUrl: "markers/water-fountain.png",
+      iconRetinaUrl: "markers/water-fountain-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   danger: {
-    name: 'Warning',
-    maki: 'danger',
-    description: '',
+    name: "Warning",
+    maki: "danger",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/warning.png',
-      iconRetinaUrl: 'markers/warning-retina.png',
+      iconUrl: "markers/warning.png",
+      iconRetinaUrl: "markers/warning-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   building: {
-    name: 'Office',
-    maki: 'building',
-    description: '',
+    name: "Office",
+    maki: "building",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/office.png',
-      iconRetinaUrl: 'markers/office-retina.png',
+      iconUrl: "markers/office.png",
+      iconRetinaUrl: "markers/office-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   cross: {
-    name: 'Intersection',
-    maki: 'cross',
-    description: '',
+    name: "Intersection",
+    maki: "cross",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/intersection.png',
-      iconRetinaUrl: 'markers/intersection-retina.png',
+      iconUrl: "markers/intersection.png",
+      iconRetinaUrl: "markers/intersection-retina.png",
       iconSize: [6, 6],
       iconAnchor: [3, 3],
-      popupAnchor: [0, -8]
-    })
+      popupAnchor: [0, -8],
+    }),
   },
   tunnel: {
-    name: 'Tunnel',
-    maki: 'tunnel',
-    description: 'Note: not actually a maki icon. just put "tunnel" in as the icon name. it will appear broken in geojson.io',
+    name: "Tunnel",
+    maki: "tunnel",
+    description:
+      'Note: not actually a maki icon. just put "tunnel" in as the icon name. it will appear broken in geojson.io',
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/tunnel.png',
-      iconRetinaUrl: 'markers/tunnel-retina.png',
+      iconUrl: "markers/tunnel.png",
+      iconRetinaUrl: "markers/tunnel-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
-  'dog-park': {
-    name: 'Dog Park',
-    maki: 'dog-park',
-    description: '',
+  "dog-park": {
+    name: "Dog Park",
+    maki: "dog-park",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/dog-park.png',
-      iconRetinaUrl: 'markers/dog-park-retina.png',
+      iconUrl: "markers/dog-park.png",
+      iconRetinaUrl: "markers/dog-park-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
-  'fitness-centre': {
-    name: 'Exercise',
-    maki: 'fitness-centre',
-    description: '',
+  "fitness-centre": {
+    name: "Exercise",
+    maki: "fitness-centre",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/gym.png',
-      iconRetinaUrl: 'markers/gym-retina.png',
+      iconUrl: "markers/gym.png",
+      iconRetinaUrl: "markers/gym-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
+      popupAnchor: [0, -46],
+    }),
   },
   circle: {
-    name: 'Info',
-    maki: 'circle',
-    description: '',
+    name: "Info",
+    maki: "circle",
+    description: "",
     linkOut: false,
     marker: L.icon({
-      iconUrl: 'markers/info.png',
-      iconRetinaUrl: 'markers/info-retina.png',
+      iconUrl: "markers/info.png",
+      iconRetinaUrl: "markers/info-retina.png",
       iconSize: [30, 41],
       iconAnchor: [15, 41],
-      popupAnchor: [0, -46]
-    })
-  }
+      popupAnchor: [0, -46],
+    }),
+  },
+  logo: {
+    name: "",
+    maki: "logo",
+    description: "",
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: "markers/logo.png",
+      iconRetinaUrl: "markers/logo-retina.png",
+      iconSize: [39, 40],
+      iconAnchor: [18, 40],
+      popupAnchor: [0, -45],
+    }),
+  },
 };
