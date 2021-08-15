@@ -486,6 +486,28 @@ var list = [
       },
     ],
   },
+  {
+    name: "Reynolds Nature Preserve",
+    id: "reynolds-nature-preserve",
+    latitude: 33.6009,
+    longitude: -84.3472,
+    updated: "2021-07-31",
+    showDistancesAtZoom: 13,
+    legend: [
+      {
+        name: "Morrow Pathway",
+        width: 6,
+        color: "#555555",
+      },
+      {
+        name: "Unpaved",
+        width: 4,
+        color: "#03763A",
+      },
+    ],
+    geojsonio:
+      "http://geojson.io/#id=gist:mapsandapps/52bb18554a636f74ed27dfbcf05ca364&map=17/33.59849/-84.34795",
+  },
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
 // chewacla http://geojson.io/#id=gist:mapsandapps/c24de3c2c12ec76fb039a5cd9306ed95&map=15/32.5495/-85.4776

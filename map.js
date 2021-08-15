@@ -7,81 +7,96 @@ var labelsVisible = true;
 
 function getUrlVars() {
   var vars = {};
-  var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
-  function(m,key,value) {
-    vars[key] = value;
-  });
+  var parts = window.location.href.replace(
+    /[?&]+([^=&]+)=([^&]*)/gi,
+    function (m, key, value) {
+      vars[key] = value;
+    }
+  );
   return vars;
 }
 
 function listParks() {
   // TODO: replace with a map
-  var listHTML = '';
-  list.forEach(park => {
-    listHTML += `<a href="?park=${ park.id }">${ park.name }</a><br>`;
+  var listHTML = "";
+
+  listHTML +=
+    "<h1>Map markers</h1><table><thead><th>Icon</th><th>Name</th><th>Geojson.io name</th><th>Description</th></thead><tbody>";
+  for (const property in markerList) {
+    const icon = markerList[property];
+    listHTML += `<tr><td><img src="${icon.marker.options.iconUrl}"></td><td>${icon.name}</td><td>${icon.maki}</td><td>${icon.description}</td></tr>`;
+  }
+  listHTML += "</tbody></table><br><br>";
+
+  listHTML +=
+    "<h1>Default trail markings</h1><table><thead><th>Example</th><th>Type</th><th>Color</th><th>Width</th></thead><tbody>";
+  defaultLegend.forEach((item) => {
+    listHTML += `<tr><th class="legend" style="box-shadow: none">${getLegendLine(
+      item
+    )}</th><th>${item.name}</th><th>${item.color}</th><th>${
+      item.width
+    }</th></tr>`;
+  });
+  listHTML += "</tbody></table>";
+
+  listHTML += "<br><br><h1>Maps</h1>";
+  list.forEach((park) => {
+    listHTML += `<a href="?park=${park.id}">${park.name}</a><br>`;
   });
 
-  listHTML += "<br><br><h1>Map markers</h1><table><thead><th>Icon</th><th>Name</th><th>Geojson.io name</th><th>Description</th></thead><tbody>"
-  for (const property in markerList) {
-    const icon = markerList[property]
-    listHTML += `<tr><td><img src="${icon.marker.options.iconUrl}"></td><td>${icon.name}</td><td>${icon.maki}</td><td>${icon.description}</td></tr>`
-  }
-  listHTML += "</tbody></table><br><br>"
-
-  listHTML += "<h1>Default trail markings</h1><table><thead><th>Example</th><th>Type</th><th>Color</th><th>Width</th></thead><tbody>"
-  defaultLegend.forEach(item => {
-    listHTML += `<tr><th class="legend" style="box-shadow: none">${getLegendLine(item)}</th><th>${item.name}</th><th>${item.color}</th><th>${item.width}</th></tr>`
-  })
-  listHTML += "</tbody></table>"
-
-  document.getElementById('map').innerHTML = listHTML;
+  document.getElementById("map").innerHTML = listHTML;
 }
 
 function addFullScreenControl(fullScreen, parkInfo) {
   var fullScreenControl = L.control({
-    position: 'topright'
+    position: "topright",
   });
 
-  fullScreenControl.onAdd = function() {
-    var div = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control full-screen-control');
+  fullScreenControl.onAdd = function () {
+    var div = L.DomUtil.create(
+      "div",
+      "leaflet-control-layers leaflet-control full-screen-control"
+    );
 
-    var url = '';
-    if (fullScreen === 'off') {
+    var url = "";
+    if (fullScreen === "off") {
       var oldURL = window.location.href;
-      url = oldURL.replace('full-screen=off', 'full-screen=on');
+      url = oldURL.replace("full-screen=off", "full-screen=on");
     }
-    if (fullScreen === 'on') {
+    if (fullScreen === "on") {
       url = `https://atlnature.com/blog/${parkInfo.id}#park-map`;
     }
 
-    div.innerHTML += `<a href="${url}" target="_top"><img src="${fullScreen === 'on' ? 'compress' : 'expand'}.png"></a>`;
+    div.innerHTML += `<a href="${url}" target="_top"><img src="${
+      fullScreen === "on" ? "compress" : "expand"
+    }.png"></a>`;
 
     return div;
-  }
+  };
 
   fullScreenControl.addTo(map);
 }
 
 function getLegendLine(legendItem) {
   var topMargin = 9 - legendItem.width / 2;
-  var dashArray = legendItem.style === 'stairs' ? 'dashed' : 'solid'
+  var dashArray = legendItem.style === "stairs" ? "dashed" : "solid";
   return `<div class="line" style="display: inline-block; border-bottom-color: ${legendItem.color}; border-bottom-width: ${legendItem.width}px; margin-top: ${topMargin}px; border-bottom-style: ${dashArray};"></div> `;
 }
 
 function addLegend(legendItems) {
   if (legendItems) {
     var legend = L.control({
-      position: 'bottomright'
+      position: "bottomright",
     });
 
-    legend.onAdd = function(map) {
-      var div = L.DomUtil.create('div', 'legend');
+    legend.onAdd = function (map) {
+      var div = L.DomUtil.create("div", "legend");
 
-      div.innerHTML += '<h4>Trails:</h4>';
+      div.innerHTML += "<h4>Trails:</h4>";
 
       for (var i = 0; i < legendItems.length; i++) {
         var legendItem = legendItems[i];
-        div.innerHTML += getLegendLine(legendItem) + `${legendItem.name}<br>`
+        div.innerHTML += getLegendLine(legendItem) + `${legendItem.name}<br>`;
       }
 
       return div;
@@ -93,43 +108,52 @@ function addLegend(legendItems) {
 
 function requestLocation() {
   if (map) {
-    map.locate({
-      watch: true,
-      setView: false
-    }).on('locationfound', onLocationFound);
+    map
+      .locate({
+        watch: true,
+        setView: false,
+      })
+      .on("locationfound", onLocationFound);
   }
-};
+}
 
 function drawMap(file) {
   const mapSettings = {
     maxZoom: 18,
-    attribution: '© <a href="https://apps.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    attribution:
+      '© <a href="https://apps.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   };
 
   function constructTileURL(name) {
-    return `https://api.mapbox.com/styles/v1/mapbox/${ name }/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwc2FuZGFwcHMiLCJhIjoiY2pjYmNncHo2MHA2djJ3cW8ycWNzZHBwOSJ9.9c-NcWYyKKsbvtHF9tuQBA`;
+    return `https://api.mapbox.com/styles/v1/mapbox/${name}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwc2FuZGFwcHMiLCJhIjoiY2pjYmNncHo2MHA2djJ3cW8ycWNzZHBwOSJ9.9c-NcWYyKKsbvtHF9tuQBA`;
   }
 
-  map = L.map('map', {
-    center: [33.7530, -84.3984],
+  map = L.map("map", {
+    center: [33.753, -84.3984],
     zoom: 11,
-    dragging: !L.Browser.mobile
+    dragging: !L.Browser.mobile,
   });
-  var outdoors = L.tileLayer(constructTileURL('outdoors-v11'), mapSettings).addTo(map);
-  var streets = L.tileLayer(constructTileURL('streets-v11'), mapSettings);
-  var satellite = L.tileLayer(constructTileURL('satellite-v9'), mapSettings);
-  var satelliteStreets = L.tileLayer(constructTileURL('satellite-streets-v11'), mapSettings);
+  var outdoors = L.tileLayer(
+    constructTileURL("outdoors-v11"),
+    mapSettings
+  ).addTo(map);
+  var streets = L.tileLayer(constructTileURL("streets-v11"), mapSettings);
+  var satellite = L.tileLayer(constructTileURL("satellite-v9"), mapSettings);
+  var satelliteStreets = L.tileLayer(
+    constructTileURL("satellite-streets-v11"),
+    mapSettings
+  );
 
   var tileLayers = {
-    "Outdoors": outdoors,
-    "Streets": streets,
-    "Satellite": satellite,
+    Outdoors: outdoors,
+    Streets: streets,
+    Satellite: satellite,
     "Satellite + Streets": satelliteStreets,
   };
 
   var dataLayers = {
     "Points of Interest": poiLayer,
-    "Trails": trailsLayer
+    Trails: trailsLayer,
   };
 
   L.control.layers(tileLayers, dataLayers).addTo(map);
@@ -140,14 +164,14 @@ function drawMap(file) {
   var bounds = L.geoJSON(file).getBounds();
   map.fitBounds(bounds);
 
-  trailsLayer.eachLayer(layer => {
+  trailsLayer.eachLayer((layer) => {
     var tooltip = layer.getTooltip();
     if (tooltip) {
       layer.openTooltip();
     }
   });
 
-  poiLayer.eachLayer(layer => {
+  poiLayer.eachLayer((layer) => {
     var tooltip = layer.getTooltip();
     if (tooltip) {
       layer.openTooltip();
@@ -155,39 +179,42 @@ function drawMap(file) {
   });
 
   var geolocationControl = L.Control.extend({
-    onAdd: function() {
-      var div = L.DomUtil.create('div', 'leaflet-control-layers leaflet-control geolocation-control');
+    onAdd: function () {
+      var div = L.DomUtil.create(
+        "div",
+        "leaflet-control-layers leaflet-control geolocation-control"
+      );
 
       div.innerHTML += `<span><img src="geolocation.png" onclick="requestLocation()"></span>`;
 
       return div;
     },
-    onRemove: function() {}
+    onRemove: function () {},
   });
 
-  L.control.geolocation = function() {
+  L.control.geolocation = function () {
     return new geolocationControl();
-  }
+  };
 
-  L.control.geolocation({ position: 'topright' }).addTo(map);
+  L.control.geolocation({ position: "topright" }).addTo(map);
 
-  map.on('zoomend', showOrHideDistanceLabels);
+  map.on("zoomend", showOrHideDistanceLabels);
   showOrHideDistanceLabels();
 }
 
 function mapPark(parkID, fullScreen) {
-  parkInfo = list.find(park => {
+  parkInfo = list.find((park) => {
     return park.id === parkID;
   });
   showDistancesAtZoom = parkInfo.showDistancesAtZoom;
 
   fetch(`./geojsons/${parkID}.geojson`)
-    .then(resp => resp.json())
-    .then(response => {
+    .then((resp) => resp.json())
+    .then((response) => {
       processGeojson(response);
       drawMap(response);
       addLegend(parkInfo.legend);
-      if (fullScreen === 'off' || fullScreen === 'on') {
+      if (fullScreen === "off" || fullScreen === "on") {
         addFullScreenControl(fullScreen, parkInfo);
       }
     });
@@ -196,7 +223,7 @@ function mapPark(parkID, fullScreen) {
 var geolocationDot;
 var geolocationAccuracy;
 function onLocationFound(e) {
-  console.log('location found');
+  console.log("location found");
   if (geolocationDot) {
     geolocationDot.removeFrom(map);
     geolocationAccuracy.removeFrom(map);
@@ -205,53 +232,53 @@ function onLocationFound(e) {
   geolocationDot = L.circleMarker(e.latlng, {
     radius: 5,
     stroke: false,
-    fillOpacity: 1.0
+    fillOpacity: 1.0,
   }).addTo(map);
   geolocationAccuracy = L.circle(e.latlng, radius, {
-    stroke: false
+    stroke: false,
   }).addTo(map);
 }
 
 function processLineString(feature) {
   var line = L.geoJSON(feature, {
     color: feature.properties.stroke,
-    weight: feature.properties['stroke-width'],
-    dashArray: feature.properties.style === 'stairs' ? '8' : 'none'
+    weight: feature.properties["stroke-width"],
+    dashArray: feature.properties.style === "stairs" ? "8" : "none",
   });
 
-  var popupText = feature.properties.name ? feature.properties.name : ''; // TODO: add .surface, etc.
-  if (popupText && feature.properties.miles) popupText += ', ';
-  if (feature.properties.miles) popupText += feature.properties.miles.toString();
-  if (feature.properties.miles) popupText += feature.properties.miles == 1 ? ' mile' : ' miles';
+  var popupText = feature.properties.name ? feature.properties.name : ""; // TODO: add .surface, etc.
+  if (popupText && feature.properties.miles) popupText += ", ";
+  if (feature.properties.miles)
+    popupText += feature.properties.miles.toString();
+  if (feature.properties.miles)
+    popupText += feature.properties.miles == 1 ? " mile" : " miles";
 
   line.addTo(trailsLayer);
 
   if (popupText) line.bindTooltip(popupText);
 }
 
-
 function reverseCoordinateArray(coordinates) {
-  return [
-    coordinates[1],
-    coordinates[0]
-  ];
+  return [coordinates[1], coordinates[0]];
 }
 
 function addGMapsLinkToPoint(marker) {
   // TODO: only add these if the properties['navigate-to'] is true (true is a string, for now)
   // TODO: should these be geo: links?
-  return `<a href="https://www.google.com/maps/place/${ marker.getLatLng().lat },${ marker.getLatLng().lng }" target="_blank">Directions to point</a>`;
+  return `<a href="https://www.google.com/maps/place/${
+    marker.getLatLng().lat
+  },${marker.getLatLng().lng}" target="_blank">Directions to point</a>`;
 }
 
 function createPopup(feature, marker) {
-  const symbol = feature.properties['marker-symbol'];
+  const symbol = feature.properties["marker-symbol"];
 
-  let popupContent = ''
+  let popupContent = "";
   if (markerList[symbol] && markerList[symbol].name) {
-    if (markerList[symbol].name === 'Bike Parking' && feature.properties.name) {
+    if (markerList[symbol].name === "Bike Parking" && feature.properties.name) {
       // no-op
     } else {
-      popupContent += markerList[symbol].name + '<br>';
+      popupContent += markerList[symbol].name + "<br>";
     }
   }
   if (feature.properties.name) {
@@ -284,14 +311,14 @@ function getTextLabelOffset(feature) {
     var firstLetter = feature.properties.offset.charAt(0).toLowerCase();
     var lastLetter = feature.properties.offset.substr(-1).toLowerCase();
 
-    if (firstLetter === 'n') {
+    if (firstLetter === "n") {
       offset[1] = offset[1] + adjustment;
-    } else if (firstLetter === 's') {
+    } else if (firstLetter === "s") {
       offset[1] = offset[1] - adjustment;
     }
-    if (lastLetter === 'e') {
+    if (lastLetter === "e") {
       offset[0] = offset[0] - adjustment;
-    } else if (lastLetter === 'w') {
+    } else if (lastLetter === "w") {
       offset[0] = offset[0] + adjustment;
     }
   }
@@ -300,27 +327,29 @@ function getTextLabelOffset(feature) {
 }
 
 function processPoint(feature) {
-  const symbol = feature.properties['marker-symbol'];
+  const symbol = feature.properties["marker-symbol"];
 
   var marker;
-  if (symbol === 'miles') {
-    var miles = feature.properties.miles || Math.round(feature.properties.yards / 176) / 10;
+  if (symbol === "miles") {
+    var miles =
+      feature.properties.miles ||
+      Math.round(feature.properties.yards / 176) / 10;
     if (miles !== 0) {
       marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates), {
-        opacity: 0
+        opacity: 0,
       });
       marker.bindTooltip(miles.toString(), {
-        className: 'distance-label',
-        direction: 'center',
+        className: "distance-label",
+        direction: "center",
         offset: getTextLabelOffset(feature),
-        pane: 'tilePane',
-        permanent: true
+        pane: "tilePane",
+        permanent: true,
       });
     }
   } else if (markerList[symbol]) {
     if (markerList[symbol].marker) {
       marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates), {
-        icon: markerList[symbol].marker
+        icon: markerList[symbol].marker,
       });
     }
     createPopup(feature, marker);
@@ -328,7 +357,7 @@ function processPoint(feature) {
     marker = L.marker(reverseCoordinateArray(feature.geometry.coordinates));
   }
   if (marker) {
-    if (symbol === 'cross' || symbol === 'miles') {
+    if (symbol === "cross" || symbol === "miles") {
       marker.addTo(trailsLayer);
     } else {
       marker.addTo(poiLayer);
@@ -339,10 +368,10 @@ function processPoint(feature) {
 function processPolygon(feature) {
   var polygon = L.geoJSON(feature, {
     fillColor: feature.properties.fill,
-    fillOpacity: feature.properties['fill-opacity'],
+    fillOpacity: feature.properties["fill-opacity"],
     color: feature.properties.stroke,
-    weight: feature.properties['stroke-width'],
-    opacity: feature.properties['stroke-opacity']
+    weight: feature.properties["stroke-width"],
+    opacity: feature.properties["stroke-opacity"],
   });
 
   if (feature.properties.name) polygon.bindTooltip(feature.properties.name);
@@ -351,12 +380,15 @@ function processPolygon(feature) {
 }
 
 function processGeojson(file) {
-  file.features.forEach(feature => {
-    if (feature.geometry.type === 'LineString') {
+  file.features.forEach((feature) => {
+    if (feature.geometry.type === "LineString") {
       processLineString(feature);
-    } else if (feature.geometry.type === 'Point') {
+    } else if (feature.geometry.type === "Point") {
       processPoint(feature);
-    } else if (feature.geometry.type === 'Polygon' || feature.geometry.type === 'MultiPolygon') {
+    } else if (
+      feature.geometry.type === "Polygon" ||
+      feature.geometry.type === "MultiPolygon"
+    ) {
       processPolygon(feature);
     }
   });
@@ -371,22 +403,30 @@ window.onload = () => {
   } else {
     listParks();
   }
-}
+};
 
 function showOrHideDistanceLabels() {
   var currentZoom = map.getZoom();
   if (labelsVisible && currentZoom < showDistancesAtZoom) {
     labelsVisible = false;
-    trailsLayer.eachLayer(marker => {
-      var distanceLabel = marker.getTooltip() && marker.getTooltip().options && marker.getTooltip().options.className && marker.getTooltip().options.className === 'distance-label';
+    trailsLayer.eachLayer((marker) => {
+      var distanceLabel =
+        marker.getTooltip() &&
+        marker.getTooltip().options &&
+        marker.getTooltip().options.className &&
+        marker.getTooltip().options.className === "distance-label";
       if (distanceLabel) {
         marker.closeTooltip();
       }
     });
   } else if (!labelsVisible && currentZoom >= showDistancesAtZoom) {
     labelsVisible = true;
-    trailsLayer.eachLayer(marker => {
-      var distanceLabel = marker.getTooltip() && marker.getTooltip().options && marker.getTooltip().options.className && marker.getTooltip().options.className === 'distance-label';
+    trailsLayer.eachLayer((marker) => {
+      var distanceLabel =
+        marker.getTooltip() &&
+        marker.getTooltip().options &&
+        marker.getTooltip().options.className &&
+        marker.getTooltip().options.className === "distance-label";
       if (distanceLabel) {
         marker.openTooltip();
       }
