@@ -1200,6 +1200,18 @@
         "name": "<a href='http://atlnature.com/blog/morgan-falls' target='_parent'>Morgan Falls Overlook Park & Morgan Falls River Park</a>",
         "marker-symbol": "logo"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4413, 33.7819]
+      },
+      "properties": {
+        "park": "Westside Park",
+        "name": "<a href='http://atlnature.com/blog/westside-park' target='_parent'>Westside Park</a>",
+        "marker-symbol": "logo"
+      }
     }
   ]
 }

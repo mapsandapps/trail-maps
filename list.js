@@ -508,6 +508,39 @@ var list = [
     geojsonio:
       "http://geojson.io/#id=gist:mapsandapps/52bb18554a636f74ed27dfbcf05ca364&map=17/33.59849/-84.34795",
   },
+  {
+    name: "Westside Park",
+    id: "westside-park",
+    latitude: 33.7819,
+    longitude: -84.4413,
+    updated: "2021-08-22",
+    showDistancesAtZoom: 13,
+    legend: [
+      {
+        name: "Paved",
+        width: 6,
+        color: "#6F6F6F",
+      },
+      {
+        name: "Paved, road-width",
+        width: 10,
+        color: "#6F6F6F",
+      },
+      {
+        name: "Paved; very steep, not ADA compliant",
+        width: 6,
+        color: "#E57B3A",
+      },
+      {
+        name: "Includes stairs",
+        width: 6,
+        color: "#6f6f6f",
+        style: "stairs",
+      },
+    ],
+    geojsonio:
+      "http://geojson.io/#id=gist:mapsandapps/ee5347ff3413f00ac56ec6f64c374c54&map=18/33.77941/-84.44162",
+  },
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
 // chewacla http://geojson.io/#id=gist:mapsandapps/c24de3c2c12ec76fb039a5cd9306ed95&map=15/32.5495/-85.4776
