@@ -120,6 +120,7 @@ function requestLocation() {
 function drawMap(file) {
   const mapSettings = {
     maxZoom: 18,
+    minZoom: 10,
     attribution:
       '© <a href="https://apps.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   };
