@@ -31,6 +31,8 @@ Trail colors & widths:
 * #03763a 4: unpaved
 * #6f6f6f 6: paved wide path
 * #6f6f6f 4: paved sidewalk-width path
+* #6f6f6f either width: stairs (use `"style": "stairs"`)
+* #a1a1a1: gravel
 * #e5ca3a area: beach
 * #55d391 area: community garden
 * #555555 area: parking

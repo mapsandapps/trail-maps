@@ -541,6 +541,44 @@ var list = [
     geojsonio:
       "http://geojson.io/#id=gist:mapsandapps/ee5347ff3413f00ac56ec6f64c374c54&map=18/33.77941/-84.44162",
   },
+  {
+    name: "Morgan Falls",
+    id: "morgan-falls",
+    latitude: 33.9705,
+    longitude: -84.3796,
+    updated: "2021-08-29",
+    showDistancesAtZoom: 13,
+    legend: [
+      {
+        name: "Paved, extra wide",
+        width: 6,
+        color: "#6F6F6F",
+      },
+      {
+        name: "Paved, sidewalk-width",
+        width: 4,
+        color: "#6F6F6F",
+      },
+      {
+        name: "Includes stairs",
+        width: 6,
+        color: "#6f6f6f",
+        style: "stairs",
+      },
+      {
+        name: "Gravel",
+        width: 6,
+        color: "#a1a1a1",
+      },
+      {
+        name: "Natural surface",
+        width: 4,
+        color: "#03763a",
+      },
+    ],
+    geojsonio:
+      "http://geojson.io/#id=gist:mapsandapps/a21c6c4b1f22268fad173488f63c2018&map=19/33.97063/-84.37976",
+  },
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
 // chewacla http://geojson.io/#id=gist:mapsandapps/c24de3c2c12ec76fb039a5cd9306ed95&map=15/32.5495/-85.4776
