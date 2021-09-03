@@ -579,6 +579,65 @@ var list = [
     geojsonio:
       "http://geojson.io/#id=gist:mapsandapps/a21c6c4b1f22268fad173488f63c2018&map=19/33.97063/-84.37976",
   },
+  {
+    name: "Sope Creek",
+    id: "sope-creek",
+    latitude: 33.9378,
+    longitude: -84.4428,
+    updated: "2021-09-02",
+    showDistancesAtZoom: 13,
+    legend: [
+      {
+        name: "Hike only",
+        width: 4,
+        color: "#03763a",
+      },
+      {
+        name: "Bike & hike, 1-way",
+        width: 4,
+        color: "#e5ca3a",
+      },
+      {
+        name: "Bike & hike, 2-way",
+        width: 4,
+        color: "#8B472A",
+      },
+    ],
+    geojsonio:
+      "http://geojson.io/#id=gist:mapsandapps/32a454d1deb3480fb2d9f05860a40e6f&map=16/33.9282/-84.4410",
+  },
+  // {
+  //   name: "Cochran Shoals",
+  //   id: "cochran-shoals",
+  //   latitude: 33.9031,
+  //   longitude: -84.4447,
+  //   updated: "2021-09-02",
+  //   showDistancesAtZoom: 13,
+  //   legend: [
+  //     {
+  //       name: "Hike only",
+  //       width: 4,
+  //       color: "#03763a",
+  //     },
+  //     {
+  //       name: "Bike & hike, 1-way",
+  //       width: 4,
+  //       color: "#e5ca3a",
+  //     },
+  //     {
+  //       name: "Bike & hike, 2-way",
+  //       width: 4,
+  //       color: "#8B472A",
+  //     },
+  //     {
+  //       name: "Bike & hike, 2-way, wide gravel",
+  //       width: 6,
+  //       color: "#555555",
+  //     },
+  //   ],
+  //   geojsonio:
+  //     "http://geojson.io/#id=gist:mapsandapps/e403c96296089ec55c70b83601533acf&map=21/33.90881/-84.44878",
+  // },
 ];
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
 // chewacla http://geojson.io/#id=gist:mapsandapps/c24de3c2c12ec76fb039a5cd9306ed95&map=15/32.5495/-85.4776
