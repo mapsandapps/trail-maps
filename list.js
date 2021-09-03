@@ -585,7 +585,7 @@ var list = [
     latitude: 33.9378,
     longitude: -84.4428,
     updated: "2021-09-02",
-    showDistancesAtZoom: 13,
+    showDistancesAtZoom: 18,
     legend: [
       {
         name: "Hike only",

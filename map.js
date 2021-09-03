@@ -411,26 +411,12 @@ function showOrHideDistanceLabels() {
   if (labelsVisible && currentZoom < showDistancesAtZoom) {
     labelsVisible = false;
     trailsLayer.eachLayer((marker) => {
-      var distanceLabel =
-        marker.getTooltip() &&
-        marker.getTooltip().options &&
-        marker.getTooltip().options.className &&
-        marker.getTooltip().options.className === "distance-label";
-      if (distanceLabel) {
-        marker.closeTooltip();
-      }
+      marker.closeTooltip();
     });
   } else if (!labelsVisible && currentZoom >= showDistancesAtZoom) {
     labelsVisible = true;
     trailsLayer.eachLayer((marker) => {
-      var distanceLabel =
-        marker.getTooltip() &&
-        marker.getTooltip().options &&
-        marker.getTooltip().options.className &&
-        marker.getTooltip().options.className === "distance-label";
-      if (distanceLabel) {
-        marker.openTooltip();
-      }
+      marker.openTooltip();
     });
   }
 }
