@@ -606,6 +606,28 @@ var list = [
     geojsonio:
       "http://geojson.io/#id=gist:mapsandapps/32a454d1deb3480fb2d9f05860a40e6f&map=16/33.9282/-84.4410",
   },
+  {
+    name: "Friendship Forest",
+    id: "friendship-forest",
+    latitude: 33.8158,
+    longitude: -84.2363,
+    updated: "2021-09-25",
+    showDistancesAtZoom: 18,
+    legend: [
+      {
+        name: "Unpaved",
+        width: 4,
+        color: "#03763a",
+      },
+      {
+        name: "Paved",
+        width: 6,
+        color: "#6f6f6f",
+      },
+    ],
+    geojsonio:
+      "http://geojson.io/#id=gist:mapsandapps/2d8627e4e8c080c2cda3a7f0a9e52fdb&map=19/33.81589/-84.23683",
+  },
   // {
   //   name: "Cochran Shoals",
   //   id: "cochran-shoals",

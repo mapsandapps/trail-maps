@@ -1,0 +1,999 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23879525469302, 33.815591272124685]
+      },
+      "id": "f734ffb2eec46a08982c07f178968b77",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross",
+        "id": "f734ffb2eec46a08982c07f178968b77",
+        "updated_date": "2021-09-25T18:29:10Z",
+        "time_created": "2021-09-25T17:05:15Z",
+        "deleted": "false",
+        "title": "three paved",
+        "public": "false",
+        "is_active": "true",
+        "icon": "green-pin.png",
+        "revision": 1632594550,
+        "notes": "",
+        "latitude": 33.815591272124685,
+        "longitude": -84.23879525469302,
+        "elevation": 292,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23877362161875, 33.81545321137912]
+      },
+      "id": "df690a1a769b29d933bde7d842b2285d",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross",
+        "id": "df690a1a769b29d933bde7d842b2285d",
+        "updated_date": "2021-09-25T18:29:10Z",
+        "time_created": "2021-09-25T17:41:32Z",
+        "deleted": "false",
+        "title": "three paved ",
+        "public": "false",
+        "is_active": "true",
+        "icon": "green-pin.png",
+        "revision": 1632594550,
+        "notes": "",
+        "latitude": 33.815450538504926,
+        "longitude": -84.23880474516226,
+        "elevation": 292,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23962086439133, 33.81527186931698]
+      },
+      "id": "1044a1843af094adfb585cbb5512fa67",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "camera",
+        "id": "1044a1843af094adfb585cbb5512fa67",
+        "updated_date": "2021-09-25T18:28:43Z",
+        "time_created": "2021-09-25T18:26:49Z",
+        "deleted": "false",
+        "title": "overlook ",
+        "public": "false",
+        "is_active": "true",
+        "icon": "",
+        "revision": 1632594523,
+        "notes": "",
+        "latitude": 33.815166,
+        "longitude": -84.239673,
+        "elevation": 295,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.24064199111645, 33.81453222623648]
+      },
+      "id": "569d100c06f3c495b08b35b6942e5274",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross",
+        "id": "569d100c06f3c495b08b35b6942e5274",
+        "updated_date": "2021-09-25T18:25:25Z",
+        "time_created": "2021-09-25T18:24:59Z",
+        "deleted": "false",
+        "title": "three paved s and n grass e",
+        "public": "false",
+        "is_active": "true",
+        "icon": "green-pin.png",
+        "revision": 1632594325,
+        "notes": "",
+        "latitude": 33.81453222623648,
+        "longitude": -84.24064199111645,
+        "elevation": 294,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.24071084707974, 33.81395677966418]
+      },
+      "id": "47592c034d096884e61ed97278b87fe6",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance",
+        "id": "47592c034d096884e61ed97278b87fe6",
+        "updated_date": "2021-09-25T18:23:23Z",
+        "time_created": "2021-09-25T18:23:01Z",
+        "deleted": "false",
+        "title": "trailhead ",
+        "public": "false",
+        "is_active": "true",
+        "icon": "green-pin.png",
+        "revision": 1632594203,
+        "notes": "",
+        "latitude": 33.81393800504074,
+        "longitude": -84.2406667219552,
+        "elevation": 301,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23984658423036, 33.81487887194461]
+      },
+      "id": "3f9ca688235dc69ae9d7aef67d9acfbd",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross",
+        "id": "3f9ca688235dc69ae9d7aef67d9acfbd",
+        "updated_date": "2021-09-25T18:20:08Z",
+        "time_created": "2021-09-25T18:02:43Z",
+        "deleted": "false",
+        "title": "three, unpaved to nw, paved to sw and e ",
+        "public": "false",
+        "is_active": "true",
+        "icon": "green-pin.png",
+        "revision": 1632594008,
+        "notes": "",
+        "latitude": 33.81487887194461,
+        "longitude": -84.23984658423036,
+        "elevation": 292,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.24039660665498, 33.814876873049855]
+      },
+      "id": "a7b134f0d4c48f157d0d6bc02ddf225f",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross",
+        "id": "a7b134f0d4c48f157d0d6bc02ddf225f",
+        "updated_date": "2021-09-25T18:19:39Z",
+        "time_created": "2021-09-25T18:19:12Z",
+        "deleted": "false",
+        "title": "three, unpaved to n paved e and w ",
+        "public": "false",
+        "is_active": "true",
+        "icon": "green-pin.png",
+        "revision": 1632593979,
+        "notes": "",
+        "latitude": 33.814876873049855,
+        "longitude": -84.24039660665498,
+        "elevation": 292,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.24071125568328, 33.81506749656687]
+      },
+      "id": "82165f625988d1d49ba9782150022b27",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross",
+        "id": "82165f625988d1d49ba9782150022b27",
+        "updated_date": "2021-09-25T18:16:31Z",
+        "time_created": "2021-09-25T18:13:58Z",
+        "deleted": "false",
+        "title": "unpaved three",
+        "public": "false",
+        "is_active": "true",
+        "icon": "green-pin.png",
+        "revision": 1632593791,
+        "notes": "",
+        "latitude": 33.81506749656687,
+        "longitude": -84.24071125568328,
+        "elevation": 292,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.24004862019939, 33.81503768134835]
+      },
+      "id": "b38c3d51e1cf2c4f67608cdc83a8f86f",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross",
+        "id": "b38c3d51e1cf2c4f67608cdc83a8f86f",
+        "updated_date": "2021-09-25T18:10:16Z",
+        "time_created": "2021-09-25T18:03:31Z",
+        "deleted": "false",
+        "title": "thrrr unpaved ",
+        "public": "false",
+        "is_active": "true",
+        "icon": "green-pin.png",
+        "revision": 1632593416,
+        "notes": "",
+        "latitude": 33.81503768134835,
+        "longitude": -84.24004862019939,
+        "elevation": 292,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23998698592186, 33.8156317674733]
+      },
+      "id": "bc38a2e23d861baa4a55d4667687c743",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "camera",
+        "id": "bc38a2e23d861baa4a55d4667687c743",
+        "updated_date": "2021-09-25T18:05:57Z",
+        "time_created": "2021-09-25T18:05:21Z",
+        "deleted": "false",
+        "title": "overlook",
+        "public": "false",
+        "is_active": "true",
+        "icon": "",
+        "revision": 1632593157,
+        "notes": "",
+        "latitude": 33.81555900475844,
+        "longitude": -84.23997277850702,
+        "elevation": 292,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23976683089381, 33.81558831837962]
+      },
+      "id": "b82d2fdd6f0a28314c41d0a1cb3e5460",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross",
+        "id": "b82d2fdd6f0a28314c41d0a1cb3e5460",
+        "updated_date": "2021-09-25T18:05:05Z",
+        "time_created": "2021-09-25T18:04:42Z",
+        "deleted": "false",
+        "title": "unpaved three",
+        "public": "false",
+        "is_active": "true",
+        "icon": "green-pin.png",
+        "revision": 1632593105,
+        "notes": "",
+        "latitude": 33.81558831837962,
+        "longitude": -84.23976683089381,
+        "elevation": 292,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23971722222224, 33.81488896763362]
+      },
+      "id": "b9739eb848bdd86878bdc03e6f682a9d",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross",
+        "id": "b9739eb848bdd86878bdc03e6f682a9d",
+        "updated_date": "2021-09-25T18:02:34Z",
+        "time_created": "2021-09-25T17:50:48Z",
+        "deleted": "false",
+        "title": "three paved ",
+        "public": "false",
+        "is_active": "true",
+        "icon": "green-pin.png",
+        "revision": 1632592954,
+        "notes": "",
+        "latitude": 33.81488896763362,
+        "longitude": -84.23971722222224,
+        "elevation": 291,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23966794030152, 33.81456419557254]
+      },
+      "id": "444798da09207ed7c35dcc16fe48f79c",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "theatre",
+        "id": "444798da09207ed7c35dcc16fe48f79c",
+        "updated_date": "2021-09-25T18:02:34Z",
+        "time_created": "2021-09-25T17:48:21Z",
+        "deleted": "false",
+        "title": "small, covered amphitheater ",
+        "public": "false",
+        "is_active": "true",
+        "icon": "",
+        "revision": 1632592954,
+        "notes": "",
+        "latitude": 33.81456419557254,
+        "longitude": -84.23966794030152,
+        "elevation": 293,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23945590853691, 33.81472477664943]
+      },
+      "id": "75d58a2dd1d4b53a7fdcb8e056091342",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "toilets",
+        "id": "75d58a2dd1d4b53a7fdcb8e056091342",
+        "updated_date": "2021-09-25T17:48:21Z",
+        "time_created": "2021-09-25T17:47:57Z",
+        "deleted": "false",
+        "title": "restrooms and water fountain ",
+        "public": "false",
+        "is_active": "true",
+        "icon": "",
+        "revision": 1632592101,
+        "notes": "",
+        "latitude": 33.814719374711416,
+        "longitude": -84.23946410703932,
+        "elevation": 293,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null",
+        "name": "Restrooms & water fountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23634859091314, 33.815772609272464]
+      },
+      "id": "8acb6d7f2786471392b3f3505be615cc",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "entrance",
+        "id": "8acb6d7f2786471392b3f3505be615cc",
+        "updated_date": "2021-09-25T17:42:00Z",
+        "time_created": "2021-09-25T17:01:29Z",
+        "deleted": "false",
+        "title": "trailhead paved",
+        "public": "false",
+        "is_active": "true",
+        "icon": "",
+        "revision": 1632591720,
+        "notes": "",
+        "latitude": 33.815772609272464,
+        "longitude": -84.23634859091314,
+        "elevation": 312,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23618623349178, 33.815689016976975]
+      },
+      "id": "e354e3d13037eb6a6b416858a7a64d82",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "disability",
+        "id": "e354e3d13037eb6a6b416858a7a64d82",
+        "updated_date": "2021-09-25T17:01:30Z",
+        "time_created": "2021-09-25T17:01:06Z",
+        "deleted": "false",
+        "title": "accessible parking",
+        "public": "false",
+        "is_active": "true",
+        "icon": "",
+        "revision": 1632589290,
+        "notes": "",
+        "latitude": 33.815689016976975,
+        "longitude": -84.23618623349178,
+        "elevation": 313,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null",
+        "name": "Accessible parking"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23633867807172, 33.815684864825215]
+      },
+      "id": "7d95aeef57f50ea0f858fcf6e2d249cf",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "fast-food",
+        "id": "7d95aeef57f50ea0f858fcf6e2d249cf",
+        "updated_date": "2021-09-25T17:00:30Z",
+        "time_created": "2021-09-25T17:00:19Z",
+        "deleted": "false",
+        "title": "picnic three",
+        "public": "false",
+        "is_active": "true",
+        "icon": "",
+        "revision": 1632589230,
+        "notes": "",
+        "latitude": 33.815684864825215,
+        "longitude": -84.23633867807172,
+        "elevation": 312,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.2362440947911, 33.81563290165394]
+      },
+      "id": "775e206eb0f178c1023d31aa38ee3914",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "toilets",
+        "id": "775e206eb0f178c1023d31aa38ee3914",
+        "updated_date": "2021-09-25T17:00:30Z",
+        "time_created": "2021-09-25T17:00:07Z",
+        "deleted": "false",
+        "title": "restrooms and water fountain ",
+        "public": "false",
+        "is_active": "true",
+        "icon": "",
+        "revision": 1632589230,
+        "notes": "",
+        "latitude": 33.81563290165394,
+        "longitude": -84.2362440947911,
+        "elevation": 313,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null",
+        "name": "Restrooms & water fountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23620527271949, 33.81561434316883]
+      },
+      "id": "31ca90195aa32b59a0ce77daa16bfec5",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bicycle",
+        "id": "31ca90195aa32b59a0ce77daa16bfec5",
+        "updated_date": "2021-09-25T17:00:13Z",
+        "time_created": "2021-09-25T16:59:54Z",
+        "deleted": "false",
+        "title": "bike rack",
+        "public": "false",
+        "is_active": "true",
+        "icon": "",
+        "revision": 1632589213,
+        "notes": "",
+        "latitude": 33.81561434316883,
+        "longitude": -84.23620527271949,
+        "elevation": 313,
+        "attr": "null",
+        "track_id": "92be4583efeb3ce95076c9c368ae5650",
+        "photos": "[]",
+        "order": 0,
+        "folder": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23612058162689, 33.81574319074414]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.23634856939316, 33.81577327500237],
+          [-84.23658661544322, 33.81587188444131],
+          [-84.23674151301384, 33.81592425324968],
+          [-84.23683807253836, 33.81595489455886],
+          [-84.23693932592869, 33.81596380839217],
+          [-84.23703990876675, 33.81596937953755],
+          [-84.23717871308327, 33.815981636056044],
+          [-84.23729002475739, 33.81598275028493],
+          [-84.23741206526756, 33.815981636056044],
+          [-84.23767626285553, 33.81594709495392],
+          [-84.23786133527756, 33.8159515518711],
+          [-84.2380665242672, 33.81595489455886],
+          [-84.23821672797203, 33.81597940759827],
+          [-84.23834681510925, 33.81599723525892],
+          [-84.23843801021576, 33.8159838645138],
+          [-84.23854798078537, 33.81591478229733],
+          [-84.23865124583243, 33.815802245018816],
+          [-84.2386794090271, 33.81573093419145],
+          [-84.23875249922276, 33.81565572348877],
+          [-84.2387732863426, 33.81562563918919],
+          [-84.23879340291022, 33.815591097943305]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.23879340291022, 33.8155905408263],
+          [-84.2387866973877, 33.81555265686291],
+          [-84.23878133296967, 33.815506973237646],
+          [-84.23877596855164, 33.81545348993808]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23919841647148, 33.815571598846695]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.23879474401474, 33.81559165506028],
+          [-84.23886112868786, 33.815604468749825],
+          [-84.23896573483944, 33.815601683165305],
+          [-84.23906229436398, 33.81559444064513],
+          [-84.23914007842541, 33.815586083890324],
+          [-84.23919774591923, 33.815573270198]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.23919841647148, 33.815573827315106],
+          [-84.23919774591923, 33.81548803123954],
+          [-84.23919841647148, 33.81541894862266],
+          [-84.23919707536697, 33.81535655137235],
+          [-84.23919707536697, 33.815311981879965],
+          [-84.23906832933426, 33.81530362509755],
+          [-84.23896372318268, 33.81530083950326],
+          [-84.23885107040405, 33.81530641069179],
+          [-84.23881351947783, 33.81533538086637],
+          [-84.23879742622375, 33.81537605051794],
+          [-84.2387732863426, 33.815455718409545]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.2387719452381, 33.815454604173816],
+          [-84.23876121640205, 33.815326466967534],
+          [-84.23875182867049, 33.81517047358776],
+          [-84.23878133296967, 33.8150356505089],
+          [-84.23886179924011, 33.81494985389355],
+          [-84.23899054527283, 33.81487297113913],
+          [-84.23913136124611, 33.81482728715087],
+          [-84.23922926187515, 33.81481725895509],
+          [-84.23931777477263, 33.81482617290697],
+          [-84.23943042755127, 33.81483508685791]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.2394384741783, 33.814831744126415],
+          [-84.2396342754364, 33.81476043248994],
+          [-84.23980191349983, 33.81477826040463],
+          [-84.23996284604073, 33.814781603138236],
+          [-84.24010902643204, 33.81476043248994],
+          [-84.24020826816559, 33.81471920542301],
+          [-84.24044832587242, 33.814651236431395],
+          [-84.240645468235, 33.81453869749049]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.24071118235588, 33.81395594397275],
+          [-84.24070313572884, 33.81414648141058],
+          [-84.24070045351982, 33.814253449610725],
+          [-84.24063608050346, 33.81435818917709],
+          [-84.24058645963667, 33.814432843896114],
+          [-84.24064010381699, 33.81453535474742]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.24063876271248, 33.81453535474742],
+          [-84.24066558480261, 33.814621151778525],
+          [-84.24065753817558, 33.814730347875496],
+          [-84.24056500196455, 33.81482171593114],
+          [-84.24039870500565, 33.81487742811228]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.24039334058762, 33.814879656598784],
+          [-84.24026057124138, 33.814910855403575],
+          [-84.24016535282135, 33.814907512675006],
+          [-84.24005672335625, 33.81489525600259],
+          [-84.23994272947311, 33.814887456301044],
+          [-84.23984482884407, 33.814881885085214]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.23984482884407, 33.814881885085214],
+          [-84.23971809446812, 33.81488968478727]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.2415077984333, 33.81483842958928],
+          [-84.24137502908707, 33.814953196620415],
+          [-84.24124091863632, 33.81506127805266],
+          [-84.2411470413208, 33.815128132478456],
+          [-84.24107864499092, 33.81514261759714],
+          [-84.24096331000328, 33.81512144703821],
+          [-84.24071118235588, 33.8150701919791]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.24070715904234, 33.8150701919791],
+          [-84.24055561423302, 33.81501336568202],
+          [-84.24048721790314, 33.81497548146299],
+          [-84.24039602279663, 33.814879656598784]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.24070984125137, 33.81507242046059],
+          [-84.24047917127609, 33.81506796349758],
+          [-84.24022570252419, 33.81505013564328],
+          [-84.24005001783371, 33.815037878991276]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.24004599452019, 33.815037878991276],
+          [-84.23994272947311, 33.81496656752665],
+          [-84.23984751105309, 33.8148829993284]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.23976168036461, 33.8155905408263],
+          [-84.23978582024574, 33.815456832645275],
+          [-84.2398327589035, 33.81533649510365],
+          [-84.23992127180098, 33.81523621368964],
+          [-84.24000576138496, 33.81516267391131],
+          [-84.24004331231117, 33.81503899323243]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.23976033926009, 33.81559388352815],
+          [-84.23989981412886, 33.81560836856799],
+          [-84.23998698592186, 33.81563065323986]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#03763a",
+        "stroke-width": 4,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.23919439315796, 33.815574941549286],
+          [-84.23941701650618, 33.81559611199598],
+          [-84.23963159322739, 33.815599454697605],
+          [-84.23976033926009, 33.81559388352815]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.23971340060234, 33.81489079903038],
+          [-84.23971742391586, 33.81497770994692],
+          [-84.23967853188513, 33.81503899323243],
+          [-84.23962086439133, 33.81513927487766],
+          [-84.2396329343319, 33.81526072693503]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#6f6f6f",
+        "stroke-width": 6,
+        "stroke-opacity": 1
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.23971205949783, 33.814891913273435],
+          [-84.23959001898766, 33.81485402900062],
+          [-84.23951223492622, 33.81483620110171],
+          [-84.23943713307379, 33.814832858370266]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "cross"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23943176865578, 33.81483062988254]
+      }
+    }
+  ]
+}
