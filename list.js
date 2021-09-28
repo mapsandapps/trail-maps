@@ -620,7 +620,7 @@ var list = [
         color: "#03763a",
       },
       {
-        name: "Paved",
+        name: "Paved or boardwalk",
         width: 6,
         color: "#6f6f6f",
       },
@@ -661,6 +661,7 @@ var list = [
   //     "http://geojson.io/#id=gist:mapsandapps/e403c96296089ec55c70b83601533acf&map=21/33.90881/-84.44878",
   // },
 ];
+// mason mill http://geojson.io/#id=gist:mapsandapps/37f0b249651da2df2626fc4088ae25ca&map=15/33.8014/-84.3053
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
 // chewacla http://geojson.io/#id=gist:mapsandapps/c24de3c2c12ec76fb039a5cd9306ed95&map=15/32.5495/-85.4776
 // spring villa park http://geojson.io/#id=gist:mapsandapps/c9728ba79911891d1ca0ad6ed6c5cd5e&map=17/32.58496/-85.31039

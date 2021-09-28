@@ -994,6 +994,32 @@
         "type": "Point",
         "coordinates": [-84.23943176865578, 33.81483062988254]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "name": "MARTA #120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23528373241425, 33.81609417309854]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "bus",
+        "name": "MARTA #120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.23607230186462, 33.814988852365744]
+      }
     }
   ]
 }
