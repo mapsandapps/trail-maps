@@ -342,6 +342,32 @@ var markerList = {
       popupAnchor: [0, -46],
     }),
   },
+  garden: {
+    name: "Garden",
+    maki: "garden",
+    description: "",
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: "markers/garden.png",
+      iconRetinaUrl: "markers/garden-retina.png",
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46],
+    }),
+  },
+  library: {
+    name: "Library",
+    maki: "library",
+    description: "",
+    linkOut: false,
+    marker: L.icon({
+      iconUrl: "markers/library.png",
+      iconRetinaUrl: "markers/library-retina.png",
+      iconSize: [30, 41],
+      iconAnchor: [15, 41],
+      popupAnchor: [0, -46],
+    }),
+  },
   logo: {
     name: "",
     maki: "logo",

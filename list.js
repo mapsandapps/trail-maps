@@ -642,22 +642,48 @@ var list = [
         color: "#6f6f6f",
       },
       {
-        name: "Blue loop, unpaved",
+        name: "Includes stairs",
+        width: 6,
+        color: "#6f6f6f",
+        style: "stairs",
+      },
+      {
+        name: "Blue loop",
         width: 4,
         color: "#059fdd",
       },
       {
-        name: "Yellow loop, unpaved",
+        name: "Yellow loop",
         width: 4,
         color: "#f8c541",
       },
       {
-        name: "Red loop, unpaved",
+        name: "Red loop",
         width: 4,
         color: "#ad2630",
       },
       {
-        name: "White trails, unpaved",
+        name: "Dark blue trail to dog park",
+        width: 4,
+        color: "#0046b1",
+      },
+      {
+        name: "Green tape flags trail",
+        width: 4,
+        color: "#9dfd4e",
+      },
+      {
+        name: "Orange loop",
+        width: 4,
+        color: "#ce5314",
+      },
+      {
+        name: "Three creeks trail",
+        width: 4,
+        color: "#03763a",
+      },
+      {
+        name: "White spur trails",
         width: 4,
         color: "#dbdcd9",
       },
