@@ -66,6 +66,8 @@ var list = [
     id: "johnson-taylor",
     latitude: 33.799,
     longitude: -84.3428,
+    geojsonio:
+      "https://gist.github.com/mapsandapps/b49c23e81c93de8ce9ae2cbdeb9d982c",
   },
   {
     name: "Kirkwood Urban Forest",
