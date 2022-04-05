@@ -655,7 +655,7 @@ var list = [
         color: "#059fdd",
       },
       {
-        name: "Yellow loop",
+        name: "Piedmont loop",
         width: 4,
         color: "#f8c541",
       },
@@ -670,9 +670,9 @@ var list = [
         color: "#0046b1",
       },
       {
-        name: "Green tape flags trail",
+        name: "Labyrinth loop",
         width: 4,
-        color: "#9dfd4e",
+        color: "#eb51c0",
       },
       {
         name: "Orange loop",
@@ -688,6 +688,16 @@ var list = [
         name: "White spur trails",
         width: 4,
         color: "#dbdcd9",
+      },
+      {
+        name: "Woodland cove",
+        width: 4,
+        color: "#1feaf9",
+      },
+      {
+        name: "Storywalk trail",
+        width: 4,
+        color: "#555555",
       },
     ],
     geojsonio:
@@ -725,7 +735,7 @@ var list = [
   //   geojsonio:
   //     "http://geojson.io/#id=gist:mapsandapps/e403c96296089ec55c70b83601533acf&map=21/33.90881/-84.44878",
   // },
-];
+]
 // gulf shores http://geojson.io/#id=gist:mapsandapps/c3c0567a9be45c10f83eb624eec55bad&map=14/30.2466/-87.6593
 // chewacla http://geojson.io/#id=gist:mapsandapps/c24de3c2c12ec76fb039a5cd9306ed95&map=15/32.5495/-85.4776
 // spring villa park http://geojson.io/#id=gist:mapsandapps/c9728ba79911891d1ca0ad6ed6c5cd5e&map=17/32.58496/-85.31039
